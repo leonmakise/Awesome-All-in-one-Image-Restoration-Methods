@@ -62,13 +62,18 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
   - [All Datasets](#all-datasets) -->
 
 
-### Weather Removal
+### Multiple Bad Weather Removal
 | Model | Title | First Author | Training Way | Venue | Project |
 | :-- | :---: | :--: | :--: |:--:|:--:|
 |All-in-one| [All in One Bad Weather Removal using Architectural Search](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_All_in_One_Bad_Weather_Removal_Using_Architectural_Search_CVPR_2020_paper.pdf) | Ruoteng Li | Supervised |CVPR 2020 | |
 |MultiWeatherRemoval|[Learning Multiple Adverse Weather Removal via Two-stage Knowledge Learning and Multi-contrastive Regularization: Toward a Unified Model](https://arxiv.org/abs/2104.14951) | Wei-Ting Chen | Supervised | CVPR 2022 | [![Stars](https://img.shields.io/github/stars/fingerk28/Two-stage-Knowledge-For-Multiple-Adverse-Weather-Removal.svg?style=social&label=Star)](https://github.com/fingerk28/Two-stage-Knowledge-For-Multiple-Adverse-Weather-Removal) |
 |TransWeather| [TransWeather: Transformer-based Restoration of Images Degraded by Adverse Weather Conditions](https://openaccess.thecvf.com/content/CVPR2022/papers/Valanarasu_TransWeather_Transformer-Based_Restoration_of_Images_Degraded_by_Adverse_Weather_Conditions_CVPR_2022_paper.pdf) | Jeya Maria Jose Valanarasu | Supervised |CVPR 2022| [![Stars](https://img.shields.io/github/stars/jeya-maria-jose/TransWeather.svg?style=social&label=Star)](https://github.com/jeya-maria-jose/TransWeather)|
 |WeatherDiffusion| [Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models](https://doi.org/10.1109/TPAMI.2023.3238179) | Ozan Özdenizci | Supervised |TPAMI 2023 |[![Stars](https://img.shields.io/github/stars/IGITUGraz/WeatherDiffusion.svg?style=social&label=Star)](https://github.com/IGITUGraz/WeatherDiffusion) |
+|ADMS| [All-in-one Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations](https://openaccess.thecvf.com/content/CVPR2023/papers/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.pdf) | Dongwon Park | Supervised |CVPR 2023 | |
+|SmartAssign| [SmartAssign: Learning A Smart Knowledge Assignment Strategy for Deraining and Desnowing](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_SmartAssign_Learning_a_Smart_Knowledge_Assignment_Strategy_for_Deraining_and_CVPR_2023_paper.pdf) | Yinglong Wang | Supervised |CVPR 2023 | |
+|WGWS-Net| [Learning Weather-General and Weather-Specific Features for Image Restoration Under Multiple Adverse Weather Conditions](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Learning_Weather-General_and_Weather-Specific_Features_for_Image_Restoration_Under_Multiple_CVPR_2023_paper.pdf) | Yurui Zhu | Supervised |CVPR 2023 | [![Stars](https://img.shields.io/github/stars/zhuyr97/WGWS-Net.svg?style=social&label=Star)](https://github.com/zhuyr97/WGWS-Net)|
+
+
 
 
 
