@@ -63,10 +63,10 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 
 ### Weather Removal
-| Model | Paper | First Author | Training Way | Venue | Topic | Project |
+| Model | Paper | First Author | Training Way | Venue | Project |
 | :-- | :---: | :--: | :--: |:--:|:--:| :--: |
-|All-in-one| [All in One Bad Weather Removal using Architectural Search](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_All_in_One_Bad_Weather_Removal_Using_Architectural_Search_CVPR_2020_paper.pdf) | Ruoteng Li | Supervised |CVPR2020 | Super-resolution | |
-|SRDiff|[SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models](https://arxiv.org/abs/2104.14951) | Haoying Li | Supervised | Neurocomputing 2022 | Super-resolution | [![Stars](https://img.shields.io/github/stars/LeiaLi/SRDiff.svg?style=social&label=Star)](https://github.com/LeiaLi/SRDiff) |
+|All-in-one| [All in One Bad Weather Removal using Architectural Search](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_All_in_One_Bad_Weather_Removal_Using_Architectural_Search_CVPR_2020_paper.pdf) | Ruoteng Li | Supervised |CVPR2020 | |
+|SRDiff|[SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models](https://arxiv.org/abs/2104.14951) | Haoying Li | Supervised | Neurocomputing 2022 | [![Stars](https://img.shields.io/github/stars/LeiaLi/SRDiff.svg?style=social&label=Star)](https://github.com/LeiaLi/SRDiff) |
 
 
 ### Image Super-Resolution
