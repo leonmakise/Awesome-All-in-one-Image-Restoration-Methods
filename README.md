@@ -63,9 +63,9 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 
 ### Weather Removal
-|Models| Paper | First Author | Training Way | Venue | Topic | Project |
+|Models| Paper | First Author | Training Way | Venue | Code |
 | :-- | :---: | :--: | :--: |:--:|:--:| :--: |
-|SR3| [Image super-resolution via iterative refinement](https://ieeexplore.ieee.org/document/9887996x) | Chitwan Saharia | Supervised |TPAMI2022 | Super-resolution | [![Stars](https://img.shields.io/github/stars/Janspiry/Image-Super-Resolution-via-Iterative-Refinement.svg?style=social&label=Star)](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement) |
+|SR3| [All in One Bad Weather Removal using Architectural Search]([https://ieeexplore.ieee.org/document/9887996x](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_All_in_One_Bad_Weather_Removal_Using_Architectural_Search_CVPR_2020_paper.pdf)) | Chitwan Saharia | Supervised |CVPR2020 | Super-resolution | [![Stars](https://img.shields.io/github/stars/Janspiry/Image-Super-Resolution-via-Iterative-Refinement.svg?style=social&label=Star)](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement) |
 |SRDiff|[SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models](https://arxiv.org/abs/2104.14951) | Haoying Li | Supervised | Neurocomputing 2022 | Super-resolution | [![Stars](https://img.shields.io/github/stars/LeiaLi/SRDiff.svg?style=social&label=Star)](https://github.com/LeiaLi/SRDiff) |
 
 
