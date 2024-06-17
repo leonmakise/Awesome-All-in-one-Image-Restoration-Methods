@@ -61,6 +61,14 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
   <!-- - [Recommended Datasets](#recommended-datasets)
   - [All Datasets](#all-datasets) -->
 
+
+### Weather Removal
+|Models| Paper | First Author | Training Way | Venue | Topic | Project |
+| :-- | :---: | :--: | :--: |:--:|:--:| :--: |
+|SR3| [Image super-resolution via iterative refinement](https://ieeexplore.ieee.org/document/9887996x) | Chitwan Saharia | Supervised |TPAMI2022 | Super-resolution | [![Stars](https://img.shields.io/github/stars/Janspiry/Image-Super-Resolution-via-Iterative-Refinement.svg?style=social&label=Star)](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement) |
+|SRDiff|[SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models](https://arxiv.org/abs/2104.14951) | Haoying Li | Supervised | Neurocomputing 2022 | Super-resolution | [![Stars](https://img.shields.io/github/stars/LeiaLi/SRDiff.svg?style=social&label=Star)](https://github.com/LeiaLi/SRDiff) |
+
+
 ### Image Super-Resolution
 |Models| Paper | First Author | Training Way | Venue | Topic | Project |
 | :-- | :---: | :--: | :--: |:--:|:--:| :--: |
