@@ -74,12 +74,14 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |WGWS-Net| [Learning Weather-General and Weather-Specific Features for Image Restoration Under Multiple Adverse Weather Conditions](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Learning_Weather-General_and_Weather-Specific_Features_for_Image_Restoration_Under_Multiple_CVPR_2023_paper.pdf) | Yurui Zhu | Supervised |CVPR 2023 | [![Stars](https://img.shields.io/github/stars/zhuyr97/WGWS-Net.svg?style=social&label=Star)](https://github.com/zhuyr97/WGWS-Net)|
 |RAHC| [Learning to Restore Arbitrary Hybrid Adverse Weather Conditions in One Go](https://arxiv.org/abs/2305.09996) | Ye-Cong Wan | Supervised |arXiv 2023 | [![Stars](https://img.shields.io/github/stars/Jeasco/RAHC.svg?style=social&label=Star)](https://github.com/Jeasco/RAHC)|
 |WM-MoE| [WM-MoE: Weather-aware Multi-scale Mixture-of-Experts for Blind Adverse Weather Removal](https://arxiv.org/abs/2303.13739v2) | Yulin Luo | Supervised |arXiv 2023 | |
+|PMDA| [Multi-weather Image Restoration via Domain Translation](https://openaccess.thecvf.com/content/ICCV2023/papers/Patil_Multi-weather_Image_Restoration_via_Domain_Translation_ICCV_2023_paper.pdf) | Prashant W. Patil | Supervised |ICCV 2023 | [![Stars](https://img.shields.io/github/stars/pwp1208/Domain_Translation_Multi-weather_Restoration.svg?style=social&label=Star)](https://github.com/pwp1208/Domain_Translation_Multi-weather_Restoration)|
+|AWRCP| [Adverse Weather Removal with Codebook Priors](https://openaccess.thecvf.com/content/ICCV2023/papers/Ye_Adverse_Weather_Removal_with_Codebook_Priors_ICCV_2023_paper.pdf) | Tian Ye | Supervised |ICCV 2023 | |
+
 |CLIP-SRD| [Exploring the Application of Large-scale Pre-trained Models on Adverse Weather Removal](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10453462) | Zhentao Tan | Supervised |TIP 2024 | |
 
 
 
-
-
+Adverse Weather Removal with Codebook Priors
 
 
 ### Image Dehazing
