@@ -111,15 +111,12 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 ### Universal Image Restoration 
 | Model | Title | First Author | Type | Venue | Project |
 | :-- | :---: | :--: | :--: |:--:|:--:|
-
+|AirNet| [All-in-one image restoration for unknown corruption](https://pengxi.me/wp-content/uploads/2022/03/All-In-One-Image-Restoration-for-Unknown-Corruption.pdf) | Boyun Li | Natural Image |CVPR 2022 |[![Stars](https://img.shields.io/github/stars/XLearning-SCU/2022-CVPR-AirNet.svg?style=social&label=Star)](https://github.com/XLearning-SCU/2022-CVPR-AirNet) |
+|IDR| [Ingredient-oriented Multi-Degradation Learning for Image Restoration](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Ingredient-Oriented_Multi-Degradation_Learning_for_Image_Restoration_CVPR_2023_paper.pdf) | Jinghao Zhang | Natural Image |CVPR 2023 |[![Stars](https://img.shields.io/github/stars/JingHao99/IDR-Ingredients-oriented-Degradation-Reformulation.svg?style=social&label=Star)](https://github.com/JingHao99/IDR-Ingredients-oriented-Degradation-Reformulation) |
+|PromptIR| [PromptIR: Prompting for All-in-One Blind Image Restoration](https://papers.nips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html) | Vaishnav Potlapalli | Natural Image |NeurIPS 2023 |[![Stars](https://img.shields.io/github/stars/va1shn9v/PromptIR.svg?style=social&label=Star)](https://github.com/va1shn9v/PromptIR) |
+|ProRes| [ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration](https://arxiv.org/abs/2306.13653) | Jiaqi Ma | Natural Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/leonmakise/prores.svg?style=social&label=Star)](https://github.com/leonmakise/prores) |
+|MPerceiver| [Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2024/papers/Ai_Multimodal_Prompt_Perceiver_Empower_Adaptiveness_Generalizability_and_Fidelity_for_All-in-One_CVPR_2024_paper.pdf) | Yuang Ai | Natural Image |CVPR 2024 | |
 |AMIR| [All-In-One Medical Image Restoration via Task-Adaptive Routing](https://arxiv.org/html/2405.19769v1) | Zhiwen Yang | Medical Image |MICCAI 2024 |[![Stars](https://img.shields.io/github/stars/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing.svg?style=social&label=Star)](https://github.com/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing) |
-|MPerceiver| [Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2024/papers/Ai_Multimodal_Prompt_Perceiver_Empower_Adaptiveness_Generalizability_and_Fidelity_for_All-in-One_CVPR_2024_paper.pdf) | Yuang Ai | Natural Image |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing.svg?style=social&label=Star)](https://github.com/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing) |
-
-
-Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration
-
-
-
 
 
 
