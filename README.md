@@ -69,40 +69,58 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |TKL|[Learning Multiple Adverse Weather Removal via Two-stage Knowledge Learning and Multi-contrastive Regularization: Toward a Unified Model](https://arxiv.org/abs/2104.14951) | Wei-Ting Chen | Image | CVPR 2022 | [![Stars](https://img.shields.io/github/stars/fingerk28/Two-stage-Knowledge-For-Multiple-Adverse-Weather-Removal.svg?style=social&label=Star)](https://github.com/fingerk28/Two-stage-Knowledge-For-Multiple-Adverse-Weather-Removal) |
 |TransWeather| [TransWeather: Transformer-based Restoration of Images Degraded by Adverse Weather Conditions](https://openaccess.thecvf.com/content/CVPR2022/papers/Valanarasu_TransWeather_Transformer-Based_Restoration_of_Images_Degraded_by_Adverse_Weather_Conditions_CVPR_2022_paper.pdf) | Jeya Maria Jose Valanarasu | Image |CVPR 2022| [![Stars](https://img.shields.io/github/stars/jeya-maria-jose/TransWeather.svg?style=social&label=Star)](https://github.com/jeya-maria-jose/TransWeather)|
 |UVRNet| [Unified Multi-Weather Visibility Restoration](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9966834) | Ashutosh Kulkarni | Image |TMM 2022|[![Stars](https://img.shields.io/github/stars/AshutoshKulkarni4998/UVRNet.svg?style=social&label=Star)](https://github.com/AshutoshKulkarni4998/UVRNet)|
+|AIRFormer| [Frequency-Oriented Efficient Transformer for All-in-One Weather-Degraded Image Restoration](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10196308) | Tao Gao | Image |TCSVT 2023||
 |WeatherDiffusion| [Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models](https://doi.org/10.1109/TPAMI.2023.3238179) | Ozan Özdenizci | Image |TPAMI 2023 |[![Stars](https://img.shields.io/github/stars/IGITUGraz/WeatherDiffusion.svg?style=social&label=Star)](https://github.com/IGITUGraz/WeatherDiffusion) |
 |ADMS| [All-in-one Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations](https://openaccess.thecvf.com/content/CVPR2023/papers/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.pdf) | Dongwon Park | Image |CVPR 2023 | |
 |SmartAssign| [SmartAssign: Learning A Smart Knowledge Assignment Strategy for Deraining and Desnowing](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_SmartAssign_Learning_a_Smart_Knowledge_Assignment_Strategy_for_Deraining_and_CVPR_2023_paper.pdf) | Yinglong Wang | Image |CVPR 2023 | |
 |WGWS-Net| [Learning Weather-General and Weather-Specific Features for Image Restoration Under Multiple Adverse Weather Conditions](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Learning_Weather-General_and_Weather-Specific_Features_for_Image_Restoration_Under_Multiple_CVPR_2023_paper.pdf) | Yurui Zhu | Image |CVPR 2023 | [![Stars](https://img.shields.io/github/stars/zhuyr97/WGWS-Net.svg?style=social&label=Star)](https://github.com/zhuyr97/WGWS-Net)|
+|WeatherStream| [WeatherStream: Light Transport Automation of Single Image Deweathering](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_WeatherStream_Light_Transport_Automation_of_Single_Image_Deweathering_CVPR_2023_paper.pdf) | Howard Zhang | Image |CVPR 2023 | [![Stars](https://img.shields.io/github/stars/UCLA-VMG/WeatherStream.svg?style=social&label=Star)](https://github.com/UCLA-VMG/WeatherStream)|
 |RAHC| [Learning to Restore Arbitrary Hybrid Adverse Weather Conditions in One Go](https://arxiv.org/abs/2305.09996) | Ye-Cong Wan | Image |arXiv 2023 | [![Stars](https://img.shields.io/github/stars/Jeasco/RAHC.svg?style=social&label=Star)](https://github.com/Jeasco/RAHC)|
 |WM-MoE| [WM-MoE: Weather-aware Multi-scale Mixture-of-Experts for Blind Adverse Weather Removal](https://arxiv.org/abs/2303.13739v2) | Yulin Luo | Image |arXiv 2023 | |
 |MetaWeather| [MetaWeather: Few-Shot Weather-Degraded Image Restoration](https://arxiv.org/abs/2308.14334) | Youngrae Kim | Image |arXiv 2023 | |
-|GridFormer| [GridFormer: Residual Dense Transformer with Grid Structure for Image Restoration in Adverse Weather Conditions](https://arxiv.org/abs/2305.17863) | Tao Wang | Image |arXiv 2023 | |
+|UtilityIR| [Always Clear Days: Degradation Type and Severity Aware All-In-One Adverse Weather Removal](https://arxiv.org/abs/2310.18293) | Yu-Wei Chen | Image |arXiv 2023 | [![Stars](https://img.shields.io/github/stars/fordevoted/UtilityIR.svg?style=social&label=Star)](https://github.com/fordevoted/UtilityIR)|
+|DDCNet| [Decoupling Degradation and Content Processing for Adverse Weather Image Restoration](https://arxiv.org/abs/2312.05006) | Xi Wang | Image |arXiv 2023 ||
 |PMDA| [Multi-weather Image Restoration via Domain Translation](https://openaccess.thecvf.com/content/ICCV2023/papers/Patil_Multi-weather_Image_Restoration_via_Domain_Translation_ICCV_2023_paper.pdf) | Prashant W. Patil | Image |ICCV 2023 | [![Stars](https://img.shields.io/github/stars/pwp1208/Domain_Translation_Multi-weather_Restoration.svg?style=social&label=Star)](https://github.com/pwp1208/Domain_Translation_Multi-weather_Restoration)|
 |AWRCP| [Adverse Weather Removal with Codebook Priors](https://openaccess.thecvf.com/content/ICCV2023/papers/Ye_Adverse_Weather_Removal_with_Codebook_Priors_ICCV_2023_paper.pdf) | Tian Ye | Image |ICCV 2023 | |
 |ViWS-Net| [Video Adverse-Weather-Component Suppression Network via Weather Messenger and Adversarial Backpropagation](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Video_Adverse-Weather-Component_Suppression_Network_via_Weather_Messenger_and_Adversarial_Backpropagation_ICCV_2023_paper.pdf) | Yijun Yang | Video |ICCV 2023 | [![Stars](https://img.shields.io/github/stars/scott-yjyang/ViWS-Net.svg?style=social&label=Star)](https://github.com/scott-yjyang/ViWS-Net)|
+|GridFormer| [GridFormer: Residual Dense Transformer with Grid Structure for Image Restoration in Adverse Weather Conditions](https://arxiv.org/abs/2305.17863) | Tao Wang | Image |IJCV 2024 | |
 |CLIP-SRD| [Exploring the Application of Large-scale Pre-trained Models on Adverse Weather Removal](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10453462) | Zhentao Tan | Image |TIP 2024 | |
+|DeformDeweatherNet| [Residual Deformable Convolution for better image de-weathering](https://www.sciencedirect.com/science/article/pii/S0031320323007902) | Huikai Liu | Image |PR 2024 | [![Stars](https://img.shields.io/github/stars/IntelligentDrivingCoding/DeformDeweatherNet.svg?style=social&label=Star)](https://github.com/IntelligentDrivingCoding/DeformDeweatherNet)|
+|MoFME| [Efficient Deweather Mixture-of-Experts with Uncertainty-aware Feature-wise Linear Modulation](https://arxiv.org/abs/2312.16610) | Rongyu Zhang | Image |AAAI 2024 | [![Stars](https://img.shields.io/github/stars/RoyZry98/MoFME-Pytorch.svg?style=social&label=Star)](https://github.com/RoyZry98/MoFME-Pytorch)|
+|imperfect-deweathering| [Learning Real-World Image De-Weathering with Imperfect Supervision](https://arxiv.org/abs/2310.14958) | Xiaohui Liu | Image |AAAI 2024 | [![Stars](https://img.shields.io/github/stars/1180300419/imperfect-deweathering.svg?style=social&label=Star)](https://github.com/1180300419/imperfect-deweathering)|
 |DiffTTA| [Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Genuine_Knowledge_from_Practice_Diffusion_Test-Time_Adaptation_for_Video_Adverse_CVPR_2024_paper.pdf) | Yijun Yang | Video |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/scott-yjyang/DiffTTA.svg?style=social&label=Star)](https://github.com/scott-yjyang/DiffTTA)|
+|LDR| [Language-driven All-in-one Adverse Weather Removal](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Language-driven_All-in-one_Adverse_Weather_Removal_CVPR_2024_paper.pdf) | Hao Yang | Image |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/noxsine/LDR.svg?style=social&label=Star)](https://github.com/noxsine/LDR)|
 
 
+
+### Applycation in Adverse Weather Conditions
+| Model | Title | First Author | Type | Venue | Project |
+| :-- | :---: | :--: | :--: |:--:|:--:|
+|WAS| [Semantic Segmentation under Adverse Conditions: A Weather and Nighttime-aware Synthetic Data-based Approach](https://arxiv.org/abs/2210.05626) | Abdulrahman Kerim | Image |BMVC 2022 |[![Stars](https://img.shields.io/github/stars/lsmcolab/Semantic-Segmentation-under-Adverse-Conditions.svg?style=social&label=Star)](https://github.com/lsmcolab/Semantic-Segmentation-under-Adverse-Conditions) |
+|ROD-Weather| [Robust Object Detection in Challenging Weather Conditions](https://openaccess.thecvf.com/content/WACV2024/papers/Gupta_Robust_Object_Detection_in_Challenging_Weather_Conditions_WACV_2024_paper.pdf) | Himanshu Gupta | Image |WACV 2024 |[![Stars](https://img.shields.io/github/stars/hgupta01/Weather_Effect_Generator.svg?style=social&label=Star)](https://github.com/hgupta01/Weather_Effect_Generator) |
+|IDD-AW| [IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather](https://iddaw.github.io/static/pdfs/IDDAW_WACV24_final.pdf) | Furqan Ahmed Shaik | Image |WACV 2024 |[![Stars](https://img.shields.io/github/stars/Furqan7007/IDDAW_kit.svg?style=social&label=Star)](https://github.com/Furqan7007/IDDAW_kit) |
+|SD4VS| [Leveraging Synthetic Data to Learn Video Stabilization Under Adverse Conditions](https://openaccess.thecvf.com/content/WACV2024/papers/Kerim_Leveraging_Synthetic_Data_To_Learn_Video_Stabilization_Under_Adverse_Conditions_WACV_2024_paper.pdf) | Abdulrahman Kerim | Image |WACV 2024 |[![Stars](https://img.shields.io/github/stars/SyntheticData4VideoStabilization_WACV_2024.svg?style=social&label=Star)](https://github.com/SyntheticData4VideoStabilization_WACV_2024) |
+|CFMW| [CFMW: Cross-modality Fusion Mamba for Multispectral Object Detection under Adverse Weather Conditions](https://arxiv.org/abs/2404.16302) | Haoyuan Li | Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/lhy-zjut/CFMW.svg?style=social&label=Star)](https://github.com/lhy-zjut/CFMW) |
+|ControlUDA| [ControlUDA: Controllable Diffusion-assisted Unsupervised Domain Adaptation for Cross-Weather Semantic Segmentation](https://arxiv.org/abs/2402.06446) | Fengyi Shen | Image |arXiv 2024 | |
+|DKR| [Semantic Segmentation in Multiple Adverse Weather Conditions with Domain Knowledge Retention](https://arxiv.org/abs/2401.07459) | Xin Yang | Image |AAAI 2024 ||
+|PASS| [Parsing All Adverse Scenes: Severity-Aware Semantic Segmentation with Mask-Enhanced Cross-Domain Consistency](https://ojs.aaai.org/index.php/AAAI/article/view/29251) | Fuhao Li | Semantic Segmentation |AAAI 2024 ||
+|Vehicle-weather| [Perception and sensing for autonomous vehicles under adverse weather conditions: A survey](https://www.sciencedirect.com/science/article/pii/S0924271622003367) | Yuxiao Zhang | Survey |ISPRS JPRS 2023 | |
+|Fire-Detection| [An Effective Attention-based CNN Model for Fire Detection in Adverse Weather Conditions](https://www.sciencedirect.com/science/article/pii/S0924271623002940) | Hikmat Yar | Fire-Detection |ISPRS JPRS 2023 | [![Stars](https://img.shields.io/github/stars/Hikmat-Yar/ISPRS-Fire-Detection.svg?style=social&label=Star)](https://github.com/Hikmat-Yar/ISPRS-Fire-Detection)|
 
 
 ### Universal Image Restoration 
 | Model | Title | First Author | Type | Venue | Project |
 | :-- | :---: | :--: | :--: |:--:|:--:|
+
 |AMIR| [All-In-One Medical Image Restoration via Task-Adaptive Routing](https://arxiv.org/html/2405.19769v1) | Zhiwen Yang | Medical Image |MICCAI 2024 |[![Stars](https://img.shields.io/github/stars/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing.svg?style=social&label=Star)](https://github.com/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing) |
+|MPerceiver| [Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2024/papers/Ai_Multimodal_Prompt_Perceiver_Empower_Adaptiveness_Generalizability_and_Fidelity_for_All-in-One_CVPR_2024_paper.pdf) | Yuang Ai | Natural Image |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing.svg?style=social&label=Star)](https://github.com/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing) |
+
+
+Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration
 
 
 
 
-
-
-
-### Image Deblurring
-| Paper | First Author | Training Way | Venue | Topic | Project |
-| :--- | :---: | :--: | :--: |:--: | :--: |
-| [Deblurring via stochastic refinement](https://openaccess.thecvf.com/content/CVPR2022/papers/Whang_Deblurring_via_Stochastic_Refinement_CVPR_2022_paper.pdf) | Jay Whang| Supervised | CVPR2022 | Image Deblurring | |
-|[Score-Based Diffusion Models as Principled Priors for Inverse Imaging](https://arxiv.org/abs/2304.11751) | Berthy T. Feng | Zero-shot | ICCV 2023 | Image Denoising, Image Deblurring | [![Stars](https://img.shields.io/github/stars/berthyf96/score_prior.svg?style=social&label=Star)](https://github.com/berthyf96/score_prior) |
-|BlindDPS:[Parallel diffusion models of operator and image for blind inverse problems](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Parallel_Diffusion_Models_of_Operator_and_Image_for_Blind_Inverse_CVPR_2023_paper.pdf) | Hyungjin Chung | Zero-shot | CVPR2023 | Blind Deblurring | [![Stars](https://img.shields.io/github/stars/BlindDPS/blind-dps.svg?style=social&label=Star)](https://github.com/BlindDPS/blind-dps) |
 
 
 ### Medical Restoration (MRI,CT)
@@ -112,12 +130,6 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |--| [Solving inverse problems in medical imaging with score-based generative models](https://arxiv.org/abs/2111.08005) | Yang Song | Zero-shot | ICLR 2022 | CT Reconstruction | |
 |AdaDiff|[Adaptive diffusion priors for accelerated mri reconstruction](https://arxiv.org/abs/2207.05876) | Alper Güngör | Supervised | Preprint'23 | MRI Reconstruction | [![Stars](https://img.shields.io/github/stars/icon-lab/AdaDiff.svg?style=social&label=Star)](https://github.com/icon-lab/AdaDiff) |
 
-
-### Low-Light Enchancement
-|Model|Paper | First Author | Training Way | Venue | Topic | Project |
-| :--- | :---: | :---: | :--: | :--: |:--: | :--: |
-|PyDiff|[Pyramid Diffusion Models For Low-light Image Enhancement](https://arxiv.org/abs/2305.10028) | Dewei Zhou | Supervised | Preprint'23 | Low-light Enhancemnent | [![Stars](https://img.shields.io/github/stars/limuloo/PyDIff.svg?style=social&label=Star)](https://github.com/limuloo/PyDIff) |
-|DiffLL|[Lowlight image enhancement with wavelet-based diffusion models](https://arxiv.org/abs/2306.00306) | Hai Jiang | Supervised | Preprint'23 | Low-light Enhancemnent | [![Stars](https://img.shields.io/github/stars/JianghaiSCU/Diffusion-Low-Light.svg?style=social&label=Star)](https://github.com/JianghaiSCU/Diffusion-Low-Light) |
 
 ### Other tasks
 |Model|Paper | First Author | Training Way | Venue | Topic | Project |
