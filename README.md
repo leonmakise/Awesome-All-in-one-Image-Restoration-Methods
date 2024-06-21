@@ -1,7 +1,7 @@
 
 # Awesome-All-in-one-Image-Restoration-Methods
 <p align="center">
-  <img src="./figures/framework.png" alt="image" style="width:1000px;">
+  <img src="./figures/logo.jpg" alt="image" style="width:200px;">
 </p>
 
 A list of awesome all-in-one image restoration methods. Updating...!
@@ -46,17 +46,15 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 ### Table of contents
 <!-- - [Survey paper](#survey-paper)
 - [Table of contents](#table-of-contents) -->
-- [Diffusion model for Image Super resolution](#image-super-resolution)
-- [Diffusion model for Image Restoration](#image-restoration)
-- [Diffusion model for Image Inpainting](#image-inpainting)
-- [Diffusion model for Image Shadow Removal](#image-shadow-removal)
-- [Diffusion model for Image Denoising](#image-denoising)
-- [Diffusion model for Image Dehazing](#image-dehazing)
-- [Diffusion model for Image Deblurring](#image-deblurring)
-- [Diffusion model for Medical IR](#medical-restoration-mrict)
-- [Diffusion model for Low-Light Enchancement](#low-light-enchancement)
-- [Diffusion model for other tasks](#other-tasks)
+- [All-in-one for Natural Image Restoration](#image-super-resolution)
+- [All-in-one for Medical Image Restoration](#image-restoration)
+- [All-in-one for Remote Sensing Image Restoration](#image-inpainting)
+- [All-in-one for Raw Image Restoration](#image-shadow-removal)
+- [All-in-one for Under-water Image Restoration](#image-denoising)
+- [All-in-one for Thermal Infrared Image Restoration](#image-dehazing)
+- [All-in-one with New Techniques](#image-deblurring)
 - [Benchmark Datasets](#benchmark-datasets)
+
 <!-- - [Diffusion model for Image/video compression](#compression) -->
   <!-- - [Recommended Datasets](#recommended-datasets)
   - [All Datasets](#all-datasets) -->
