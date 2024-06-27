@@ -29,16 +29,16 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2308.09388v1.pdf)   ![visitors](https://visitor-badge.laobi.icu/badge?page_id=lixinustc/Awesome-diffusion-model-for-image-processing) -->
 
 ## 🔖 News!!!
-- [x] 2024-04-25: **Updated new related works before 25/04/2024 in this GitHub.**
-- [ ] 2024-06-25: **Updated new related works before 25/06/2024 in this GitHub.**
+- [x] 2024-06-21: **Updated new related works before 21/06/2024 in this GitHub.**
+- [x] 2024-07-31: **Updated new related works before 31/07/2024 in this GitHub.**
 
-**📌 About new works.** If you want to incorporate your studies (e.g., the link of paper or project) on diffusion model-based image processing in this repository. Welcome to raise an issue or email us. We will incorporate it into this repository and our survey report ASAP. 
+**📌 About new works.** If you want to incorporate your studies (e.g., the link of paper or project) on all-in-one image restoration in this repository. Welcome to raise an issue or email us. We will incorporate it into this repository and our survey report ASAP. 
 
 
 ## 🌟  Features
-- [x] **Survey for diffusion model-based Image Restoration** ([Arxiv version](https://arxiv.org/pdf/2308.09388v1.pdf) is released) 
-- [x] **Summary for diffusion model-based Image/Video Compression**
-- [x] **Summary for diffusion model-based Quality Assessment**
+- [x] **Survey for all-in-one image restoration** ([Arxiv version](https://arxiv.org/abs/xxx.xxxx) is released) 
+- [x] **Summary for all-in-one image restoration**
+- [x] **Summary for common used benchmark and newly proposed datasets**
 
 
 
