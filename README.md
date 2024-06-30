@@ -45,27 +45,73 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 ## 🌟  Features
 - [x] **Survey for all-in-one image restoration** ([Arxiv version](https://arxiv.org/abs/xxx.xxxx) is released) 
 - [x] **Summary for all-in-one image restoration**
-- [x] **Summary for common used benchmark and newly proposed datasets**
+- [x] **Summary for common-used benchmark and newly proposed datasets**
 
 
 
-## Diffusion model-based Image Restoration/Enhancement
-### Table of contents
+
+## Table of contents
 <!-- - [Survey paper](#survey-paper)
 - [Table of contents](#table-of-contents) -->
-- [All-in-one for Natural Image Restoration](#image-super-resolution)
-- [All-in-one for Medical Image Restoration](#image-restoration)
-- [All-in-one for Remote Sensing Image Restoration](#image-inpainting)
+- [All-in-one for Natural Image Restoration](#Universal-Image-Restoration)
+- [All-in-one for Adverse Weather Removal](#Adverse-Weather-Removal)
+- [Application in Adverse Weather Conditions](#Application-in-Adverse-Weather-Conditions)
+- [All-in-one for Medical Image Restoration](#Medical-Image-Restoration)
+- [All-in-one for Document Image Restorationn](#Document-Image-Restoration)
+- [All-in-one for LLM-driven Image Restoration](#LLM-driven-Image-Restoration)
+- [All-in-one for Question Answering](#Question-Answering)
+- [All-in-one for Video Restoration](#Video-Restoration)
+- [Benchmark Datasets](#Benchmark-Datasets)
+- [Common-used Metrics](#Common-used-Metrics)
+
+<!-- - [All-in-one for Remote Sensing Image Restoration](#image-inpainting)
 - [All-in-one for Raw Image Restoration](#image-shadow-removal)
 - [All-in-one for Under-water Image Restoration](#image-denoising)
 - [All-in-one for Thermal Infrared Image Restoration](#image-dehazing)
-- [All-in-one with New Techniques](#image-deblurring)
-- [Benchmark Datasets](#benchmark-datasets)
+- [All-in-one with New Techniques](#image-deblurring) -->
 
-<!-- - [Diffusion model for Image/video compression](#compression) -->
-  <!-- - [Recommended Datasets](#recommended-datasets)
-  - [All Datasets](#all-datasets) -->
 
+
+### Universal Image Restoration 
+| Model | Title | First Author | Type | Venue | Project |
+| :-- | :---: | :--: | :--: |:--:|:--:|
+|DL| [A General Decoupled Learning Framework for Parameterized Image Operators](https://arxiv.org/abs/1907.05852) | Qingnan Fan |Natrual Image |ECCV 2018 |[![Stars](https://img.shields.io/github/stars/fqnchina/DecoupleLearning.svg?style=social&label=Star)](https://github.com/fqnchina/DecoupleLearning) |
+|AirNet| [All-in-one image restoration for unknown corruption](https://pengxi.me/wp-content/uploads/2022/03/All-In-One-Image-Restoration-for-Unknown-Corruption.pdf) | Boyun Li | Natural Image |CVPR 2022 |[![Stars](https://img.shields.io/github/stars/XLearning-SCU/2022-CVPR-AirNet.svg?style=social&label=Star)](https://github.com/XLearning-SCU/2022-CVPR-AirNet) |
+|IDR| [Ingredient-oriented Multi-Degradation Learning for Image Restoration](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Ingredient-Oriented_Multi-Degradation_Learning_for_Image_Restoration_CVPR_2023_paper.pdf) | Jinghao Zhang | Natural Image |CVPR 2023 |[![Stars](https://img.shields.io/github/stars/JingHao99/IDR-Ingredients-oriented-Degradation-Reformulation.svg?style=social&label=Star)](https://github.com/JingHao99/IDR-Ingredients-oriented-Degradation-Reformulation) |
+|PromptIR| [PromptIR: Prompting for All-in-One Blind Image Restoration](https://papers.nips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html) | Vaishnav Potlapalli | Natural Image |NeurIPS 2023 |[![Stars](https://img.shields.io/github/stars/va1shn9v/PromptIR.svg?style=social&label=Star)](https://github.com/va1shn9v/PromptIR) |
+|ProRes| [ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration](https://arxiv.org/abs/2306.13653) | Jiaqi Ma | Natural Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/leonmakise/prores.svg?style=social&label=Star)](https://github.com/leonmakise/prores) |
+|MPerceiver| [Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2024/html/Ai_Multimodal_Prompt_Perceiver_Empower_Adaptiveness_Generalizability_and_Fidelity_for_All-in-One_CVPR_2024_paper.html) | Yuang Ai | Natural Image |CVPR 2024 | |
+|ConStyle v2| [ConStyle v2: A Strong Prompter for All-in-One Image Restoration](https://arxiv.org/abs/2406.18242) | Dongqi Fan |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/Dongqi-Fan/ConStyle_v2.svg?style=social&label=Star)](https://github.com/Dongqi-Fan/ConStyle_v2) |
+|MiOIR| [Towards Effective Multiple-in-One Image Restoration: A Sequential and Prompt Learning Strategy](https://arxiv.org/abs/2401.03379) | Xiangtao Kong |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/Xiangtaokong/MiOIR.svg?style=social&label=Star)](https://github.com/Xiangtaokong/MiOIR) |
+|InstructIR| [InstructIR: High-Quality Image Restoration Following Human Instructions](https://arxiv.org/abs/2401.16468) | Marcos V. Conde |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/mv-lab/InstructIR.svg?style=social&label=Star)](https://github.com/mv-lab/InstructIR) |
+|DiffUIR| [Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Selective_Hourglass_Mapping_for_Universal_Image_Restoration_Based_on_Diffusion_CVPR_2024_paper.html) | Dian Zheng |Natrual Image |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/iSEE-Laboratory/DiffUIR.svg?style=social&label=Star)](https://github.com/iSEE-Laboratory/DiffUIR) |
+|AdaIR| [AdaIR: Exploiting Underlying Similarities of Image Restoration Tasks with Adapters](https://arxiv.org/abs/2404.11475) | Haowei Chen |Natrual Image |arXiv 2024 | |
+|AdaIR| [AdaIR: Adaptive All-in-One Image Restoration via Frequency Mining and Modulation](https://arxiv.org/abs/2403.14614) | Yuning Cui |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/c-yn/AdaIR.svg?style=social&label=Star)](https://github.com/c-yn/AdaIR) |
+|MdfUNet| [Research on a multi-scale degradation fusion network in all-in-one image restoration](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.13156) | Bohang Shi |Natrual Image |IET Image Processing 2024 | |
+|AdaptIR| [AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models](https://arxiv.org/abs/2312.08881) | Hang Guo |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/csguoh/AdaptIR.svg?style=social&label=Star)](https://github.com/csguoh/AdaptIR) |
+|LM4LV| [LM4LV: A Frozen Large Language Model for Low-level Vision Tasks](https://arxiv.org/abs/2405.15734) | Boyang Zheng |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/bytetriper/LM4LV.svg?style=social&label=Star)](https://github.com/bytetriper/LM4LV) |
+|DaAIR| [Efficient Degradation-aware Any Image Restoration](https://arxiv.org/abs/2405.15475) | Eduard Zamfir |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/eduardzamfir/DaAIR.svg?style=social&label=Star)](https://github.com/eduardzamfir/DaAIR) |
+|DyNet| [Dynamic Pre-training: Towards Efficient and Scalable All-in-One Image Restoration](https://arxiv.org/abs/2404.02154) | Akshay Dudhane |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/akshaydudhane16/DyNet.svg?style=social&label=Star)](https://github.com/akshaydudhane16/DyNet) |
+|U-WADN| [Unified-Width Adaptive Dynamic Network for All-In-One Image Restoration](https://arxiv.org/abs/2401.13221) | Yimin Xu |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/xuyimin0926/U-WADN.svg?style=social&label=Star)](https://github.com/xuyimin0926/U-WADN) |
+|CAPTNet| [Prompt-based Ingredient-Oriented All-in-One Image Restoration](https://ieeexplore.ieee.org/abstract/document/10526271) | Hu Gao |Natrual Image |IEEE TCSVT 2024 |[![Stars](https://img.shields.io/github/stars/Tombs98/CAPTNet.svg?style=social&label=Star)](https://github.com/Tombs98/CAPTNet) |
+|TextPromptIR| [Textual Prompt Guided Image Restoration](https://arxiv.org/abs/2312.06162) | Qiuhai Yan |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/MoTong-AI-studio/TextPromptIR.svg?style=social&label=Star)](https://github.com/MoTong-AI-studio/TextPromptIR) |
+|DwGN| [Image All-In-One Adverse Weather Removal via Dynamic Model Weights Generation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4656641) | Yecong Wan |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/Jeasco/DwGN.svg?style=social&label=Star)](https://github.com/Jeasco/DwGN) |
+|TextualDegRemoval| [Improving Image Restoration through Removing Degradations in Textual Representations](https://openaccess.thecvf.com/content/CVPR2024/html/Lin_Improving_Image_Restoration_through_Removing_Degradations_in_Textual_Representations_CVPR_2024_paper.html) | Jingbo Lin |Natrual Image |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/mrluin/TextualDegRemoval.svg?style=social&label=Star)](https://github.com/mrluin/TextualDegRemoval) |
+|IRKF| [Learning Multi-Talented Image Restoration with Knowledge Factorization](https://ieeexplore.ieee.org/abstract/document/10451044) | Hongzhan Huang |Natrual Image |arXiv 2024 | |
+|AutoDIR| [AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion](https://arxiv.org/abs/2310.10123) | Yitong Jiang |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/jiangyitong/AutoDIR.svg?style=social&label=Star)](https://github.com/jiangyitong/AutoDIR) |
+|NDR-Restore| [Neural Degradation Representation Learning for All-In-One Image Restoration](https://arxiv.org/abs/2310.12848) | Mingde Yao |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/mdyao/NDR-Restore.svg?style=social&label=Star)](https://github.com/mdyao/NDR-Restore) |
+|DRM-IR| [DRM-IR: Task-Adaptive Deep Unfolding Network for All-In-One Image Restoration](https://arxiv.org/abs/2307.07688) | Yuanshuo Cheng |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/YuanshuoCheng/DRM-IR.svg?style=social&label=Star)](https://github.com/YuanshuoCheng/DRM-IR) |
+|AMIRNet| [All-in-one Multi-degradation Image Restoration Network via Hierarchical Degradation Representation](https://dl.acm.org/doi/abs/10.1145/3581783.3611825) | Cheng Zhang |Natrual Image |ACM MM 2023 |[![Stars](https://img.shields.io/github/stars/Justones/AMIRNet.svg?style=social&label=Star)](https://github.com/Justones/AMIRNet) |
+
+
+<!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
+
+
+<!-- | | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) |
+
+| | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) |
+
+| | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) | -->
 
 ### Adverse Weather Removal
 | Model | Title | First Author | Type | Venue | Project |
@@ -122,60 +168,12 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |SDRNet| [SDRNet: Saliency-Guided Dynamic Restoration Network for Rain and Haze Removal in Nighttime Images](https://ieeexplore.ieee.org/abstract/document/10447635) | Wanning Zhu | Image |ICASSP 2024 | |
 |SeaIceWeather| [Deep Learning Strategies for Analysis of Weather-Degraded Optical Sea Ice Images]( ) | Nabil Panchi |Natrual Image |IEEE Sensors Journal 2024 | |
 
-### Universal Image Restoration 
-| Model | Title | First Author | Type | Venue | Project |
-| :-- | :---: | :--: | :--: |:--:|:--:|
-|DL| [A General Decoupled Learning Framework for Parameterized Image Operators](https://arxiv.org/abs/1907.05852) | Qingnan Fan |Natrual Image |ECCV 2018 |[![Stars](https://img.shields.io/github/stars/fqnchina/DecoupleLearning.svg?style=social&label=Star)](https://github.com/fqnchina/DecoupleLearning) |
-|AirNet| [All-in-one image restoration for unknown corruption](https://pengxi.me/wp-content/uploads/2022/03/All-In-One-Image-Restoration-for-Unknown-Corruption.pdf) | Boyun Li | Natural Image |CVPR 2022 |[![Stars](https://img.shields.io/github/stars/XLearning-SCU/2022-CVPR-AirNet.svg?style=social&label=Star)](https://github.com/XLearning-SCU/2022-CVPR-AirNet) |
-|IDR| [Ingredient-oriented Multi-Degradation Learning for Image Restoration](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Ingredient-Oriented_Multi-Degradation_Learning_for_Image_Restoration_CVPR_2023_paper.pdf) | Jinghao Zhang | Natural Image |CVPR 2023 |[![Stars](https://img.shields.io/github/stars/JingHao99/IDR-Ingredients-oriented-Degradation-Reformulation.svg?style=social&label=Star)](https://github.com/JingHao99/IDR-Ingredients-oriented-Degradation-Reformulation) |
-|PromptIR| [PromptIR: Prompting for All-in-One Blind Image Restoration](https://papers.nips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html) | Vaishnav Potlapalli | Natural Image |NeurIPS 2023 |[![Stars](https://img.shields.io/github/stars/va1shn9v/PromptIR.svg?style=social&label=Star)](https://github.com/va1shn9v/PromptIR) |
-|ProRes| [ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration](https://arxiv.org/abs/2306.13653) | Jiaqi Ma | Natural Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/leonmakise/prores.svg?style=social&label=Star)](https://github.com/leonmakise/prores) |
-|MPerceiver| [Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2024/html/Ai_Multimodal_Prompt_Perceiver_Empower_Adaptiveness_Generalizability_and_Fidelity_for_All-in-One_CVPR_2024_paper.html) | Yuang Ai | Natural Image |CVPR 2024 | |
-|ConStyle v2| [ConStyle v2: A Strong Prompter for All-in-One Image Restoration](https://arxiv.org/abs/2406.18242) | Dongqi Fan |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/Dongqi-Fan/ConStyle_v2.svg?style=social&label=Star)](https://github.com/Dongqi-Fan/ConStyle_v2) |
-|MiOIR| [Towards Effective Multiple-in-One Image Restoration: A Sequential and Prompt Learning Strategy](https://arxiv.org/abs/2401.03379) | Xiangtao Kong |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/Xiangtaokong/MiOIR.svg?style=social&label=Star)](https://github.com/Xiangtaokong/MiOIR) |
-|InstructIR| [InstructIR: High-Quality Image Restoration Following Human Instructions](https://arxiv.org/abs/2401.16468) | Marcos V. Conde |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/mv-lab/InstructIR.svg?style=social&label=Star)](https://github.com/mv-lab/InstructIR) |
-|DiffUIR| [Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Selective_Hourglass_Mapping_for_Universal_Image_Restoration_Based_on_Diffusion_CVPR_2024_paper.html) | Dian Zheng |Natrual Image |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/iSEE-Laboratory/DiffUIR.svg?style=social&label=Star)](https://github.com/iSEE-Laboratory/DiffUIR) |
-|AdaIR| [AdaIR: Exploiting Underlying Similarities of Image Restoration Tasks with Adapters](https://arxiv.org/abs/2404.11475) | Haowei Chen |Natrual Image |arXiv 2024 | |
-|AdaIR| [AdaIR: Adaptive All-in-One Image Restoration via Frequency Mining and Modulation](https://arxiv.org/abs/2403.14614) | Yuning Cui |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/c-yn/AdaIR.svg?style=social&label=Star)](https://github.com/c-yn/AdaIR) |
-|MdfUNet| [Research on a multi-scale degradation fusion network in all-in-one image restoration](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.13156) | Bohang Shi |Natrual Image |IET Image Processing 2024 | |
-|AdaptIR| [AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models](https://arxiv.org/abs/2312.08881) | Hang Guo |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/csguoh/AdaptIR.svg?style=social&label=Star)](https://github.com/csguoh/AdaptIR) |
-|LM4LV| [LM4LV: A Frozen Large Language Model for Low-level Vision Tasks](https://arxiv.org/abs/2405.15734) | Boyang Zheng |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/bytetriper/LM4LV.svg?style=social&label=Star)](https://github.com/bytetriper/LM4LV) |
-|DaAIR| [Efficient Degradation-aware Any Image Restoration](https://arxiv.org/abs/2405.15475) | Eduard Zamfir |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/eduardzamfir/DaAIR.svg?style=social&label=Star)](https://github.com/eduardzamfir/DaAIR) |
-|DyNet| [Dynamic Pre-training: Towards Efficient and Scalable All-in-One Image Restoration](https://arxiv.org/abs/2404.02154) | Akshay Dudhane |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/akshaydudhane16/DyNet.svg?style=social&label=Star)](https://github.com/akshaydudhane16/DyNet) |
-|U-WADN| [Unified-Width Adaptive Dynamic Network for All-In-One Image Restoration](https://arxiv.org/abs/2401.13221) | Yimin Xu |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/xuyimin0926/U-WADN.svg?style=social&label=Star)](https://github.com/xuyimin0926/U-WADN) |
-|CAPTNet| [Prompt-based Ingredient-Oriented All-in-One Image Restoration](https://ieeexplore.ieee.org/abstract/document/10526271) | Hu Gao |Natrual Image |IEEE TCSVT 2024 |[![Stars](https://img.shields.io/github/stars/Tombs98/CAPTNet.svg?style=social&label=Star)](https://github.com/Tombs98/CAPTNet) |
-|TextPromptIR| [Textual Prompt Guided Image Restoration](https://arxiv.org/abs/2312.06162) | Qiuhai Yan |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/MoTong-AI-studio/TextPromptIR.svg?style=social&label=Star)](https://github.com/MoTong-AI-studio/TextPromptIR) |
-|DwGN| [Image All-In-One Adverse Weather Removal via Dynamic Model Weights Generation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4656641) | Yecong Wan |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/Jeasco/DwGN.svg?style=social&label=Star)](https://github.com/Jeasco/DwGN) |
-|TextualDegRemoval| [Improving Image Restoration through Removing Degradations in Textual Representations](https://openaccess.thecvf.com/content/CVPR2024/html/Lin_Improving_Image_Restoration_through_Removing_Degradations_in_Textual_Representations_CVPR_2024_paper.html) | Jingbo Lin |Natrual Image |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/mrluin/TextualDegRemoval.svg?style=social&label=Star)](https://github.com/mrluin/TextualDegRemoval) |
-|IRKF| [Learning Multi-Talented Image Restoration with Knowledge Factorization](https://ieeexplore.ieee.org/abstract/document/10451044) | Hongzhan Huang |Natrual Image |arXiv 2024 | |
-|AutoDIR| [AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion](https://arxiv.org/abs/2310.10123) | Yitong Jiang |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/jiangyitong/AutoDIR.svg?style=social&label=Star)](https://github.com/jiangyitong/AutoDIR) |
-|NDR-Restore| [Neural Degradation Representation Learning for All-In-One Image Restoration](https://arxiv.org/abs/2310.12848) | Mingde Yao |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/mdyao/NDR-Restore.svg?style=social&label=Star)](https://github.com/mdyao/NDR-Restore) |
-|DRM-IR| [DRM-IR: Task-Adaptive Deep Unfolding Network for All-In-One Image Restoration](https://arxiv.org/abs/2307.07688) | Yuanshuo Cheng |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/YuanshuoCheng/DRM-IR.svg?style=social&label=Star)](https://github.com/YuanshuoCheng/DRM-IR) |
-|AMIRNet| [All-in-one Multi-degradation Image Restoration Network via Hierarchical Degradation Representation](https://dl.acm.org/doi/abs/10.1145/3581783.3611825) | Cheng Zhang |Natrual Image |ACM MM 2023 |[![Stars](https://img.shields.io/github/stars/Justones/AMIRNet.svg?style=social&label=Star)](https://github.com/Justones/AMIRNet) |
 
-
-<!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
-
-
-| | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) |
-
-
-| | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) |
-
-| | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) |
-
-### Medical Image
+### Medical Image Restoration
 | Model | Title | First Author | Type | Venue | Project |
 | :-- | :---: | :--: | :--: |:--:|:--:|
 |AMIR| [All-In-One Medical Image Restoration via Task-Adaptive Routing](https://arxiv.org/html/2405.19769v1) | Zhiwen Yang | Medical Image |MICCAI 2024 |[![Stars](https://img.shields.io/github/stars/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing.svg?style=social&label=Star)](https://github.com/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing) |
 |ProCT| [Universal Incomplete-View CT Reconstruction with Prompted Contextual Transformer](https://arxiv.org/abs/2312.07846) | Chenglong Ma |Medical Image |arXiv 2023 | |
-
-### Question Answering
-| Model | Title | First Author | Type | Venue | Project |
-| :-- | :---: | :--: | :--: |:--:|:--:|
-|PromptGIP| [Unifying Image Processing as Visual Prompting Question Answering](https://arxiv.org/abs/2310.10513) | Yihao Liu |Natrual Image |arXiv 2023|[![Stars](https://img.shields.io/github/stars/lyh-18/PromptGIP.svg?style=social&label=Star)](https://github.com/lyh-18/PromptGIP) |
-
-
 
 ### Document Image Restoration
 | Model | Title | First Author | Type | Venue | Project |
@@ -192,9 +190,10 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 
 
-
-
-
+### Question Answering
+| Model | Title | First Author | Type | Venue | Project |
+| :-- | :---: | :--: | :--: |:--:|:--:|
+|PromptGIP| [Unifying Image Processing as Visual Prompting Question Answering](https://arxiv.org/abs/2310.10513) | Yihao Liu |Natrual Image |arXiv 2023|[![Stars](https://img.shields.io/github/stars/lyh-18/PromptGIP.svg?style=social&label=Star)](https://github.com/lyh-18/PromptGIP) |
 
 
 
@@ -213,13 +212,13 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |[Flickr2K](https://www.kaggle.com/datasets/daehoyang/flickr2k)|Image Super-resolution|Training|2017|
 |[SeaIceWeather ](https://ieee-dataport.org/documents/seaiceweather)|Image De-weathering|Training,Testing|2024|
 
+### Common-used Metrics 
 
-
-# Diffusion model-based Image quality assessment
+<!-- # Diffusion model-based Image quality assessment
 |Model| Paper | First Author | Venue | Topic | Project |
 | :--- | :---: | :---: | :--: | :--: |:--: |
 |DifFIQA| [DifFIQA: Face Image Quality Assessment Using Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2305.05768) | Žiga Babnik | Preprint'23 | Image quality assessment | |
-|PFD-IQA| [Feature Denoising Diffusion Model for Blind Image Quality Assessment](https://arxiv.org/abs/2401.11949) | Xudong Li | Preprint'24 | Image quality assessment | |
+|PFD-IQA| [Feature Denoising Diffusion Model for Blind Image Quality Assessment](https://arxiv.org/abs/2401.11949) | Xudong Li | Preprint'24 | Image quality assessment | | -->
 
 ## Cite US
 
