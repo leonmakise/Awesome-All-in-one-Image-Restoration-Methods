@@ -147,7 +147,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |LDR| [Language-driven All-in-one Adverse Weather Removal](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Language-driven_All-in-one_Adverse_Weather_Removal_CVPR_2024_paper.pdf) | Hao Yang | Image |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/noxsine/LDR.svg?style=social&label=Star)](https://github.com/noxsine/LDR)|
 |AoSRNet| [AoSRNet: All-in-One Scene Recovery Networks via Multi-knowledge Integration](https://arxiv.org/abs/2402.03738) | Yuxu Lu |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/LouisYuxuLu/AoSRNet.svg?style=social&label=Star)](https://github.com/LouisYuxuLu/AoSRNet) |
 |AiOENet| [AiOENet: All-in-One Low-Visibility Enhancement to Improve Visual Perception for Intelligent Marine Vehicles Under Severe Weather Conditions](https://ieeexplore.ieee.org/abstract/document/10375786) | Ryan Wen Liu  |Natrual Image |IEEE TIV 2024 | |
-|JCDM| [Joint Conditional Diffusion Model for Image Restoration with Mixed Degradations](https://arxiv.org/abs/2404.07770) | Yufeng Yue |Natrual Image |arXiv 2024 | |
+|JCDM| [Joint Conditional Diffusion Model for Image Restoration with Mixed Degradations](https://arxiv.org/abs/2404.07770) | Yufeng Yue |Natrual Image |arXiv 2024.04 | |
 
 
 
