@@ -122,7 +122,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |BIDeN| [Blind Image Decomposition](https://arxiv.org/abs/2108.11364) | Mixed degradation | raindrop/rainstreak/snow/haze |ECCV 2022|[![Stars](https://img.shields.io/github/stars/JunlinHan/BID.svg?style=social&label=Star)](https://github.com/JunlinHan/BID)|Multi-scale encoder; GANs |
 |UVRNet| [Unified Multi-Weather Visibility Restoration](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9966834) | Ashutosh Kulkarni | Image |IEEE TMM 2022|[![Stars](https://img.shields.io/github/stars/AshutoshKulkarni4998/UVRNet.svg?style=social&label=Star)](https://github.com/AshutoshKulkarni4998/UVRNet)|
 |AIRFormer| [Frequency-Oriented Efficient Transformer for All-in-One Weather-Degraded Image Restoration](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10196308) | Tao Gao | Image |IEEE TCSVT 2023||
-|WeatherDiffusion| [Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models](https://doi.org/10.1109/TPAMI.2023.3238179) | Ozan Özdenizci | Image |IEEE TPAMI 2023 |[![Stars](https://img.shields.io/github/stars/IGITUGraz/WeatherDiffusion.svg?style=social&label=Star)](https://github.com/IGITUGraz/WeatherDiffusion) |
+|WeatherDiffusion| [Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models](https://doi.org/10.1109/TPAMI.2023.3238179) | Mixed dataset | raindrop/rainstreak/snow/haze |IEEE TPAMI 2023 |[![Stars](https://img.shields.io/github/stars/IGITUGraz/WeatherDiffusion.svg?style=social&label=Star)](https://github.com/IGITUGraz/WeatherDiffusion) | Patch-based diffusion model|
 |TOENet| [Let You See in Haze and Sandstorm: Two-in-One Low-Visibility Enhancement Network](https://ieeexplore.ieee.org/abstract/document/10216344) | Yuan Gao |Natrual Image |IEEE TIM 2023 |[![Stars](https://img.shields.io/github/stars/YuanGao-YG/TOENet.svg?style=social&label=Star)](https://github.com/YuanGao-YG/TOENet) |
 |ADMS| [All-in-one Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations](https://openaccess.thecvf.com/content/CVPR2023/papers/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.pdf) | Dongwon Park | Image |CVPR 2023 | |
 |SmartAssign| [SmartAssign: Learning A Smart Knowledge Assignment Strategy for Deraining and Desnowing](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_SmartAssign_Learning_a_Smart_Knowledge_Assignment_Strategy_for_Deraining_and_CVPR_2023_paper.pdf) | Yinglong Wang | Image |CVPR 2023 | |
@@ -208,9 +208,18 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 
 
-### Benchmark Datasets
+### Benchmark Datasets (Multi-Weather)
 |Dataset|Task|Usage|Year|
 |:----:|:----:|:----:|:----:|
+|[ALL-Weather](https://drive.google.com/file/d/1tfeBnjZX1wIhIFPl6HOzzOKOyo0GdGHl/view) (form [Transweather](https://openaccess.thecvf.com/content/CVPR2022/papers/Valanarasu_TransWeather_Transformer-Based_Restoration_of_Images_Degraded_by_Adverse_Weather_Conditions_CVPR_2022_paper.pdf))|haze & rain/snow/raindrop|sampled from Outdoor-Rain (9000) , Snow100K (9000), and Raindrop (1069)|2022|
+|[Flickr2K]()|Image Super-resolution|Training|2017|
+|[SeaIceWeather ](https://ieee-dataport.org/documents/seaiceweather)|Image De-weathering|Training,Testing|2024|
+
+
+### Benchmark Datasets (distortion)
+|Dataset|Task|Usage|Year|
+|:----:|:----:|:----:|:----:|
+
 |[DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K)|Image Super-resolution|Training,Testing|2017|
 |[Flickr2K](https://www.kaggle.com/datasets/daehoyang/flickr2k)|Image Super-resolution|Training|2017|
 |[SeaIceWeather ](https://ieee-dataport.org/documents/seaiceweather)|Image De-weathering|Training,Testing|2024|
