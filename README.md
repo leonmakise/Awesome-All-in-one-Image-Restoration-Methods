@@ -211,9 +211,10 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 ### Benchmark Datasets (Multi-Weather)
 |Dataset|Task|Usage|Link|Year|
 |:----:|:----:|:----:|:----:|:----:|
+|[Raindrop](https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Qian_Attentive_Generative_Adversarial_CVPR_2018_paper.pdf) |raindrop|Train: 861/Test: set-A (58), set-B (239)|  [download](https://drive.google.com/drive/folders/1e7R76s6vwUJxILOcAsthgDLPSnOrQ49K) |CVPR 2018|
 |[Snow100K](https://ieeexplore.ieee.org/document/8291596) |snow| 100K synthetic images|  [download](https://sites.google.com/view/yunfuliu/desnownet) |IEEE TIP 2018|
 |[Outdoor-Rain](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Heavy_Rain_Image_Restoration_Integrating_Physics_Model_and_Conditional_Adversarial_CVPR_2019_paper.pdf) |haze & rain| 9000 train/1500 val|  [download](https://www.dropbox.com/scl/fo/3c7wutxxmnvd4pwyiwvk8/AM3FAJcvKImc-rgaRUBhr5Q?rlkey=16vbvckaeg9wwk20fww8s9ubd&e=1&dl=0) |CVPR 2019|
-|[ALL-Weather](https://drive.google.com/file/d/1tfeBnjZX1wIhIFPl6HOzzOKOyo0GdGHl/view) (form [Transweather](https://openaccess.thecvf.com/content/CVPR2022/papers/Valanarasu_TransWeather_Transformer-Based_Restoration_of_Images_Degraded_by_Adverse_Weather_Conditions_CVPR_2022_paper.pdf))|haze & rain/snow/raindrop|sampled from Outdoor-Rain (9000) , Snow100K (9000), and Raindrop (1069)|CVPR 2022|
+|[ALL-Weather](https://openaccess.thecvf.com/content/CVPR2022/papers/Valanarasu_TransWeather_Transformer-Based_Restoration_of_Images_Degraded_by_Adverse_Weather_Conditions_CVPR_2022_paper.pdf)|haze & rain/snow/raindrop|Train (18069): Outdoor-Rain (8250), Snow100K (9001), and Raindrop (818)/Test: Snow100K-L (16801), RaindropA (58), Outdoor-Rain (750)|[download](https://drive.google.com/file/d/1tfeBnjZX1wIhIFPl6HOzzOKOyo0GdGHl/view)|CVPR 2022|
 |[Flickr2K]()|Image Super-resolution|Training|2017|
 |[SeaIceWeather ](https://ieee-dataport.org/documents/seaiceweather)|Image De-weathering|Training,Testing|2024|
 
