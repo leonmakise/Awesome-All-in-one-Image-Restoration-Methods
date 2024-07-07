@@ -101,14 +101,14 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |NDR-Restore| [Neural Degradation Representation Learning for All-In-One Image Restoration](https://arxiv.org/abs/2310.12848) | Mingde Yao |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/mdyao/NDR-Restore.svg?style=social&label=Star)](https://github.com/mdyao/NDR-Restore) |
 |DRM-IR| [DRM-IR: Task-Adaptive Deep Unfolding Network for All-In-One Image Restoration](https://arxiv.org/abs/2307.07688) | Yuanshuo Cheng |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/YuanshuoCheng/DRM-IR.svg?style=social&label=Star)](https://github.com/YuanshuoCheng/DRM-IR) |
 |AMIRNet| [All-in-one Multi-degradation Image Restoration Network via Hierarchical Degradation Representation](https://dl.acm.org/doi/abs/10.1145/3581783.3611825) | Cheng Zhang |Natrual Image |ACM MM 2023 |[![Stars](https://img.shields.io/github/stars/Justones/AMIRNet.svg?style=social&label=Star)](https://github.com/Justones/AMIRNet) |
-
+|Restornet| [Restornet: An efficient network for multiple degradation image restoration](https://www.sciencedirect.com/science/article/pii/S0950705123008663) | Xiaofeng Wang |Natrual Image |Knowledge-Based Systems 2024 |[![Stars](https://img.shields.io/github/stars/xfwang23/RestorNet.svg?style=social&label=Star)](https://github.com/xfwang23/RestorNet) |
 
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
 
 
-<!-- | | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) |
 
-| | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) |
+
+<!-- | | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) |
 
 | | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) | -->
 
