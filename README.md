@@ -150,7 +150,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |AoSRNet| [AoSRNet: All-in-One Scene Recovery Networks via Multi-knowledge Integration](https://arxiv.org/abs/2402.03738) | Yuxu Lu |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/LouisYuxuLu/AoSRNet.svg?style=social&label=Star)](https://github.com/LouisYuxuLu/AoSRNet) |
 |AiOENet| [AiOENet: All-in-One Low-Visibility Enhancement to Improve Visual Perception for Intelligent Marine Vehicles Under Severe Weather Conditions](https://ieeexplore.ieee.org/abstract/document/10375786) | Ryan Wen Liu  |Natrual Image |IEEE TIV 2024 | |
 |JCDM| [Joint Conditional Diffusion Model for Image Restoration with Mixed Degradations](https://arxiv.org/abs/2404.07770) | Mixed degradation |raindrop/rainstreak/snow/haze  |arXiv 2024.04 | |Physical model guidance; Diffusion Model |
-
+|Histoformer| [Restoring Images in Adverse Weather Conditions via Histogram Transformer](https://arxiv.org/abs/2407.10172) | Mixed degradation |raindrop/rainstreak/snow/haze  |ECCV 2024 | [![Stars](https://img.shields.io/github/stars/sunshangquan/Histoformer.svg?style=social&label=Star)](https://github.com/sunshangquan/Histoformer)| |
 
 
 
