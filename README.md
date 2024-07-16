@@ -103,7 +103,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |AMIRNet| [All-in-one Multi-degradation Image Restoration Network via Hierarchical Degradation Representation](https://dl.acm.org/doi/abs/10.1145/3581783.3611825) | Cheng Zhang |Natrual Image |ACM MM 2023 |[![Stars](https://img.shields.io/github/stars/Justones/AMIRNet.svg?style=social&label=Star)](https://github.com/Justones/AMIRNet) |
 |Restornet| [Restornet: An efficient network for multiple degradation image restoration](https://www.sciencedirect.com/science/article/pii/S0950705123008663) | Xiaofeng Wang |Natrual Image |Knowledge-Based Systems 2024 |[![Stars](https://img.shields.io/github/stars/xfwang23/RestorNet.svg?style=social&label=Star)](https://github.com/xfwang23/RestorNet) |
 |Diff-Restorer| [Diff-Restorer: Unleashing Visual Prompts for Diffusion-based Universal Image Restoration](https://arxiv.org/abs/2407.03636) | Yuhong Zhang |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/zyhrainbow/Diff-Restorer.svg?style=social&label=Star)](https://github.com/zyhrainbow/Diff-Restorer) |
-
+|RAM| [Restore Anything with Masks: Leveraging Mask Image Modeling for Blind All-in-One Image Restoration]() | Yuhong Zhang |Natrual Image |ECCV 2024 |[![Stars](https://img.shields.io/github/stars/Dragonisss/RAM.svg?style=social&label=Star)](https://github.com/Dragonisss/RAM) |
 
 
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
