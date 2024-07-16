@@ -104,15 +104,15 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |Restornet| [Restornet: An efficient network for multiple degradation image restoration](https://www.sciencedirect.com/science/article/pii/S0950705123008663) | Xiaofeng Wang |Natrual Image |Knowledge-Based Systems 2024 |[![Stars](https://img.shields.io/github/stars/xfwang23/RestorNet.svg?style=social&label=Star)](https://github.com/xfwang23/RestorNet) |
 |Diff-Restorer| [Diff-Restorer: Unleashing Visual Prompts for Diffusion-based Universal Image Restoration](https://arxiv.org/abs/2407.03636) | Yuhong Zhang |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/zyhrainbow/Diff-Restorer.svg?style=social&label=Star)](https://github.com/zyhrainbow/Diff-Restorer) |
 |RAM| [Restore Anything with Masks: Leveraging Mask Image Modeling for Blind All-in-One Image Restoration]() | Yuhong Zhang |Natrual Image |ECCV 2024 |[![Stars](https://img.shields.io/github/stars/Dragonisss/RAM.svg?style=social&label=Star)](https://github.com/Dragonisss/RAM) |
+|PIP| [Prompt-In-Prompt Learning for Universal Image Restoration](https://arxiv.org/abs/2312.05038) | Zilong Li |Natrual Image |arXiv 2023 |[![Stars](https://img.shields.io/github/stars/longzilicart/pip_universal.svg?style=social&label=Star)](https://github.com/longzilicart/pip_universal) |
 
 
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
 
 
 
-
-
-| | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) |
+<!-- 
+| | [ ]( ) |   |Natrual Image |arXiv 2024 |[![Stars](https://img.shields.io/github/stars/ .svg?style=social&label=Star)]( ) | -->
 
 
 ### Adverse Weather Removal
