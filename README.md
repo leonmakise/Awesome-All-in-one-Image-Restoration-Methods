@@ -73,7 +73,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 
 ### Universal Image Restoration 
-N: Guassian nosie; H: haze; R: rain; B:Motion blur; L: low-light
+# N: Guassian nosie; H: Haze; R: Rain; B: Motion blur; L: Low-light; SR: Super-resolution; E: Enhancement
 | Model | Title |  Task | Venue | Project | Method|
 | :-- | :---: | :--: | :--: |:--:|:--:|
 |DL| [A General Decoupled Learning Framework for Parameterized Image Operators](https://arxiv.org/abs/1907.05852) | Natrual Image |ECCV 2018 |[![Stars](https://img.shields.io/github/stars/fqnchina/DecoupleLearning.svg?style=social&label=Star)](https://github.com/fqnchina/DecoupleLearning) ||
@@ -84,7 +84,7 @@ N: Guassian nosie; H: haze; R: rain; B:Motion blur; L: low-light
 |MPerceiver| [Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2024/html/Ai_Multimodal_Prompt_Perceiver_Empower_Adaptiveness_Generalizability_and_Fidelity_for_All-in-One_CVPR_2024_paper.html) |  | Natural Image |CVPR 2024 | | |
 |ConStyle v2| [ConStyle v2: A Strong Prompter for All-in-One Image Restoration](https://arxiv.org/abs/2406.18242) |  |arXiv 2024.06 |[![Stars](https://img.shields.io/github/stars/Dongqi-Fan/ConStyle_v2.svg?style=social&label=Star)](https://github.com/Dongqi-Fan/ConStyle_v2) | |
 |MiOIR| [Towards Effective Multiple-in-One Image Restoration: A Sequential and Prompt Learning Strategy](https://arxiv.org/abs/2401.03379) |  |arXiv 2024.01 |[![Stars](https://img.shields.io/github/stars/Xiangtaokong/MiOIR.svg?style=social&label=Star)](https://github.com/Xiangtaokong/MiOIR) ||
-|InstructIR| [InstructIR: High-Quality Image Restoration Following Human Instructions](https://arxiv.org/abs/2401.16468) | N+H+R & N+H+R+B+L+(S+E) |ECCV 2024 |[![Stars](https://img.shields.io/github/stars/mv-lab/InstructIR.svg?style=social&label=Star)](https://github.com/mv-lab/InstructIR) ||
+|InstructIR| [InstructIR: High-Quality Image Restoration Following Human Instructions](https://arxiv.org/abs/2401.16468) | N+H+R & N+H+R+B+L+(SR+E) |ECCV 2024 |[![Stars](https://img.shields.io/github/stars/mv-lab/InstructIR.svg?style=social&label=Star)](https://github.com/mv-lab/InstructIR) ||
 |DiffUIR| [Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Selective_Hourglass_Mapping_for_Universal_Image_Restoration_Based_on_Diffusion_CVPR_2024_paper.html) | Natrual Image |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/iSEE-Laboratory/DiffUIR.svg?style=social&label=Star)](https://github.com/iSEE-Laboratory/DiffUIR) ||
 |AdaIR| [AdaIR: Exploiting Underlying Similarities of Image Restoration Tasks with Adapters](https://arxiv.org/abs/2404.11475) | Natrual Image |arXiv 2024.04 | ||
 |AdaIR| [AdaIR: Adaptive All-in-One Image Restoration via Frequency Mining and Modulation](https://arxiv.org/abs/2403.14614) | N+H+R & N+H+R+B+L |arXiv 2024.03 |[![Stars](https://img.shields.io/github/stars/c-yn/AdaIR.svg?style=social&label=Star)](https://github.com/c-yn/AdaIR) ||
