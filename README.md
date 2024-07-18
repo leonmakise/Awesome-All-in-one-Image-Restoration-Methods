@@ -73,7 +73,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 
 ### Universal Image Restoration 
-# N: Guassian nosie; H: Haze; R: Rain; B: Motion blur; L: Low-light; SR: Super-resolution; E: Enhancement
+#### N: Guassian nosie; H: Haze; R: Rain; B: Motion blur; L: Low-light; SR: Super-resolution; E: Enhancement
 | Model | Title |  Task | Venue | Project | Method|
 | :-- | :---: | :--: | :--: |:--:|:--:|
 |DL| [A General Decoupled Learning Framework for Parameterized Image Operators](https://arxiv.org/abs/1907.05852) | Natrual Image |ECCV 2018 |[![Stars](https://img.shields.io/github/stars/fqnchina/DecoupleLearning.svg?style=social&label=Star)](https://github.com/fqnchina/DecoupleLearning) ||
