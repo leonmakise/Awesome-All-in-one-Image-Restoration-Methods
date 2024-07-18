@@ -73,6 +73,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 
 ### Universal Image Restoration 
+N: Guassian nosie; H: haze; R: rain; B:Motion blur; L: low-light
 | Model | Title |  Task | Venue | Project | Method|
 | :-- | :---: | :--: | :--: |:--:|:--:|
 |DL| [A General Decoupled Learning Framework for Parameterized Image Operators](https://arxiv.org/abs/1907.05852) | Natrual Image |ECCV 2018 |[![Stars](https://img.shields.io/github/stars/fqnchina/DecoupleLearning.svg?style=social&label=Star)](https://github.com/fqnchina/DecoupleLearning) ||
@@ -87,7 +88,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |DiffUIR| [Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Selective_Hourglass_Mapping_for_Universal_Image_Restoration_Based_on_Diffusion_CVPR_2024_paper.html) | Natrual Image |CVPR 2024 |[![Stars](https://img.shields.io/github/stars/iSEE-Laboratory/DiffUIR.svg?style=social&label=Star)](https://github.com/iSEE-Laboratory/DiffUIR) ||
 |AdaIR| [AdaIR: Exploiting Underlying Similarities of Image Restoration Tasks with Adapters](https://arxiv.org/abs/2404.11475) | Natrual Image |arXiv 2024.04 | ||
 |AdaIR| [AdaIR: Adaptive All-in-One Image Restoration via Frequency Mining and Modulation](https://arxiv.org/abs/2403.14614) | N+H+R & N+H+R+B+L |arXiv 2024.03 |[![Stars](https://img.shields.io/github/stars/c-yn/AdaIR.svg?style=social&label=Star)](https://github.com/c-yn/AdaIR) ||
-|MdfUNet| [Research on a multi-scale degradation fusion network in all-in-one image restoration](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.13156) | Bohang Shi |Natrual Image |IET Image Processing 2024 | |
+|MdfUNet| [Research on a multi-scale degradation fusion network in all-in-one image restoration](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.13156) | |IET Image Processing 2024 | | |
 |AdaptIR| [AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models](https://arxiv.org/abs/2312.08881) | Natrual Image |arXiv 2023.12 |[![Stars](https://img.shields.io/github/stars/csguoh/AdaptIR.svg?style=social&label=Star)](https://github.com/csguoh/AdaptIR) | |
 |LM4LV| [LM4LV: A Frozen Large Language Model for Low-level Vision Tasks](https://arxiv.org/abs/2405.15734) | Natrual Image |arXiv 2024.05 |[![Stars](https://img.shields.io/github/stars/bytetriper/LM4LV.svg?style=social&label=Star)](https://github.com/bytetriper/LM4LV) ||
 |DaAIR| [Efficient Degradation-aware Any Image Restoration](https://arxiv.org/abs/2405.15475) | N+H+R & N+H+R+B+L |arXiv 2024.05 |[![Stars](https://img.shields.io/github/stars/eduardzamfir/DaAIR.svg?style=social&label=Star)](https://github.com/eduardzamfir/DaAIR) | |
