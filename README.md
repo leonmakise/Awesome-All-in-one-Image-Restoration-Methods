@@ -105,6 +105,10 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |LM4LV| [LM4LV: A Frozen Large Language Model for Low-level Vision Tasks](https://arxiv.org/abs/2405.15734) | Natrual Image |arXiv 2024.05 |[![Stars](https://img.shields.io/github/stars/bytetriper/LM4LV.svg?style=social&label=Star)](https://github.com/bytetriper/LM4LV) ||
 |ConStyle v2| [ConStyle v2: A Strong Prompter for All-in-One Image Restoration](https://arxiv.org/abs/2406.18242) |  |arXiv 2024.06 |[![Stars](https://img.shields.io/github/stars/Dongqi-Fan/ConStyle_v2.svg?style=social&label=Star)](https://github.com/Dongqi-Fan/ConStyle_v2) | |
 |Diff-Restorer| [Diff-Restorer: Unleashing Visual Prompts for Diffusion-based Universal Image Restoration](https://arxiv.org/abs/2407.03636) |  |arXiv 2024.07 |[![Stars](https://img.shields.io/github/stars/zyhrainbow/Diff-Restorer.svg?style=social&label=Star)](https://github.com/zyhrainbow/Diff-Restorer) | |
+|LMDIR| [Training-Free Large Model Priors for Multiple-in-One Image Restoration](https://arxiv.org/abs/2407.13181v1) |  |arXiv 2024.07 | | |
+|AnyIR| [Any Image Restoration with Efficient Automatic Degradation Adaptation](https://arxiv.org/abs/2407.13372v1) |  |arXiv 2024.07 |[![Stars](https://img.shields.io/github/stars/Amazingren/AnyIR.svg?style=social&label=Star)](https://github.com/Amazingren/AnyIR) |a novel local-global gated intertwining |
+
+
 
 
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
