@@ -107,7 +107,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |Diff-Restorer| [Diff-Restorer: Unleashing Visual Prompts for Diffusion-based Universal Image Restoration](https://arxiv.org/abs/2407.03636) |  |arXiv 2024.07 |[![Stars](https://img.shields.io/github/stars/zyhrainbow/Diff-Restorer.svg?style=social&label=Star)](https://github.com/zyhrainbow/Diff-Restorer) | |
 |LMDIR| [Training-Free Large Model Priors for Multiple-in-One Image Restoration](https://arxiv.org/abs/2407.13181v1) | N+R+L |arXiv 2024.07 | | Large Model Driven |
 |AnyIR| [Any Image Restoration with Efficient Automatic Degradation Adaptation](https://arxiv.org/abs/2407.13372v1) | N+H+R & N+H+R+B+L |arXiv 2024.07 |[![Stars](https://img.shields.io/github/stars/Amazingren/AnyIR.svg?style=social&label=Star)](https://github.com/Amazingren/AnyIR) |a novel local-global gated intertwining |
-
+|MEASNet| [Multi-Expert Adaptive Selection: Task-Balancing for All-in-One Image Restoration](https://arxiv.org/abs/2407.19139) | N+H+R & N+H+R+B+L |arXiv 2024.07 |[![Stars](https://img.shields.io/github/stars/zhoushen1/MEASNet.svg?style=social&label=Star)](https://github.com/zhoushen1/MEASNet) |multi-expert adaptive selection mechanism |
 
 
 
