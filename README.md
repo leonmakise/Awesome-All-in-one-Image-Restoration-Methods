@@ -166,7 +166,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |Histoformer| [Restoring Images in Adverse Weather Conditions via Histogram Transformer](https://arxiv.org/abs/2407.10172) | Mixed datasets |raindrop/rainstreak/snow/haze  |ECCV 2024 | [![Stars](https://img.shields.io/github/stars/sunshangquan/Histoformer.svg?style=social&label=Star)](https://github.com/sunshangquan/Histoformer)| Histogram self-attention|
 |OneRestore| [OneRestore: A Universal Restoration Framework for Composite Degradation](https://arxiv.org/abs/2407.04621) | Mixed degradations |low-light/rainstreak/snow/haze  |ECCV 2024 | [![Stars](https://img.shields.io/github/stars/gy65896/OneRestore.svg?style=social&label=Star)](https://github.com/gy65896/OneRestore)| cross-attention; scene descriptors|
 |AWRaCLe| [AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning](https://arxiv.org/abs/2409.00263) | Mixed datasets |rainstreak/snow/haze  |arXiv 2024.09 | |CLIP; visual context information |
-
+|WResVLM| [Towards Real-World Adverse Weather Image Restoration: Enhancing Clearness and Semantics with Vision-Language Models](https://arxiv.org/abs/2409.02101v1) | Mixed datasets |rainstreak/raindrop/snow/haze  |arXiv 2024.09 |[![Stars](https://img.shields.io/github/stars/jiaqixuac/WResVLM.svg?style=social&label=Star)](https://github.com/jiaqixuac/WResVLM) | semi-supervised; vision-language model |
 
 
 ### Application in Adverse Weather Conditions
