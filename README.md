@@ -165,7 +165,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |JCDM| [Joint Conditional Diffusion Model for Image Restoration with Mixed Degradations](https://arxiv.org/abs/2404.07770) | Mixed degradations |raindrop/rainstreak/snow/haze  |arXiv 2024.04 | |Physical model guidance; Diffusion Model |
 |Histoformer| [Restoring Images in Adverse Weather Conditions via Histogram Transformer](https://arxiv.org/abs/2407.10172) | Mixed datasets |raindrop/rainstreak/snow/haze  |ECCV 2024 | [![Stars](https://img.shields.io/github/stars/sunshangquan/Histoformer.svg?style=social&label=Star)](https://github.com/sunshangquan/Histoformer)| Histogram self-attention|
 |OneRestore| [OneRestore: A Universal Restoration Framework for Composite Degradation](https://arxiv.org/abs/2407.04621) | Mixed degradations |low-light/rainstreak/snow/haze  |ECCV 2024 | [![Stars](https://img.shields.io/github/stars/gy65896/OneRestore.svg?style=social&label=Star)](https://github.com/gy65896/OneRestore)| cross-attention; scene descriptors|
-
+|AWRaCLe| [AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning](https://arxiv.org/abs/2409.00263) | Mixed datasets |rainstreak/snow/haze  |arXiv 2024.09 | |CLIP; visual context information |
 
 
 
