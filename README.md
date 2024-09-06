@@ -22,16 +22,6 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 **Purpose**: We aim to provide a summary of all-in-one image processing techniques, including restoration, enhancement, coding, and quality assessment. More papers will be summarized.
 
-[Jiaqi Ma](https://scholar.google.com/citations?user=BJUlpoMAAAAJ&hl=zh-CN)<sup>1,✢</sup>, [Xu Zhang](https://scholar.google.com/citations?user=xDDy-DwAAAAJ&hl=zh-CN)<sup>1,✢</sup>, [Guoli Wang](https://scholar.google.com/citations?user=z-25fk0AAAAJ&hl=zh-CN)<sup>2,</sup>, [Qian Zhang](https://scholar.google.com/citations?user=pCY-bikAAAAJ&hl=zh-CN)<sup>2,</sup>, [Lefei Zhang](https://scholar.google.com/citations?user=BLKHwNwAAAAJ&hl=zh-CN)<sup>1,📧</sup>, [Bo Du](https://scholar.google.com/citations?user=Shy1gnMAAAAJ&hl=zh-CN)<sup>1</sup>, [Liangpei Zhang](https://scholar.google.com/citations?user=vzj2hcYAAAAJ&hl=zh-CN)<sup>1</sup>, [Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN)<sup>3</sup>
-
-<sup>1</sup> Wuhan University\
-<sup>2</sup> Horizon Robotics\
-<sup>3</sup> Nanyang Technological University
-
-(✢) Equal contribution.
-(📧) corresponding author.
-
-**Brief intro**: The survey for all-in-one IR has been released.
 
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2308.09388v1.pdf)   ![visitors](https://visitor-badge.laobi.icu/badge?page_id=lixinustc/Awesome-diffusion-model-for-image-processing) -->
 
@@ -251,19 +241,5 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 ## Cite US
 
-If this work is helpful to you, we expect you can cite this work and star this repo. Thanks.
+WIP!
 
-```
-@article{li2023diffusion,
-  title={Diffusion Models for Image Restoration and Enhancement--A Comprehensive Survey},
-  author={Li, Xin and Ren, Yulin and Jin, Xin and Lan, Cuiling and Wang, Xingrui and Zeng, Wenjun and Wang, Xinchao and Chen, Zhibo},
-  journal={arXiv preprint arXiv:2308.09388},
-  year={2023}
-}
-```
-
- <p align="center">
-  <a href="https://star-history.com/#lixinustc/Awesome-diffusion-model-for-image-processing&Date">
-    <img src="https://api.star-history.com/svg?repos=lixinustc/Awesome-diffusion-model-for-image-processing&type=Date" alt="Star History Chart">
-  </a>
-</p>
