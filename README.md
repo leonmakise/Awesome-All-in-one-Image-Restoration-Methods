@@ -33,7 +33,6 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 
 ## 🌟  Features
-- [x] **Survey for all-in-one image restoration** ([Arxiv version](https://arxiv.org/abs/xxx.xxxx) is released) 
 - [x] **Summary for all-in-one image restoration**
 - [x] **Summary for common-used benchmark and newly proposed datasets**
 
