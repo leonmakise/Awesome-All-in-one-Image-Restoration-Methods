@@ -62,10 +62,10 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 
 ### Universal Image Restoration 
-#### N: Guassian nosie; H: Haze; R: Rain; RD: Raindrop; B: Motion blur; L: Low-light; SR: Super-resolution; E: Enhancement; S: Snow
+#### N: Guassian nosie; H: Haze; R: Rain; RD: Raindrop; B: Motion blur; L: Low-light; SR: Super-resolution; E: Enhancement; S: Snow; J: Compressed JPEG
 | Model | Title |  Task | Venue | Project | Keywords|
 | :-- | :---: | :--: | :--: |:--:|:--:|
-|DL| [A General Decoupled Learning Framework for Parameterized Image Operators](https://arxiv.org/abs/1907.05852) | Natrual Image |ECCV'18 |[![Stars](https://img.shields.io/github/stars/fqnchina/DecoupleLearning.svg?style=social&label=Star)](https://github.com/fqnchina/DecoupleLearning) ||
+|DL| [A General Decoupled Learning Framework for Parameterized Image Operators](https://arxiv.org/abs/1907.05852) | N+R+SR+J |ECCV'18 |[![Stars](https://img.shields.io/github/stars/fqnchina/DecoupleLearning.svg?style=social&label=Star)](https://github.com/fqnchina/DecoupleLearning) ||
 |AirNet| [All-in-one image restoration for unknown corruption](https://pengxi.me/wp-content/uploads/2022/03/All-In-One-Image-Restoration-for-Unknown-Corruption.pdf) | N+H+R |CVPR'22 |[![Stars](https://img.shields.io/github/stars/XLearning-SCU/2022-CVPR-AirNet.svg?style=social&label=Star)](https://github.com/XLearning-SCU/2022-CVPR-AirNet) |Contrastive Learning; Degradation representation|
 |GIQE| [Giqe: Generic image quality enhancement via nth order iterative degradation.](https://openaccess.thecvf.com/content/CVPR2022/papers/Shyam_GIQE_Generic_Image_Quality_Enhancement_via_Nth_Order_Iterative_Degradation_CVPR_2022_paper.pdf) | H+R+B+E+S+RD |CVPR'22 |||
 |IDR| [Ingredient-oriented Multi-Degradation Learning for Image Restoration](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Ingredient-Oriented_Multi-Degradation_Learning_for_Image_Restoration_CVPR_2023_paper.pdf) |  N+H+R+B+L |CVPR'23 |[![Stars](https://img.shields.io/github/stars/JingHao99/IDR-Ingredients-oriented-Degradation-Reformulation.svg?style=social&label=Star)](https://github.com/JingHao99/IDR-Ingredients-oriented-Degradation-Reformulation) | |
