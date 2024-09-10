@@ -155,6 +155,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |OneRestore| [OneRestore: A Universal Restoration Framework for Composite Degradation](https://arxiv.org/abs/2407.04621) | R+H+S+L  |ECCV'24 | [![Stars](https://img.shields.io/github/stars/gy65896/OneRestore.svg?style=social&label=Star)](https://github.com/gy65896/OneRestore)| cross-attention; scene descriptors|
 |AWRaCLe| [AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning](https://arxiv.org/abs/2409.00263) | R+H+S  |arXiv'24.09 | |CLIP; visual context information |
 |WResVLM| [Towards Real-World Adverse Weather Image Restoration: Enhancing Clearness and Semantics with Vision-Language Models](https://arxiv.org/abs/2409.02101v1) | R+RD+H+S  |ECCV'24 |[![Stars](https://img.shields.io/github/stars/jiaqixuac/WResVLM.svg?style=social&label=Star)](https://github.com/jiaqixuac/WResVLM) | semi-supervised; vision-language model |
+|AllWeather-Net|[AllWeather-Net: Unified Image Enhancement for Autonomous Driving Under Adverse Weather and Low-Light Conditions](https://arxiv.org/abs/2409.02045) | R+RD+H+S  |arXiv'24.09 |[![Stars](https://img.shields.io/github/stars/jiaqixuac/WResVLM.svg?style=social&label=Star)](https://github.com/jiaqixuac/WResVLM) | hierarchical architecture; Scaled Illumination-aware Attention |
 
 
 ### Application in Adverse Weather Conditions
