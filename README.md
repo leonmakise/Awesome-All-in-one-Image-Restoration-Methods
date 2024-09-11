@@ -62,7 +62,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 
 
 ### Universal Image Restoration 
-#### N: Guassian nosie; H: Haze; R: Rain; RD: Raindrop; B: Motion blur; L: Low-light; SR: Super-resolution; E: Enhancement; S: Snow; J: Compressed JPEG
+#### N: Guassian nosie; RN: Real Nosie; H: Haze; R: Rain; RD: Raindrop; B: Motion blur; DB: Defocus blur; L: Low-light; SR: Super-resolution; E: Enhancement; S: Snow; J: Compressed JPEG
 | Model | Title |  Task | Venue | Project | Keywords|
 | :-- | :---: | :--: | :--: |:--:|:--:|
 |DL| [A General Decoupled Learning Framework for Parameterized Image Operators](https://arxiv.org/abs/1907.05852) | N+R+SR+J |ECCV'18 |[![Stars](https://img.shields.io/github/stars/fqnchina/DecoupleLearning.svg?style=social&label=Star)](https://github.com/fqnchina/DecoupleLearning) |parameterized image operators|
@@ -77,11 +77,10 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |NDR-Restore| [Neural Degradation Representation Learning for All-In-One Image Restoration](https://arxiv.org/abs/2310.12848) | N+H+R |arXiv'23.10 |[![Stars](https://img.shields.io/github/stars/mdyao/NDR-Restore.svg?style=social&label=Star)](https://github.com/mdyao/NDR-Restore) | neural degradation representation|
 |PIP| [Prompt-In-Prompt Learning for Universal Image Restoration](https://arxiv.org/abs/2312.05038) | N+H+R/N+H+R+B+L|arXiv'23.12 |[![Stars](https://img.shields.io/github/stars/longzilicart/pip_universal.svg?style=social&label=Star)](https://github.com/longzilicart/pip_universal) | |
 |TextPromptIR| [Textual Prompt Guided Image Restoration](https://arxiv.org/abs/2312.06162) |  |arXiv'23.12 |[![Stars](https://img.shields.io/github/stars/MoTong-AI-studio/TextPromptIR.svg?style=social&label=Star)](https://github.com/MoTong-AI-studio/TextPromptIR) | |
-|AdaptIR| [AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models](https://arxiv.org/abs/2312.08881) | Natrual Image |arXiv'23.12 |[![Stars](https://img.shields.io/github/stars/csguoh/AdaptIR.svg?style=social&label=Star)](https://github.com/csguoh/AdaptIR) | |
 |Restornet| [Restornet: An efficient network for multiple degradation image restoration](https://www.sciencedirect.com/science/article/pii/S0950705123008663) |  |KBS'24 |[![Stars](https://img.shields.io/github/stars/xfwang23/RestorNet.svg?style=social&label=Star)](https://github.com/xfwang23/RestorNet) | |
 |CAPTNet| [Prompt-based Ingredient-Oriented All-in-One Image Restoration](https://ieeexplore.ieee.org/abstract/document/10526271) |  |TCSVT'24 |[![Stars](https://img.shields.io/github/stars/Tombs98/CAPTNet.svg?style=social&label=Star)](https://github.com/Tombs98/CAPTNet) | |
 |TextualDegRemoval| [Improving Image Restoration through Removing Degradations in Textual Representations](https://openaccess.thecvf.com/content/CVPR2024/html/Lin_Improving_Image_Restoration_through_Removing_Degradations_in_Textual_Representations_CVPR_2024_paper.html) |  |CVPR'24 |[![Stars](https://img.shields.io/github/stars/mrluin/TextualDegRemoval.svg?style=social&label=Star)](https://github.com/mrluin/TextualDegRemoval) | |
-|MPerceiver| [Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2024/html/Ai_Multimodal_Prompt_Perceiver_Empower_Adaptiveness_Generalizability_and_Fidelity_for_All-in-One_CVPR_2024_paper.html) |   |CVPR'24 | | |
+|MPerceiver| [Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2024/html/Ai_Multimodal_Prompt_Perceiver_Empower_Adaptiveness_Generalizability_and_Fidelity_for_All-in-One_CVPR_2024_paper.html) | N+H+RN+R+RD+B+RB+L+S  |CVPR'24 | |multimodal prompt learning; Stable diffusion priors |
 |DiffUIR| [Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Selective_Hourglass_Mapping_for_Universal_Image_Restoration_Based_on_Diffusion_CVPR_2024_paper.html) | H+R+B+L+S |CVPR'24 |[![Stars](https://img.shields.io/github/stars/iSEE-Laboratory/DiffUIR.svg?style=social&label=Star)](https://github.com/iSEE-Laboratory/DiffUIR) |selective hourglass mapping strategy; Diffusion Model|
 |InstructIR| [InstructIR: High-Quality Image Restoration Following Human Instructions](https://arxiv.org/abs/2401.16468) | N+H+R/N+H+R+B+L+(SR+E) |ECCV'24 |[![Stars](https://img.shields.io/github/stars/mv-lab/InstructIR.svg?style=social&label=Star)](https://github.com/mv-lab/InstructIR) ||
 |RAM| [Restore Anything with Masks: Leveraging Mask Image Modeling for Blind All-in-One Image Restoration]() |  |ECCV'24 |[![Stars](https://img.shields.io/github/stars/Dragonisss/RAM.svg?style=social&label=Star)](https://github.com/Dragonisss/RAM) | |
@@ -91,7 +90,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |U-WADN| [Unified-Width Adaptive Dynamic Network for All-In-One Image Restoration](https://arxiv.org/abs/2401.13221) | N+H+R |arXiv'24.01 |[![Stars](https://img.shields.io/github/stars/xuyimin0926/U-WADN.svg?style=social&label=Star)](https://github.com/xuyimin0926/U-WADN) |Width Adaptive Backbone; Width Selector|
 |AdaIR| [AdaIR: Adaptive All-in-One Image Restoration via Frequency Mining and Modulation](https://arxiv.org/abs/2403.14614) | N+H+R/N+H+R+B+L |arXiv'24.03 |[![Stars](https://img.shields.io/github/stars/c-yn/AdaIR.svg?style=social&label=Star)](https://github.com/c-yn/AdaIR) |frequency mining and modulation|
 |DyNet| [Dynamic Pre-training: Towards Efficient and Scalable All-in-One Image Restoration](https://arxiv.org/abs/2404.02154) | N+H+R |arXiv'24.04 |[![Stars](https://img.shields.io/github/stars/akshaydudhane16/DyNet.svg?style=social&label=Star)](https://github.com/akshaydudhane16/DyNet) | |
-|AdaIR| [AdaIR: Exploiting Underlying Similarities of Image Restoration Tasks with Adapters](https://arxiv.org/abs/2404.11475) | Natrual Image |arXiv'24.04 | ||
+|AdaIR| [AdaIR: Exploiting Underlying Similarities of Image Restoration Tasks with Adapters](https://arxiv.org/abs/2404.11475) | N+R+B |arXiv'24.04 | | self-supervised pre-training; Adaptation|
 |DaAIR| [Efficient Degradation-aware Any Image Restoration](https://arxiv.org/abs/2405.15475) | N+H+R & N+H+R+B+L |arXiv'24.05 |[![Stars](https://img.shields.io/github/stars/eduardzamfir/DaAIR.svg?style=social&label=Star)](https://github.com/eduardzamfir/DaAIR) | |
 |LM4LV| [LM4LV: A Frozen Large Language Model for Low-level Vision Tasks](https://arxiv.org/abs/2405.15734) | N+R+B |arXiv'24.05 |[![Stars](https://img.shields.io/github/stars/bytetriper/LM4LV.svg?style=social&label=Star)](https://github.com/bytetriper/LM4LV) |Frozen Large Language Model|
 |ConStyle v2| [ConStyle v2: A Strong Prompter for All-in-One Image Restoration](https://arxiv.org/abs/2406.18242) |  |arXiv'24.06 |[![Stars](https://img.shields.io/github/stars/Dongqi-Fan/ConStyle_v2.svg?style=social&label=Star)](https://github.com/Dongqi-Fan/ConStyle_v2) | |
@@ -186,7 +185,10 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 | :-- | :---: | :--: | :--: |:--:|:--:|
 |DocRes| [DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_DocRes_A_Generalist_Model_Toward_Unifying_Document_Image_Restoration_Tasks_CVPR_2024_paper.html) | Jiaxin Zhang |Document Image |CVPR 2024|[![Stars](https://img.shields.io/github/stars/ZZZHANG-jx/DocRes.svg?style=social&label=Star)](https://github.com/ZZZHANG-jx/DocRes) |
 
-
+### Parameter adaptation Image Restoration
+| Model | Title |  Type | Venue | Project |Method|
+| :-- | :---: | :--: | :--: |:--:|:--:|
+|AdaptIR| [AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models](https://arxiv.org/abs/2312.08881) | Natrual Image |arXiv'23.12 |[![Stars](https://img.shields.io/github/stars/csguoh/AdaptIR.svg?style=social&label=Star)](https://github.com/csguoh/AdaptIR) |parameter efficient transfer learning |
 
 ### LLM-driven Image Restoration
 | Model | Title | First Author | Type | Venue | Project |
