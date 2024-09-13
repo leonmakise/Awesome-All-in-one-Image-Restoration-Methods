@@ -172,6 +172,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |Fire-Detection| [An Effective Attention-based CNN Model for Fire Detection in Adverse Weather Conditions](https://www.sciencedirect.com/science/article/pii/S0924271623002940) | Hikmat Yar | Fire-Detection |ISPRS JPRS 2023 | [![Stars](https://img.shields.io/github/stars/Hikmat-Yar/ISPRS-Fire-Detection.svg?style=social&label=Star)](https://github.com/Hikmat-Yar/ISPRS-Fire-Detection)|
 |SDRNet| [SDRNet: Saliency-Guided Dynamic Restoration Network for Rain and Haze Removal in Nighttime Images](https://ieeexplore.ieee.org/abstract/document/10447635) | Wanning Zhu | Image |ICASSP 2024 | |
 |SeaIceWeather| [Deep Learning Strategies for Analysis of Weather-Degraded Optical Sea Ice Images]( ) | Nabil Panchi |Natrual Image |IEEE Sensors Journal 2024 | |
+|PLAIR-AW| [Power Line Aerial Image Restoration under Adverse Weather: Datasets and Baselines](https://arxiv.org/abs/2409.04812) | Sai Yang | Image | arXiv 2024 | [![Stars](https://img.shields.io/github/stars/ntuhubin/PLAIR-AW.svg?style=social&label=Star)](https://github.com/ntuhubin/PLAIR-AW) |
 
 
 ### Medical Image Restoration
@@ -210,6 +211,12 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 | :-- | :---: | :--: | :--: |:--:|:--:|
 |CDUN| [Degradation Conditions Guided Cross-Consistent Deep Unfolding Network for All-In-One Video Restoration](https://arxiv.org/abs/2309.01627) | Yuanshuo Cheng | Video | arXiv 2023 | [![Stars](https://img.shields.io/github/stars/YuanshuoCheng/CDUN.svg?style=social&label=Star)](https://github.com/YuanshuoCheng/CDUN) |
 
+
+
+### Degradation Forgetting
+| Model | Title | First Author | Type | Venue | Project |
+| :-- | :---: | :--: | :--: |:--:|:--:|
+|OD| [Accurate Forgetting for All-in-One Image Restoration Model](https://arxiv.org/abs/2409.00685) | Xin Su | Degradation Forgetting | arXiv 2024 |  |
 
 
 
