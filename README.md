@@ -1,12 +1,10 @@
 
 # 😆Awesome-All-in-one-Image-Restoration-Methods
 <p align="center">
-  <img src="./figures/logo.jpg" alt="image" style="width:200px;">
+  <img src="./figures/logo.jpg" alt="image" style="width:700px;">
 </p>
 
-**'What I cannot create, I do not understand.'**
-— *Richard Feynman*
----
+
 
 ## 🎯Purpose
 We aim to provide a list of all-in-one image/video processing techniques, including restoration, enhancement, coding, and quality assessment.
