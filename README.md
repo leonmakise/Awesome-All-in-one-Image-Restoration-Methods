@@ -1,5 +1,5 @@
 
-# Awesome-All-in-one-Image-Restoration-Methods
+# 😆Awesome-All-in-one-Image-Restoration-Methods
 <p align="center">
   <img src="./figures/logo.jpg" alt="image" style="width:200px;">
 </p>
@@ -11,34 +11,39 @@
 
 
 
-A list of awesome all-in-one image restoration methods. Updating...!
+## 🎯Purpose
+We aim to provide a list of all-in-one image/video processing techniques, including restoration, enhancement, coding, and quality assessment.
 
-*We update the newest paper once a week and summarize them at the end of each month.*
+**🆕 Always updating...!** We update the newest paper **once a week** and summarize them **at the end of each month**.
 
-
-
-**Purpose**: We aim to provide a summary of all-in-one image processing techniques, including restoration, enhancement, coding, and quality assessment. More papers will be summarized.
-
+**📌 About new works.** If you want to incorporate your studies (e.g., the link of paper or project) on all-in-one image restoration in this repository. Welcome to raise an **issue** or **email us** (jiaqima@whu.edu.cn or zhangx0802@whu.edu.cn). We will incorporate it into this repository and our survey report ASAP. 
 
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2308.09388v1.pdf)   ![visitors](https://visitor-badge.laobi.icu/badge?page_id=lixinustc/Awesome-diffusion-model-for-image-processing) -->
 
 ## 🔖 News!!!
-- [x] 2024-08-31: **Updated new related works before 31/08/2024 in this GitHub.**
-- [x] 2024-07-31: **Updated new related works before 31/07/2024 in this GitHub.**
-- [x] 2024-06-21: **Updated new related works before 21/06/2024 in this GitHub.**
-
-
-**📌 About new works.** If you want to incorporate your studies (e.g., the link of paper or project) on all-in-one image restoration in this repository. Welcome to raise an issue or email us. We will incorporate it into this repository and our survey report ASAP. 
-
-
-## 🌟  Features
-- [x] **Summary for all-in-one image restoration**
-- [x] **Summary for common-used benchmark and newly proposed datasets**
+- [ ] 2024-09-31: **Updated new papers before 31/09/2024 in this GitHub.**
+- [x] 2024-08-31: **Updated new papers before 31/08/2024 in this GitHub.**
+- [x] 2024-07-31: **Updated new papers before 31/07/2024 in this GitHub.**
+- [x] 2024-06-21: **Updated new papers before 21/06/2024 in this GitHub.**
 
 
 
 
-## Table of contents
+
+## 🌟 Features
+- [ ] **Benchmark datasets**
+- [ ] **Common-used metrics**
+- [ ] **Order rank for papers**
+- [x] **All-in-one image restoration**
+- [x] **Adverse weather removal**
+- [x] **All-in-one video restoration**
+- [x] **Other all-in-one related papers**
+
+
+
+
+
+## 📝 Table of contents
 <!-- - [Survey paper](#survey-paper)
 - [Table of contents](#table-of-contents) -->
 - [All-in-one for Natural Image Restoration](#Universal-Image-Restoration)
