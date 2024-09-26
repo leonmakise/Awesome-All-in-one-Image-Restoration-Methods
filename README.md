@@ -13,10 +13,7 @@
 
 A list of awesome all-in-one image restoration methods. Updating...!
 
-Reference: Diffusion Models for Image Restoration and Enhancement--A Comprehensive Survey
-
-Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
-
+*We update the newest paper once a week and summarize them at the end of each month.*
 
 
 
@@ -26,8 +23,10 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2308.09388v1.pdf)   ![visitors](https://visitor-badge.laobi.icu/badge?page_id=lixinustc/Awesome-diffusion-model-for-image-processing) -->
 
 ## 🔖 News!!!
-- [x] 2024-06-21: **Updated new related works before 21/06/2024 in this GitHub.**
+- [x] 2024-08-31: **Updated new related works before 31/08/2024 in this GitHub.**
 - [x] 2024-07-31: **Updated new related works before 31/07/2024 in this GitHub.**
+- [x] 2024-06-21: **Updated new related works before 21/06/2024 in this GitHub.**
+
 
 **📌 About new works.** If you want to incorporate your studies (e.g., the link of paper or project) on all-in-one image restoration in this repository. Welcome to raise an issue or email us. We will incorporate it into this repository and our survey report ASAP. 
 
