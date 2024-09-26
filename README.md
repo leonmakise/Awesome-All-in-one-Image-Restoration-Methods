@@ -60,9 +60,9 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 - [All-in-one with New Techniques](#image-deblurring) -->
 
 
+#### N: Guassian nosie; RN: Real Nosie; H/F: Haze/Fog; R: Rain; RD: Raindrop; B: Motion blur; DB: Defocus blur; L: Low-light; SR: Super-resolution; E: Enhancement; S: Snow; J: Compressed JPEG
 
 ### Universal Image Restoration 
-#### N: Guassian nosie; RN: Real Nosie; H: Haze; R: Rain; RD: Raindrop; B: Motion blur; DB: Defocus blur; L: Low-light; SR: Super-resolution; E: Enhancement; S: Snow; J: Compressed JPEG
 | Model | Title |  Task | Venue | Project | Keywords|
 | :-- | :---: | :--: | :--: |:--:|:--:|
 |DL| [A General Decoupled Learning Framework for Parameterized Image Operators](https://arxiv.org/abs/1907.05852) | N+R+SR+J |ECCV'18 |[![Stars](https://img.shields.io/github/stars/fqnchina/DecoupleLearning.svg?style=social&label=Star)](https://github.com/fqnchina/DecoupleLearning) |parameterized image operators|
@@ -117,18 +117,18 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 ### Adverse Weather Removal
 | Model | Title | Task | Venue | Project | Method |
 | :-- | :---: | :--: |:--:|:--:|:--:|
-|All-in-one| [All in One Bad Weather Removal using Architectural Search](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_All_in_One_Bad_Weather_Removal_Using_Architectural_Search_CVPR_2020_paper.pdf) | R+RD+H+S |CVPR'20 | | |
+|All-in-one| [All in One Bad Weather Removal using Architectural Search](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_All_in_One_Bad_Weather_Removal_Using_Architectural_Search_CVPR_2020_paper.pdf) | R+RD+H+S |CVPR'20 | | NAS; Shared decoder |
 |TKL|[Learning Multiple Adverse Weather Removal via Two-stage Knowledge Learning and Multi-contrastive Regularization: Toward a Unified Model](https://arxiv.org/abs/2104.14951) | | CVPR'22 | [![Stars](https://img.shields.io/github/stars/fingerk28/Two-stage-Knowledge-For-Multiple-Adverse-Weather-Removal.svg?style=social&label=Star)](https://github.com/fingerk28/Two-stage-Knowledge-For-Multiple-Adverse-Weather-Removal) | |
-|TransWeather| [TransWeather: Transformer-based Restoration of Images Degraded by Adverse Weather Conditions](https://openaccess.thecvf.com/content/CVPR2022/papers/Valanarasu_TransWeather_Transformer-Based_Restoration_of_Images_Degraded_by_Adverse_Weather_Conditions_CVPR_2022_paper.pdf) | R+RD+H+S|CVPR'22| [![Stars](https://img.shields.io/github/stars/jeya-maria-jose/TransWeather.svg?style=social&label=Star)](https://github.com/jeya-maria-jose/TransWeather)| Transformer model;Weather type queries||
+|TransWeather| [TransWeather: Transformer-based Restoration of Images Degraded by Adverse Weather Conditions](https://openaccess.thecvf.com/content/CVPR2022/papers/Valanarasu_TransWeather_Transformer-Based_Restoration_of_Images_Degraded_by_Adverse_Weather_Conditions_CVPR_2022_paper.pdf) | R+RD+H+S|CVPR'22| [![Stars](https://img.shields.io/github/stars/jeya-maria-jose/TransWeather.svg?style=social&label=Star)](https://github.com/jeya-maria-jose/TransWeather)| Transformer model; Weather type queries||
 |BIDeN| [Blind Image Decomposition](https://arxiv.org/abs/2108.11364) | R+RD+H+S |ECCV'22|[![Stars](https://img.shields.io/github/stars/JunlinHan/BID.svg?style=social&label=Star)](https://github.com/JunlinHan/BID)|Multi-scale encoder; GANs |
 |UVRNet| [Unified Multi-Weather Visibility Restoration](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9966834) |  |TMM'22|[![Stars](https://img.shields.io/github/stars/AshutoshKulkarni4998/UVRNet.svg?style=social&label=Star)](https://github.com/AshutoshKulkarni4998/UVRNet)| |
 |AIRFormer| [Frequency-Oriented Efficient Transformer for All-in-One Weather-Degraded Image Restoration](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10196308) |  |TCSVT'23|| |
 |WeatherDiffusion| [Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models](https://doi.org/10.1109/TPAMI.2023.3238179) | R+RD+H+S |TPAMI'23 |[![Stars](https://img.shields.io/github/stars/IGITUGraz/WeatherDiffusion.svg?style=social&label=Star)](https://github.com/IGITUGraz/WeatherDiffusion) | Patch-based diffusion model|
 |TOENet| [Let You See in Haze and Sandstorm: Two-in-One Low-Visibility Enhancement Network](https://ieeexplore.ieee.org/abstract/document/10216344) |  |TIM'23 |[![Stars](https://img.shields.io/github/stars/YuanGao-YG/TOENet.svg?style=social&label=Star)](https://github.com/YuanGao-YG/TOENet) | |
-|ADMS| [All-in-one Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations](https://openaccess.thecvf.com/content/CVPR2023/papers/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.pdf) |  |CVPR'23 | | |
-|SmartAssign| [SmartAssign: Learning A Smart Knowledge Assignment Strategy for Deraining and Desnowing](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_SmartAssign_Learning_a_Smart_Knowledge_Assignment_Strategy_for_Deraining_and_CVPR_2023_paper.pdf) |  |CVPR'23 | | |
-|WGWS-Net| [Learning Weather-General and Weather-Specific Features for Image Restoration Under Multiple Adverse Weather Conditions](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Learning_Weather-General_and_Weather-Specific_Features_for_Image_Restoration_Under_Multiple_CVPR_2023_paper.pdf) |  |CVPR'23 | [![Stars](https://img.shields.io/github/stars/zhuyr97/WGWS-Net.svg?style=social&label=Star)](https://github.com/zhuyr97/WGWS-Net)| |
-|WeatherStream| [WeatherStream: Light Transport Automation of Single Image Deweathering](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_WeatherStream_Light_Transport_Automation_of_Single_Image_Deweathering_CVPR_2023_paper.pdf) | |CVPR'23 | [![Stars](https://img.shields.io/github/stars/UCLA-VMG/WeatherStream.svg?style=social&label=Star)](https://github.com/UCLA-VMG/WeatherStream)| |
+|ADMS| [All-in-one Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations](https://openaccess.thecvf.com/content/CVPR2023/papers/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.pdf) | R+N+B/R+S+H |CVPR'23 | | |
+|SmartAssign| [SmartAssign: Learning A Smart Knowledge Assignment Strategy for Deraining and Desnowing](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_SmartAssign_Learning_a_Smart_Knowledge_Assignment_Strategy_for_Deraining_and_CVPR_2023_paper.pdf) | R+S |CVPR'23 | | |
+|WGWS-Net| [Learning Weather-General and Weather-Specific Features for Image Restoration Under Multiple Adverse Weather Conditions](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Learning_Weather-General_and_Weather-Specific_Features_for_Image_Restoration_Under_Multiple_CVPR_2023_paper.pdf) | R+RD+H/R+S+H |CVPR'23 | [![Stars](https://img.shields.io/github/stars/zhuyr97/WGWS-Net.svg?style=social&label=Star)](https://github.com/zhuyr97/WGWS-Net)| |
+|WeatherStream| [WeatherStream: Light Transport Automation of Single Image Deweathering](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_WeatherStream_Light_Transport_Automation_of_Single_Image_Deweathering_CVPR_2023_paper.pdf) | R+F+S |CVPR'23 | [![Stars](https://img.shields.io/github/stars/UCLA-VMG/WeatherStream.svg?style=social&label=Star)](https://github.com/UCLA-VMG/WeatherStream)| |
 |RAHC| [Learning to Restore Arbitrary Hybrid Adverse Weather Conditions in One Go](https://arxiv.org/abs/2305.09996) |  |arXiv'23.05 | [![Stars](https://img.shields.io/github/stars/Jeasco/RAHC.svg?style=social&label=Star)](https://github.com/Jeasco/RAHC)||
 |WM-MoE| [WM-MoE: Weather-aware Multi-scale Mixture-of-Experts for Blind Adverse Weather Removal](https://arxiv.org/abs/2303.13739v2) |  |arXiv 2023 | ||
 |MetaWeather| [MetaWeather: Few-Shot Weather-Degraded Image Restoration](https://arxiv.org/abs/2308.14334) | R+D+S+H_M  |ECCV'24 | [![Stars](https://img.shields.io/github/stars/RangeWING/MetaWeather.svg?style=social&label=Star)](https://github.com/RangeWING/MetaWeather)| meta-learning framework|  
@@ -232,14 +232,12 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |[SeaIceWeather ](https://ieee-dataport.org/documents/seaiceweather)|Image De-weathering|Training,Testing|2024|
 
 
-### Benchmark Datasets (distortion)
+### Benchmark Datasets (Working In Progress!) 
 |Dataset|Task|Usage|Year|
 |:----:|:----:|:----:|:----:|
-|[DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K)|Image Super-resolution|Training,Testing|2017|
-|[Flickr2K](https://www.kaggle.com/datasets/daehoyang/flickr2k)|Image Super-resolution|Training|2017|
 |[SeaIceWeather ](https://ieee-dataport.org/documents/seaiceweather)|Image De-weathering|Training,Testing|2024|
 
-### Common-used Metrics 
+### Common-used Metrics (Working In Progress!) 
 
 <!-- # Diffusion model-based Image quality assessment
 |Model| Paper | First Author | Venue | Topic | Project |
