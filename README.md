@@ -1,17 +1,17 @@
 
-# 😆Awesome-All-in-one-Image-Restoration-Methods
+# <p align=center> 😆Awesome-All-in-one-Image-Restoration-Methods</p>
 <p align="center">
   <img src="./figures/logo.jpg" alt="image" style="width:700px;">
 </p>
 
-
+<p align=center><b>[ Last updated at 26/09/2024 ]</b></p>
 
 ## 🎯Purpose
-We aim to provide a list of all-in-one image/video processing techniques, including restoration, enhancement, coding, and quality assessment.
+We aim to provide a list of all-in-one image/video processing techniques, including restoration, enhancement, coding and quality assessment.
 
 **🆕 Always updating...!** We update the newest paper **once a week** and summarize them **at the end of each month**.
 
-**📌 About new works.** If you want to incorporate your studies (e.g., the link of paper or project) on all-in-one image restoration in this repository. Welcome to raise an **issue** or **email us** (jiaqima@whu.edu.cn or zhangx0802@whu.edu.cn). We will incorporate it into this repository and our survey report ASAP. 
+**📌 About new papers.** If you want to incorporate your studies (e.g., the link of paper or project) on all-in-one image restoration in this repository. Welcome to raise an **issue** or **email us** (jiaqima@whu.edu.cn or zhangx0802@whu.edu.cn). We will incorporate it into this repository and our survey report ASAP. 
 
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2308.09388v1.pdf)   ![visitors](https://visitor-badge.laobi.icu/badge?page_id=lixinustc/Awesome-diffusion-model-for-image-processing) -->
 
