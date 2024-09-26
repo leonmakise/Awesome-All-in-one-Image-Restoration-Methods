@@ -32,10 +32,10 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 - [ ] **Benchmark datasets**
 - [ ] **Common-used metrics**
 - [ ] **Order rank for papers**
-- [√] **All-in-one image restoration**
-- [√] **Adverse weather removal**
-- [√] **All-in-one video restoration**
-- [√] **Other all-in-one related papers**
+- [×] **All-in-one image restoration**
+- [×] **Adverse weather removal**
+- [×] **All-in-one video restoration**
+- [×] **Other all-in-one related papers**
 
 
 ## 🔠 Abbreviation of degradation
