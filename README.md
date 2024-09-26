@@ -8,9 +8,6 @@
 — *Richard Feynman*
 ---
 
-
-
-
 ## 🎯Purpose
 We aim to provide a list of all-in-one image/video processing techniques, including restoration, enhancement, coding, and quality assessment.
 
@@ -21,32 +18,41 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2308.09388v1.pdf)   ![visitors](https://visitor-badge.laobi.icu/badge?page_id=lixinustc/Awesome-diffusion-model-for-image-processing) -->
 
 ## 🔖 News!!!
-- [ ] 2024-09-31: **Updated new papers before 31/09/2024 in this GitHub.**
-- [x] 2024-08-31: **Updated new papers before 31/08/2024 in this GitHub.**
-- [x] 2024-07-31: **Updated new papers before 31/07/2024 in this GitHub.**
-- [x] 2024-06-21: **Updated new papers before 21/06/2024 in this GitHub.**
-
-
-
+- [ ] 2024-xx-xx: **A comprehensive survey is coming soon~**
+- [ ] 2024-09-31: **Updated new papers before 31/09/2024.**
+- [√] 2024-08-31: **Updated new papers before 31/08/2024.**
+- [√] 2024-08-28: **Our paper [Perceive-IR](https://arxiv.org/abs/2408.15994) is on arXiv and under peer review, reach SOTA on all-in-one image restoration tasks.**
+- [√] 2024-07-31: **Updated new papers before 31/07/2024.**
+- [√] 2024-06-21: **Updated new papers before 21/06/2024.**
+- [√] 2024-06-17: **This repo is lauched to better investigate existing all-in-one restoration methods!**
+- [√] 2023-06-23: **Our paper [ProRes](https://arxiv.org/abs/2306.13653) is on arXiv and under peer review, nearly the first to introduce visual prompt into all-in-one image restoration tasks.**
 
 
 ## 🌟 Features
 - [ ] **Benchmark datasets**
 - [ ] **Common-used metrics**
 - [ ] **Order rank for papers**
-- [x] **All-in-one image restoration**
-- [x] **Adverse weather removal**
-- [x] **All-in-one video restoration**
-- [x] **Other all-in-one related papers**
+- [√] **All-in-one image restoration**
+- [√] **Adverse weather removal**
+- [√] **All-in-one video restoration**
+- [√] **Other all-in-one related papers**
 
 
+## 🔠 Abbreviation of degradation
 
+| Degradation type | Guassian nosie | Real Nosie   | Haze/Fog              | Rain             | Raindrop        | Compressed JPEG | 
+| :---------------- | :--------------: | :------------: | :---------------------: | :----------------: | :---------------: | :---------------: |
+| Abbreviation             | N              | RN           | H/F                   | R                | RD              | J               | 
+
+| Degradation type | Motion blur    | Defocus blur | Low-light/Enhancement | Super-resolution |   Snow |
+| :---------------- | :--------------: | :------------: | :---------------------: | :----------------: |  :----: |
+| Abbreviation             | B              | DB           | L/E                   | SR               |   S    |
 
 
 ## 📝 Table of contents
 <!-- - [Survey paper](#survey-paper)
 - [Table of contents](#table-of-contents) -->
-- [All-in-one for Natural Image Restoration](#Universal-Image-Restoration)
+- [All-in-one for Natural Image Restoration](#All-in-one-Image-Restoration)
 - [All-in-one for Adverse Weather Removal](#Adverse-Weather-Removal)
 - [Application in Adverse Weather Conditions](#Application-in-Adverse-Weather-Conditions)
 - [All-in-one for Medical Image Restoration](#Medical-Image-Restoration)
@@ -64,9 +70,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 - [All-in-one with New Techniques](#image-deblurring) -->
 
 
-#### N: Guassian nosie; RN: Real Nosie; H/F: Haze/Fog; R: Rain; RD: Raindrop; B: Motion blur; DB: Defocus blur; L: Low-light; SR: Super-resolution; E: Enhancement; S: Snow; J: Compressed JPEG
-
-### Universal Image Restoration 
+### All in one Image Restoration
 | Model | Title |  Task | Venue | Project | Keywords|
 | :-- | :---: | :--: | :--: |:--:|:--:|
 |DL| [A General Decoupled Learning Framework for Parameterized Image Operators](https://arxiv.org/abs/1907.05852) | N+R+SR+J |ECCV'18 |[![Stars](https://img.shields.io/github/stars/fqnchina/DecoupleLearning.svg?style=social&label=Star)](https://github.com/fqnchina/DecoupleLearning) |parameterized image operators|
@@ -218,6 +222,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |DiffTTA| [Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Genuine_Knowledge_from_Practice_Diffusion_Test-Time_Adaptation_for_Video_Adverse_CVPR_2024_paper.pdf) | Yijun Yang | Adverse weather |CVPR'24 |[![Stars](https://img.shields.io/github/stars/scott-yjyang/DiffTTA.svg?style=social&label=Star)](https://github.com/scott-yjyang/DiffTTA)|
 |SD4VS| [Leveraging Synthetic Data to Learn Video Stabilization Under Adverse Conditions](https://openaccess.thecvf.com/content/WACV2024/papers/Kerim_Leveraging_Synthetic_Data_To_Learn_Video_Stabilization_Under_Adverse_Conditions_WACV_2024_paper.pdf) | Abdulrahman Kerim | Video stabilization |WACV 2024 |[![Stars](https://img.shields.io/github/stars/A-Kerim/SyntheticData4VideoStabilization_WACV_2024.svg?style=social&label=Star)](https://github.com/A-Kerim/SyntheticData4VideoStabilization_WACV_2024) |
 |ViWS-Net| [Video Adverse-Weather-Component Suppression Network via Weather Messenger and Adversarial Backpropagation](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Video_Adverse-Weather-Component_Suppression_Network_via_Weather_Messenger_and_Adversarial_Backpropagation_ICCV_2023_paper.pdf) | Yijun Yang | Adverse weather |ICCV'23 | [![Stars](https://img.shields.io/github/stars/scott-yjyang/ViWS-Net.svg?style=social&label=Star)](https://github.com/scott-yjyang/ViWS-Net)||
+
 ### Degradation Forgetting
 | Model | Title | First Author | Type | Venue | Project |
 | :-- | :---: | :--: | :--: |:--:|:--:|
@@ -251,7 +256,6 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |DifFIQA| [DifFIQA: Face Image Quality Assessment Using Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2305.05768) | Žiga Babnik | Preprint'23 | Image quality assessment | |
 |PFD-IQA| [Feature Denoising Diffusion Model for Blind Image Quality Assessment](https://arxiv.org/abs/2401.11949) | Xudong Li | Preprint'24 | Image quality assessment | | -->
 
-## Cite US
-
+## 🤝 Cite us
 WIP!
 
