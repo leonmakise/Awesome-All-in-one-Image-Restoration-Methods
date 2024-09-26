@@ -145,7 +145,7 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |MPDAC | [Multiple Adverse Weather Removal Using Masked-Based Pre-Training and Dual-Pooling Adaptive Convolution](https://ieeexplore.ieee.org/document/10506517) | |Access'24 |[![Stars](https://img.shields.io/github/stars/ShugoYamashita/MPDAC.svg?style=social&label=Star)](https://github.com/ShugoYamashita/MPDAC) | |
 |MoFME| [Efficient Deweather Mixture-of-Experts with Uncertainty-aware Feature-wise Linear Modulation](https://arxiv.org/abs/2312.16610) | R+RD+S |AAAI'24 | [![Stars](https://img.shields.io/github/stars/RoyZry98/MoFME-Pytorch.svg?style=social&label=Star)](https://github.com/RoyZry98/MoFME-Pytorch)|MoE architecture |
 |Imperfect-deweathering| [Learning Real-World Image De-Weathering with Imperfect Supervision](https://arxiv.org/abs/2310.14958) |H+R+S  |AAAI'24 | [![Stars](https://img.shields.io/github/stars/1180300419/imperfect-deweathering.svg?style=social&label=Star)](https://github.com/1180300419/imperfect-deweathering)|Consistent Label Constructor |
-|DiffTTA| [Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Genuine_Knowledge_from_Practice_Diffusion_Test-Time_Adaptation_for_Video_Adverse_CVPR_2024_paper.pdf) | |CVPR'24 |[![Stars](https://img.shields.io/github/stars/scott-yjyang/DiffTTA.svg?style=social&label=Star)](https://github.com/scott-yjyang/DiffTTA)| Video;|
+|DiffTTA| [Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Genuine_Knowledge_from_Practice_Diffusion_Test-Time_Adaptation_for_Video_Adverse_CVPR_2024_paper.pdf) | |CVPR'24 |[![Stars](https://img.shields.io/github/stars/scott-yjyang/DiffTTA.svg?style=social&label=Star)](https://github.com/scott-yjyang/DiffTTA)| Video |
 |LDR| [Language-driven All-in-one Adverse Weather Removal](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Language-driven_All-in-one_Adverse_Weather_Removal_CVPR_2024_paper.pdf) |  |CVPR'24 |[![Stars](https://img.shields.io/github/stars/noxsine/LDR.svg?style=social&label=Star)](https://github.com/noxsine/LDR)| |
 |AoSRNet| [AoSRNet: All-in-One Scene Recovery Networks via Multi-knowledge Integration](https://arxiv.org/abs/2402.03738) | |KBS'24 |[![Stars](https://img.shields.io/github/stars/LouisYuxuLu/AoSRNet.svg?style=social&label=Star)](https://github.com/LouisYuxuLu/AoSRNet) | |
 |AiOENet| [AiOENet: All-in-One Low-Visibility Enhancement to Improve Visual Perception for Intelligent Marine Vehicles Under Severe Weather Conditions](https://ieeexplore.ieee.org/abstract/document/10375786) |  |TIV'24 | | |
@@ -210,10 +210,10 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 ### Video Restoration
 | Model | Title | First Author | Type | Venue | Project |
 | :-- | :---: | :--: | :--: |:--:|:--:|
-|CDUN| [Degradation Conditions Guided Cross-Consistent Deep Unfolding Network for All-In-One Video Restoration](https://arxiv.org/abs/2309.01627) | Yuanshuo Cheng | Video | arXiv 2023 | [![Stars](https://img.shields.io/github/stars/YuanshuoCheng/CDUN.svg?style=social&label=Star)](https://github.com/YuanshuoCheng/CDUN) |
-
-
-
+|CDUN| [Degradation Conditions Guided Cross-Consistent Deep Unfolding Network for All-In-One Video Restoration](https://arxiv.org/abs/2309.01627) | Yuanshuo Cheng | AIO | arXiv 2023 | [![Stars](https://img.shields.io/github/stars/YuanshuoCheng/CDUN.svg?style=social&label=Star)](https://github.com/YuanshuoCheng/CDUN) |
+|DiffTTA| [Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Genuine_Knowledge_from_Practice_Diffusion_Test-Time_Adaptation_for_Video_Adverse_CVPR_2024_paper.pdf) | Yijun Yang | Adverse weather |CVPR'24 |[![Stars](https://img.shields.io/github/stars/scott-yjyang/DiffTTA.svg?style=social&label=Star)](https://github.com/scott-yjyang/DiffTTA)|
+|SD4VS| [Leveraging Synthetic Data to Learn Video Stabilization Under Adverse Conditions](https://openaccess.thecvf.com/content/WACV2024/papers/Kerim_Leveraging_Synthetic_Data_To_Learn_Video_Stabilization_Under_Adverse_Conditions_WACV_2024_paper.pdf) | Abdulrahman Kerim | Video stabilization |WACV 2024 |[![Stars](https://img.shields.io/github/stars/A-Kerim/SyntheticData4VideoStabilization_WACV_2024.svg?style=social&label=Star)](https://github.com/A-Kerim/SyntheticData4VideoStabilization_WACV_2024) |
+|ViWS-Net| [Video Adverse-Weather-Component Suppression Network via Weather Messenger and Adversarial Backpropagation](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Video_Adverse-Weather-Component_Suppression_Network_via_Weather_Messenger_and_Adversarial_Backpropagation_ICCV_2023_paper.pdf) | Yijun Yang | Adverse weather |ICCV'23 | [![Stars](https://img.shields.io/github/stars/scott-yjyang/ViWS-Net.svg?style=social&label=Star)](https://github.com/scott-yjyang/ViWS-Net)||
 ### Degradation Forgetting
 | Model | Title | First Author | Type | Venue | Project |
 | :-- | :---: | :--: | :--: |:--:|:--:|
@@ -228,16 +228,18 @@ Link: https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing
 |[Snow100K](https://ieeexplore.ieee.org/document/8291596) |snow| 100K synthetic images|  [download](https://sites.google.com/view/yunfuliu/desnownet) |IEEE TIP 2018|
 |[Outdoor-Rain](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Heavy_Rain_Image_Restoration_Integrating_Physics_Model_and_Conditional_Adversarial_CVPR_2019_paper.pdf) |haze & rain| 9000 train/1500 val|  [download](https://www.dropbox.com/scl/fo/3c7wutxxmnvd4pwyiwvk8/AM3FAJcvKImc-rgaRUBhr5Q?rlkey=16vbvckaeg9wwk20fww8s9ubd&e=1&dl=0) |CVPR 2019|
 |[ALL-Weather](https://openaccess.thecvf.com/content/CVPR2022/papers/Valanarasu_TransWeather_Transformer-Based_Restoration_of_Images_Degraded_by_Adverse_Weather_Conditions_CVPR_2022_paper.pdf)|haze & rain/snow/raindrop|Train (18069): Outdoor-Rain (8250), Snow100K (9001), and Raindrop (818)/Test: Snow100K-L (16801), RaindropA (58), Outdoor-Rain (750)|[download](https://drive.google.com/file/d/1tfeBnjZX1wIhIFPl6HOzzOKOyo0GdGHl/view)|CVPR 2022|
-|[Flickr2K]()|Image Super-resolution|Training|2017|
-|[SeaIceWeather ](https://ieee-dataport.org/documents/seaiceweather)|Image De-weathering|Training,Testing|2024|
+|[Flickr2K]()|Image Super-resolution|Training||2017|
+|[SeaIceWeather ](https://ieee-dataport.org/documents/seaiceweather)|Image De-weathering|Training,Testing||2024|
 
 
-### Benchmark Datasets (Working In Progress!) 
+### Benchmark Datasets (Distortion) Working In Progress!
 |Dataset|Task|Usage|Year|
 |:----:|:----:|:----:|:----:|
+|[DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K)|Image Super-resolution|Training,Testing|2017|
+|[Flickr2K](https://www.kaggle.com/datasets/daehoyang/flickr2k)|Image Super-resolution|Training|2017|
 |[SeaIceWeather ](https://ieee-dataport.org/documents/seaiceweather)|Image De-weathering|Training,Testing|2024|
 
-### Common-used Metrics (Working In Progress!) 
+### Common-used Metrics Working In Progress!
 
 <!-- # Diffusion model-based Image quality assessment
 |Model| Paper | First Author | Venue | Topic | Project |
