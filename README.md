@@ -20,22 +20,22 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 ## 🔖 News!!!
 - [ ] 2024-xx-xx: **A comprehensive survey is coming soon~**
 - [ ] 2024-09-31: **Updated new papers before 31/09/2024.**
-- [√] 2024-08-31: **Updated new papers before 31/08/2024.**
-- [√] 2024-08-28: **Our paper [Perceive-IR](https://arxiv.org/abs/2408.15994) is on arXiv and under peer review, reach SOTA on all-in-one image restoration tasks.**
-- [√] 2024-07-31: **Updated new papers before 31/07/2024.**
-- [√] 2024-06-21: **Updated new papers before 21/06/2024.**
-- [√] 2024-06-17: **This repo is lauched to better investigate existing all-in-one restoration methods!**
-- [√] 2023-06-23: **Our paper [ProRes](https://arxiv.org/abs/2306.13653) is on arXiv and under peer review, nearly the first to introduce visual prompt into all-in-one image restoration tasks.**
+- [x] 2024-08-31: **Updated new papers before 31/08/2024.**
+- [x] 2024-08-28: **Our paper [Perceive-IR](https://arxiv.org/abs/2408.15994) is on arXiv and under peer review, reach SOTA on all-in-one image restoration tasks.**
+- [x] 2024-07-31: **Updated new papers before 31/07/2024.**
+- [x] 2024-06-21: **Updated new papers before 21/06/2024.**
+- [x] 2024-06-17: **This repo is lauched to better investigate existing all-in-one restoration methods!**
+- [x] 2023-06-23: **Our paper [ProRes](https://arxiv.org/abs/2306.13653) is on arXiv and under peer review, nearly the first to introduce visual prompt into all-in-one image restoration tasks.**
 
 
 ## 🌟 Features
 - [ ] **Benchmark datasets**
 - [ ] **Common-used metrics**
 - [ ] **Order rank for papers**
-- [×] **All-in-one image restoration**
-- [×] **Adverse weather removal**
-- [×] **All-in-one video restoration**
-- [×] **Other all-in-one related papers**
+- [x] **All-in-one image restoration**
+- [x] **Adverse weather removal**
+- [x] **All-in-one video restoration**
+- [x] **Other all-in-one related papers**
 
 
 ## 🔠 Abbreviation of degradation
