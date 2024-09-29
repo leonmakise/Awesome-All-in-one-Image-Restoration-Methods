@@ -19,7 +19,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 - [ ] 2024-xx-xx: **A comprehensive survey is coming soon~**
 - [ ] 2024-09-31: **Updated new papers before 31/09/2024.**
 - [x] 2024-08-31: **Updated new papers before 31/08/2024.**
-- [x] 2024-08-28: **Our paper [Perceive-IR](https://arxiv.org/abs/2408.15994) is on arXiv and under peer review, reach SOTA on all-in-one image restoration tasks.**
+- [x] 2024-08-28: **Our paper [Perceive-IR](https://arxiv.org/abs/2408.15994) is on arXiv and under peer review, which reach SOTA on two all-in-one settings.**
 - [x] 2024-07-31: **Updated new papers before 31/07/2024.**
 - [x] 2024-06-21: **Updated new papers before 21/06/2024.**
 - [x] 2024-06-17: **This repo is lauched to better investigate existing all-in-one restoration methods!**
