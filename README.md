@@ -163,6 +163,8 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |AWRaCLe| [AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning](https://arxiv.org/abs/2409.00263) | R+H+S  |arXiv'24.09 | |CLIP; visual context information |
 |AllWeather-Net|[AllWeather-Net: Unified Image Enhancement for Autonomous Driving Under Adverse Weather and Low-Light Conditions](https://arxiv.org/abs/2409.02045) | R+RD+H+S  |arXiv'24.09 || knowledge distillation; Scaled Illumination-aware Attention |
 |D4IR|[Data-free Distillation with Degradation-prompt Diffusion for Multi-weather Image Restoration](https://arxiv.org/abs/2409.03455) | R+H+S  |arXiv'24.09 || hierarchical architecture; diffusion model |
+|ReviveDiff|[ReviveDiff: A Universal Diffusion Model for Restoring Images in Adverse Weather Conditions]() |   |arXiv'24.09 ||  |
+
 
 ### Application in Adverse Weather Conditions
 | Model | Title | First Author | Type | Venue | Project |
