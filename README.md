@@ -108,7 +108,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |ColorRA| [Contribution-based Low-Rank Adaptation with Pre-training Model for Real Image Restoration](https://arxiv.org/abs/2408.01099) | N+H+R+RD+B |ECCV'24 |[![Stars](https://img.shields.io/github/stars/janeyeon/colora.svg?style=social&label=Star)](https://github.com/janeyeon/colora)|low-rank adaptation|
 |HAIR| [HAIR: Hypernetworks-based All-in-One Image Restoration](https://arxiv.org/abs/2408.08091) | N+H+R/N+H+R+B+L |arXiv'24.08 |[![Stars](https://img.shields.io/github/stars/toummHus/HAIR.svg?style=social&label=Star)](https://github.com/toummHus/HAIR) |Classifier/Hyper Selecting|
 |BIR-D| [Taming Generative Diffusion for Universal Blind Image Restoration](https://arxiv.org/abs/2408.11287v1) | More than 9 degradations |arXiv'24.08 | |Blind method; diffusion|
-
+|UIR-LoRA| [UIR-LoRA: Achieving Universal Image Restoration through Multiple Low-Rank Adaptation](https://arxiv.org/pdf/2409.20197) | More than 10 degradations |arXiv'24.09 | |LoRA; degradation similarity|
 
 
 
