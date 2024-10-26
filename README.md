@@ -109,7 +109,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |HAIR| [HAIR: Hypernetworks-based All-in-One Image Restoration](https://arxiv.org/abs/2408.08091) | N+H+R/N+H+R+B+L |arXiv'24.08 |[![Stars](https://img.shields.io/github/stars/toummHus/HAIR.svg?style=social&label=Star)](https://github.com/toummHus/HAIR) |Classifier/Hyper Selecting|
 |BIR-D| [Taming Generative Diffusion for Universal Blind Image Restoration](https://arxiv.org/abs/2408.11287v1) | More than 9 degradations |arXiv'24.08 | |Blind method; diffusion|
 |UIR-LoRA| [UIR-LoRA: Achieving Universal Image Restoration through Multiple Low-Rank Adaptation](https://arxiv.org/pdf/2409.20197) | More than 10 degradations |arXiv'24.09 | |LoRA; degradation similarity|
-
+|LoRA-IR| [LoRA-IR: Taming Low-Rank Experts for Efficient All-in-One Image Restoration](https://arxiv.org/pdf/2410.15385) |  N+H+R |arXiv'24.10 |[![Stars](https://img.shields.io/github/stars/shallowdream204/LoRA-IR.svg?style=social&label=Star)](https://github.com/shallowdream204/LoRA-IR) |MoE; LoRA|
 
 
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
