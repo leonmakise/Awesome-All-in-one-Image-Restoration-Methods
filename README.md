@@ -110,6 +110,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |BIR-D| [Taming Generative Diffusion for Universal Blind Image Restoration](https://arxiv.org/abs/2408.11287v1) | More than 9 degradations |arXiv'24.08 | |Blind method; diffusion|
 |UIR-LoRA| [UIR-LoRA: Achieving Universal Image Restoration through Multiple Low-Rank Adaptation](https://arxiv.org/pdf/2409.20197) | More than 10 degradations |arXiv'24.09 | |LoRA; degradation similarity|
 |LoRA-IR| [LoRA-IR: Taming Low-Rank Experts for Efficient All-in-One Image Restoration](https://arxiv.org/pdf/2410.15385) |  N+H+R |arXiv'24.10 |[![Stars](https://img.shields.io/github/stars/shallowdream204/LoRA-IR.svg?style=social&label=Star)](https://github.com/shallowdream204/LoRA-IR) |MoE; LoRA|
+|COR| [Chain-of-Restoration: Multi-Task Image Restoration Models are Zero-Shot Step-by-Step Universal Image Restorers](https://arxiv.org/pdf/2410.08688) | three degradations |arXiv'24.10 |[![Stars](https://img.shields.io/github/stars/toummHus/Chain-of-Restoration.svg?style=social&label=Star)](https://github.com/toummHus/Chain-of-Restoration) |Chain-of-Thought; Zero-shot|
 
 
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
