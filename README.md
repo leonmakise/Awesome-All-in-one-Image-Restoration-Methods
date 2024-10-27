@@ -113,6 +113,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |COR| [Chain-of-Restoration: Multi-Task Image Restoration Models are Zero-Shot Step-by-Step Universal Image Restorers](https://arxiv.org/pdf/2410.08688) | three degradations |arXiv'24.10 |[![Stars](https://img.shields.io/github/stars/toummHus/Chain-of-Restoration.svg?style=social&label=Star)](https://github.com/toummHus/Chain-of-Restoration) |Chain-of-Thought; Zero-shot|
 
 
+
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
 
 
