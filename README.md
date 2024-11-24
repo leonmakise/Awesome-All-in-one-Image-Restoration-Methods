@@ -113,7 +113,6 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |COR| [Chain-of-Restoration: Multi-Task Image Restoration Models are Zero-Shot Step-by-Step Universal Image Restorers](https://arxiv.org/pdf/2410.08688) | three degradations |arXiv'24.10 |[![Stars](https://img.shields.io/github/stars/toummHus/Chain-of-Restoration.svg?style=social&label=Star)](https://github.com/toummHus/Chain-of-Restoration) |Chain-of-Thought; Zero-shot|
 
 
-
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
 
 
@@ -166,6 +165,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |AllWeather-Net|[AllWeather-Net: Unified Image Enhancement for Autonomous Driving Under Adverse Weather and Low-Light Conditions](https://arxiv.org/abs/2409.02045) | R+RD+H+S  |arXiv'24.09 || knowledge distillation; Scaled Illumination-aware Attention |
 |D4IR|[Data-free Distillation with Degradation-prompt Diffusion for Multi-weather Image Restoration](https://arxiv.org/abs/2409.03455) | R+H+S  |arXiv'24.09 || hierarchical architecture; diffusion model |
 |ReviveDiff|[ReviveDiff: A Universal Diffusion Model for Restoring Images in Adverse Weather Conditions](https://arxiv.org/pdf/2409.18932) |  R+H+L+UIE |arXiv'24.09 ||  Coarse-to-Fine Learning|
+|WNE-Net| [All-in-one Weather-degraded Image Restoration via Adaptive Degradation-aware Self-prompting Model](https://arxiv.org/pdf/2411.07445) |  |arXiv'24.11 | |self-prompting|
 
 
 ### Application in Adverse Weather Conditions
