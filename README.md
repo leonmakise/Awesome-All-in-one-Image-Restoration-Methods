@@ -114,6 +114,9 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |COR| [Chain-of-Restoration: Multi-Task Image Restoration Models are Zero-Shot Step-by-Step Universal Image Restorers](https://arxiv.org/pdf/2410.08688) | three degradations |arXiv'24.10 |[![Stars](https://img.shields.io/github/stars/toummHus/Chain-of-Restoration.svg?style=social&label=Star)](https://github.com/toummHus/Chain-of-Restoration) |
 |MoCE-IR| [Complexity Experts are Task-Discriminative Learners for Any Image Restoration](https://arxiv.org/pdf/2411.18466) | N+H+R/N+H+R+B+L |arXiv'24.11 |[![Stars](https://img.shields.io/github/stars/eduardzamfir/MoCE-IR.svg?style=social&label=Star)](https://github.com/eduardzamfir/MoCE-IR) |
 |FoundIR| [FoundIR: Unleashing Million-scale Training Data to Advance Foundation Models for Image Restoration](https://arxiv.org/pdf/2411.18466) | More than 10 degradations |arXiv'24.12 |[![Stars](https://img.shields.io/github/stars/House-Leo/FoundIR.svg?style=social&label=Star)](https://github.com/House-Leo/FoundIR) |
+|| [Visual-Instructed Degradation Diffusion for All-in-One Image Restoration]() |  |CVPR'25 |[![Stars](https://img.shields.io/github/stars/House-Leo/FoundIR.svg?style=social&label=Star)](https://github.com/House-Leo/FoundIR) |
+|| [Degradation-Aware Feature Perturbation for All-in-One Image Restoration]() |   |CVPR'25 | |
+
 
 
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
@@ -170,7 +173,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |D4IR|[Data-free Distillation with Degradation-prompt Diffusion for Multi-weather Image Restoration](https://arxiv.org/abs/2409.03455) | R+H+S  |arXiv'24.09 || hierarchical architecture; diffusion model |
 |ReviveDiff|[ReviveDiff: A Universal Diffusion Model for Restoring Images in Adverse Weather Conditions](https://arxiv.org/pdf/2409.18932) |  R+H+L+UIE |arXiv'24.09 ||  Coarse-to-Fine Learning|
 |WNE-Net| [All-in-one Weather-degraded Image Restoration via Adaptive Degradation-aware Self-prompting Model](https://arxiv.org/pdf/2411.07445) |  |arXiv'24.11 | |self-prompting|
-|| [Degradation-Aware Feature Perturbation for All-in-One Image Restoration]() |  |CVPR'25| ||
+
 
 ### Application in Adverse Weather Conditions
 | Model | Title | First Author | Type | Venue | Project |
