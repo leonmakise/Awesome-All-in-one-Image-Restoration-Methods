@@ -170,7 +170,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |D4IR|[Data-free Distillation with Degradation-prompt Diffusion for Multi-weather Image Restoration](https://arxiv.org/abs/2409.03455) | R+H+S  |arXiv'24.09 || hierarchical architecture; diffusion model |
 |ReviveDiff|[ReviveDiff: A Universal Diffusion Model for Restoring Images in Adverse Weather Conditions](https://arxiv.org/pdf/2409.18932) |  R+H+L+UIE |arXiv'24.09 ||  Coarse-to-Fine Learning|
 |WNE-Net| [All-in-one Weather-degraded Image Restoration via Adaptive Degradation-aware Self-prompting Model](https://arxiv.org/pdf/2411.07445) |  |arXiv'24.11 | |self-prompting|
-
+|| [Degradation-Aware Feature Perturbation for All-in-One Image Restoration]() |  |CVPR'25| ||
 
 ### Application in Adverse Weather Conditions
 | Model | Title | First Author | Type | Venue | Project |
