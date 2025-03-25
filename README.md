@@ -116,6 +116,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |FoundIR| [FoundIR: Unleashing Million-scale Training Data to Advance Foundation Models for Image Restoration](https://arxiv.org/pdf/2411.18466) | More than 10 degradations |arXiv'24.12 |[![Stars](https://img.shields.io/github/stars/House-Leo/FoundIR.svg?style=social&label=Star)](https://github.com/House-Leo/FoundIR) |
 || [Visual-Instructed Degradation Diffusion for All-in-One Image Restoration]() |  |CVPR'25 |[![Stars](https://img.shields.io/github/stars/House-Leo/FoundIR.svg?style=social&label=Star)](https://github.com/House-Leo/FoundIR) |
 || [Degradation-Aware Feature Perturbation for All-in-One Image Restoration]() |   |CVPR'25 | |
+|Cat-AIR| [Cat-AIR: Content and Task-Aware All-in-One Image Restoration](https://arxiv.org/pdf/2503.17915) |   |CVPR'25 | |
 
 
 
