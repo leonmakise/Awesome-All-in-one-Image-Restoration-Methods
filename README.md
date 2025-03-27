@@ -118,7 +118,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 || [Degradation-Aware Feature Perturbation for All-in-One Image Restoration]() |   |CVPR'25 | |
 |Cat-AIR| [Cat-AIR: Content and Task-Aware All-in-One Image Restoration](https://arxiv.org/pdf/2503.17915) | N+H+R/N+H+R+B+L  |CVPR'25 | |
 |VLUNet| [Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks](https://arxiv.org/pdf/2503.16930) | N+H+R/N+H+R+B+L  |CVPR'25 | |
-
+|UniCoRN| [UNICORN: Latent Diffusion-based Unified Controllable Image Restoration Network across Multiple Degradations](https://arxiv.org/pdf/2503.15868) |   |arXiv'25.03 | |
 
 
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
