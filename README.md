@@ -120,6 +120,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |VLUNet| [Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks](https://arxiv.org/pdf/2503.16930) | N+H+R/N+H+R+B+L  |CVPR'25 | |
 |GenDeg| [GenDeg: Diffusion-Based Degradation Synthesis for Generalizable All-in-One Image Restoration](https://arxiv.org/pdf/2411.17687) |   |CVPR'25 | |
 |UniCoRN| [UNICORN: Latent Diffusion-based Unified Controllable Image Restoration Network across Multiple Degradations](https://arxiv.org/pdf/2503.15868) |   |arXiv'25.03 | |
+|MP-HSIR| [MP-HSIR: A Multi-Prompt Framework for Universal Hyperspectral Image Restoration](https://arxiv.org/pdf/2503.09131) | RS image |arXiv'25.03 | |
 
 
 <!-- | | [All-in-One Image Dehazing Based on Attention Mechanism](https://link.springer.com/chapter/10.1007/978-981-99-6486-4_5) | Qingyue Dai |Natrual Image |ICIRA 2023 | | -->
