@@ -17,7 +17,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 
 ## 🔖 News!!!
 - [ ] 2025-xx-xx: **A comprehensive survey is coming soon~**
-- [x] 2025-04-30: **Our paper [Perceive-IR](https://arxiv.org/abs/2408.15994) is accepted by IEEE TIP.**
+- [x] 2025-04-27: **Our paper [Perceive-IR](https://arxiv.org/abs/2408.15994) has been accepted by IEEE TIP 2025.**
 - [x] 2025-04-30: **Updated new papers before 30/04/2025.**
 - [x] 2024-08-28: **Our paper [Perceive-IR](https://arxiv.org/abs/2408.15994) is on arXiv and under peer review, which reach SOTA on two all-in-one settings.**
 - [x] 2024-07-31: **Updated new papers before 31/07/2024.**
