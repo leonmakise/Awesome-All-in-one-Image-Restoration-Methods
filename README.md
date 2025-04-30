@@ -16,9 +16,9 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2308.09388v1.pdf)   ![visitors](https://visitor-badge.laobi.icu/badge?page_id=lixinustc/Awesome-diffusion-model-for-image-processing) -->
 
 ## 🔖 News!!!
-- [ ] 2024-xx-xx: **A comprehensive survey is coming soon~**
-- [ ] 2024-09-31: **Updated new papers before 31/09/2024.**
-- [x] 2024-08-31: **Updated new papers before 31/08/2024.**
+- [ ] 2025-xx-xx: **A comprehensive survey is coming soon~**
+- [x] 2025-04-30: **Our paper [Perceive-IR](https://arxiv.org/abs/2408.15994) is accepted by IEEE TIP.**
+- [x] 2025-04-30: **Updated new papers before 30/04/2025.**
 - [x] 2024-08-28: **Our paper [Perceive-IR](https://arxiv.org/abs/2408.15994) is on arXiv and under peer review, which reach SOTA on two all-in-one settings.**
 - [x] 2024-07-31: **Updated new papers before 31/07/2024.**
 - [x] 2024-06-21: **Updated new papers before 21/06/2024.**
