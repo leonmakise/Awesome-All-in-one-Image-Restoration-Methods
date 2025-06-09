@@ -4,7 +4,7 @@
   <img src="./figures/logo.jpg" alt="image" style="width:700px;">
 </p>
 
-<p align=center><b>[ Last updated at 26/09/2024 ]</b></p>
+<p align=center><b>[ Last updated at 09/06/2025 ]</b></p>
 
 ## 🎯Purpose
 We aim to provide a list of all-in-one image/video processing techniques, including restoration, enhancement, coding and quality assessment.
@@ -114,7 +114,7 @@ We aim to provide a list of all-in-one image/video processing techniques, includ
 |COR| [Chain-of-Restoration: Multi-Task Image Restoration Models are Zero-Shot Step-by-Step Universal Image Restorers](https://arxiv.org/pdf/2410.08688) | three degradations |arXiv'24.10 |[![Stars](https://img.shields.io/github/stars/toummHus/Chain-of-Restoration.svg?style=social&label=Star)](https://github.com/toummHus/Chain-of-Restoration) |
 |MoCE-IR| [Complexity Experts are Task-Discriminative Learners for Any Image Restoration](https://arxiv.org/pdf/2411.18466) | N+H+R/N+H+R+B+L |CVPR'25 |[![Stars](https://img.shields.io/github/stars/eduardzamfir/MoCE-IR.svg?style=social&label=Star)](https://github.com/eduardzamfir/MoCE-IR) |
 |FoundIR| [FoundIR: Unleashing Million-scale Training Data to Advance Foundation Models for Image Restoration](https://arxiv.org/pdf/2411.18466) | More than 10 degradations |arXiv'24.12 |[![Stars](https://img.shields.io/github/stars/House-Leo/FoundIR.svg?style=social&label=Star)](https://github.com/House-Leo/FoundIR) |
-|| [Visual-Instructed Degradation Diffusion for All-in-One Image Restoration]() |  |CVPR'25 |[![Stars](https://img.shields.io/github/stars/House-Leo/FoundIR.svg?style=social&label=Star)](https://github.com/House-Leo/FoundIR) |
+|Defusion| [Visual-Instructed Degradation Diffusion for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2025/html/Luo_Visual-Instructed_Degradation_Diffusion_for_All-in-One_Image_Restoration_CVPR_2025_paper.html) |  |CVPR'25 |[![Stars](https://img.shields.io/github/stars/luowyang/Defusion.svg?style=social&label=Star)](https://github.com/luowyang/Defusion) |
 || [Degradation-Aware Feature Perturbation for All-in-One Image Restoration]() |   |CVPR'25 | |
 |Cat-AIR| [Cat-AIR: Content and Task-Aware All-in-One Image Restoration](https://arxiv.org/pdf/2503.17915) | N+H+R/N+H+R+B+L  |CVPR'25 | |
 |VLUNet| [Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks](https://arxiv.org/pdf/2503.16930) | N+H+R/N+H+R+B+L  |CVPR'25 | |
