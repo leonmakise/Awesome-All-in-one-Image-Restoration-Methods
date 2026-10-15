@@ -12,14 +12,11 @@ A curated collection of research papers, public implementations, and benchmarks 
 
 Papers are grouped by topic and sorted chronologically by verified publication year (or preprint year when not yet confirmed as published). Each paper appears **once** in the main tables; related themes are linked through a compact topic index.
 
-**Journal selection:** Only **CCF-A journals** are included, following the [2026 CCF seventh-edition list](https://www.ccf.org.cn/Academic_Evaluation/By_category/). Relevant A-tier journals here are **TPAMI, IJCV, TIP, and TMM** (TMM was upgraded in the seventh edition). Conference papers are not subject to this journal-only filter; papers without verified formal publication remain labeled **arXiv**.
 
 ## Recent Updates
 
-- **2026-10-15:** Audited 39 arXiv-listed papers against formal publications, updated verified venues and official paper links, and removed non-CCF-A journal articles (2026 CCF seventh edition).
-- **2026-10-15:** Integrated recent TPAMI, TIP, IJCV, CVPR, ICCV, ECCV, NeurIPS, and ICLR works into their primary categories.
 - **2026-10-15:** Standardized paper tables, removed duplicate entries, and reviewed code links. Repository-only pages are labeled **Project**, not **Code**.
-- **2025-04-27:** [Perceive-IR](https://arxiv.org/abs/2408.15994) was accepted by IEEE TIP.
+- **2025-04-27:** [Perceive-IR](https://arxiv.org/abs/2408.15994) was accepted by IEEE TIP. ClearAIR: A Human-Visual-Perception-Inspired All-in-One Image Restoration. ClusIR: Towards Cluster-Guided All-in-One Image Restoration. Uniuir: Considering underwater image restoration as an all-in-one learner. Prores: Exploring degradation-aware visual prompt for universal image restoration.
 
 ## Contents
 
