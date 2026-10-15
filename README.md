@@ -13,10 +13,15 @@ A curated collection of research papers, public implementations, and benchmarks 
 Papers are grouped by topic and sorted chronologically by verified publication year (or preprint year when not yet confirmed as published). Each paper appears **once** in the main tables; related themes are linked through a compact topic index.
 
 
-## Recent Updates
+
+## 🔥 Recent Updates
 
 - **2026-10-15:** Standardized paper tables, removed duplicate entries, and reviewed code links. Repository-only pages are labeled **Project**, not **Code**.
-- **2025-04-27:** [Perceive-IR](https://arxiv.org/abs/2408.15994) was accepted by IEEE TIP. ClearAIR: A Human-Visual-Perception-Inspired All-in-One Image Restoration. ClusIR: Towards Cluster-Guided All-in-One Image Restoration. Uniuir: Considering underwater image restoration as an all-in-one learner. Prores: Exploring degradation-aware visual prompt for universal image restoration.
+- **2026-07:** [ClusIR](https://arxiv.org/abs/2512.10948): Towards Cluster-Guided All-in-One Image Restoration was accepted by **ACM MM 2026**.
+- **2026-03-14:** [ClearAIR](https://ojs.aaai.org/index.php/AAAI/article/view/38284): A Human-Visual-Perception-Inspired All-in-One Image Restoration was published at **AAAI 2026**.
+- **2025-10-14:** [UniUIR](https://doi.org/10.1109/TIP.2025.3618377): Considering Underwater Image Restoration as an All-in-One Learner was published in **IEEE TIP 2025**.
+- **2025-04-27:** [Perceive-IR](https://arxiv.org/abs/2408.15994): Learning to Perceive Degradation Better for All-in-One Image Restoration was accepted by **IEEE TIP 2025**.
+- **2024-09-29:** Code and models for [ProRes](https://github.com/leonmakise/ProRes): Exploring Degradation-aware Visual Prompt for Universal Image Restoration were released.
 
 ## Contents
 
