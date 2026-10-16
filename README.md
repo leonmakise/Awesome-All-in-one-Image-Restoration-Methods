@@ -12,13 +12,9 @@ A curated collection of research papers, public implementations, and benchmarks 
 
 Papers are grouped by topic and sorted chronologically by verified publication year (or preprint year when not yet confirmed as published). Each paper appears **once** in the main tables; related themes are linked through a compact topic index.
 
-**Pre-2025 arXiv screening:** The five most-cited papers still lacking verified formal publication are **ProRes (94)**, **HAIR (30)**, **LoRA-IR (26)**, **LM4LV (19)**, and **DyNet (18)**. Approximate citation counts were checked in October 2026 using Scholar Feed and Connected Papers/Semantic Scholar-linked records. Published non-CCF-A journal work was removed. Newer arXiv papers are selected by relevance, not citation count.
-
 
 
 ## 🔥 Recent Updates
-
-- **2026-10-16:** Audited pre-2025 arXiv publications, retained only the five most-cited unpublished preprints, and added relevant 2026 work and code links to the corresponding sections.
 
 - **2026-10-15:** Standardized paper tables, removed duplicate entries, and reviewed code links. Repository-only pages are labeled **Project**, not **Code**.
 - **2026-07:** [ClusIR](https://arxiv.org/abs/2512.10948): Towards Cluster-Guided All-in-One Image Restoration was accepted by **ACM MM 2026**.
