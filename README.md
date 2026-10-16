@@ -4,7 +4,7 @@
   <img src="./figures/logo.jpg" alt="Awesome All-in-One Image Restoration" width="680">
 </p>
 
-<p align="center"><strong>Last updated: October 15, 2026</strong></p>
+<p align="center"><strong>Last updated: October 16, 2026</strong></p>
 
 ## About
 
@@ -12,9 +12,13 @@ A curated collection of research papers, public implementations, and benchmarks 
 
 Papers are grouped by topic and sorted chronologically by verified publication year (or preprint year when not yet confirmed as published). Each paper appears **once** in the main tables; related themes are linked through a compact topic index.
 
+**Pre-2025 arXiv screening:** The five most-cited papers still lacking verified formal publication are **ProRes (94)**, **HAIR (30)**, **LoRA-IR (26)**, **LM4LV (19)**, and **DyNet (18)**. Approximate citation counts were checked in October 2026 using Scholar Feed and Connected Papers/Semantic Scholar-linked records. Published non-CCF-A journal work was removed. Newer arXiv papers are selected by relevance, not citation count.
+
 
 
 ## 🔥 Recent Updates
+
+- **2026-10-16:** Audited pre-2025 arXiv publications, retained only the five most-cited unpublished preprints, and added relevant 2026 work and code links to the corresponding sections.
 
 - **2026-10-15:** Standardized paper tables, removed duplicate entries, and reviewed code links. Repository-only pages are labeled **Project**, not **Code**.
 - **2026-07:** [ClusIR](https://arxiv.org/abs/2512.10948): Towards Cluster-Guided All-in-One Image Restoration was accepted by **ACM MM 2026**.
@@ -31,12 +35,15 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 - [Vision-Language and Instruction-Guided Restoration](#vision-language-and-instruction-guided-restoration)
 - [Other Applications](#other-applications)
   - [Downstream Vision under Adverse Weather](#downstream-vision-under-adverse-weather)
+  - [Underwater Image Restoration](#underwater-image-restoration)
   - [Medical Image Restoration](#medical-image-restoration)
+  - [Remote Sensing and Hyperspectral Restoration](#remote-sensing-and-hyperspectral-restoration)
   - [Document Image Restoration](#document-image-restoration)
   - [Parameter Adaptation](#parameter-adaptation)
   - [Visual Prompting and Related Tasks](#visual-prompting-and-related-tasks)
+  - [Agentic Image Restoration](#agentic-image-restoration)
   - [Video Restoration](#video-restoration)
-  - [Degradation Forgetting](#degradation-forgetting)
+  - [Continual Image Restoration](#continual-image-restoration)
 - [Benchmarks and Metrics](#benchmarks-and-metrics)
 - [Related Surveys](#related-surveys)
 - [Contributing](#contributing)
@@ -62,7 +69,6 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 | AMIRNet | [All-in-one Multi-degradation Image Restoration Network via Hierarchical Degradation Representation](https://dl.acm.org/doi/abs/10.1145/3581783.3611825) | RN+B+DB+L | ACM MM 2023 | [Code](https://github.com/Justones/AMIRNet) |
 | IDR | [Ingredient-oriented Multi-Degradation Learning for Image Restoration](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Ingredient-Oriented_Multi-Degradation_Learning_for_Image_Restoration_CVPR_2023_paper.pdf) | N+H+R+B+L | CVPR 2023 | [Code](https://github.com/Jinghaoleven/IDR-Ingredients-oriented-Degradation-Reformulation) |
 | PromptIR | [PromptIR: Prompting for All-in-One Blind Image Restoration](https://papers.nips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html) | N+H+R | NeurIPS 2023 | [Code](https://github.com/va1shn9v/PromptIR) |
-| DRM-IR | [DRM-IR: Task-Adaptive Deep Unfolding Network for All-In-One Image Restoration](https://arxiv.org/abs/2307.07688) | H+R+L | arXiv 2023 | [Code](https://github.com/YuanshuoCheng/RDM-IR) |
 | ProRes | [ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration](https://arxiv.org/abs/2306.13653) | RN+R+B+L | arXiv 2023 | [Code](https://github.com/leonmakise/prores) |
 | AutoDIR | [AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion](https://doi.org/10.1007/978-3-031-73661-2_19) | N+H+R+B+L+RD+SR | ECCV 2024 | [Code](https://github.com/jiangyitong/AutoDIR) |
 | BIR-D | [Taming Generative Diffusion Prior for Universal Blind Image Restoration](https://proceedings.neurips.cc/paper_files/paper/2024/hash/25869dbf7682272357bc2cbbf860e1c8-Abstract-Conference.html) | >9 types | NeurIPS 2024 | [Code](https://github.com/Tusiwei/BIR-D) |
@@ -76,18 +82,10 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 | RAM | [Restore Anything with Masks: Leveraging Mask Image Modeling for Blind All-in-One Image Restoration](https://arxiv.org/pdf/2409.19403) | N+H+R+B+KB+L+J | ECCV 2024 | [Code](https://github.com/DragonisCV/RAM) |
 | TextualDegRemoval | [Improving Image Restoration through Removing Degradations in Textual Representations](https://openaccess.thecvf.com/content/CVPR2024/html/Lin_Improving_Image_Restoration_through_Removing_Degradations_in_Textual_Representations_CVPR_2024_paper.html) | N+H+R | CVPR 2024 | [Code](https://github.com/mrluin/TextualDegRemoval) |
 | UniProcessor | [UniProcessor: A Text-induced Unified Low-level Image Processor](https://arxiv.org/abs/2407.20928) | 30 types | ECCV 2024 | [Code](https://github.com/IntMeGroup/UniProcessor) |
-| AdaIR (adapters) | [AdaIR: Exploiting Underlying Similarities of Image Restoration Tasks with Adapters](https://arxiv.org/abs/2404.11475) | N+R+B | arXiv 2024 | — |
-| ConStyle v2 | [ConStyle v2: A Strong Prompter for All-in-One Image Restoration](https://arxiv.org/abs/2406.18242) | N+H+R+B+DB+L+S+J | arXiv 2024 | [Code](https://github.com/Dongqi-Fan/ConStyle_v2) |
-| COR | [Chain-of-Restoration: Multi-Task Image Restoration Models are Zero-Shot Step-by-Step Universal Image Restorers](https://arxiv.org/pdf/2410.08688) | 3 types | arXiv 2024 | — |
-| DaAIR | [Efficient Degradation-aware Any Image Restoration](https://arxiv.org/abs/2405.15475) | N+H+R / N+H+R+B+L | arXiv 2024 | [Project](https://github.com/eduardzamfir/DaAIR) |
 | DyNet | [Dynamic Pre-training: Towards Efficient and Scalable All-in-One Image Restoration](https://arxiv.org/abs/2404.02154) | N+H+R | arXiv 2024 | [Code](https://github.com/akshaydudhane16/DyNet) |
 | HAIR | [HAIR: Hypernetworks-based All-in-One Image Restoration](https://arxiv.org/abs/2408.08091) | N+H+R / N+H+R+B+L | arXiv 2024 | [Code](https://github.com/jin-cao-tma/HAIR) |
-| Instruct-IPT | [Instruct-IPT: All-in-One Image Processing Transformer via Weight Modulation](https://export.arxiv.org/abs/2407.00676) | N+H+R+B+S | arXiv 2024 | — |
 | LM4LV | [LM4LV: A Frozen Large Language Model for Low-level Vision Tasks](https://arxiv.org/abs/2405.15734) | N+R+B | arXiv 2024 | [Code](https://github.com/bytetriper/LM4LV) |
-| LMDIR | [Training-Free Large Model Priors for Multiple-in-One Image Restoration](https://arxiv.org/abs/2407.13181v1) | N+R+L | arXiv 2024 | — |
 | LoRA-IR | [LoRA-IR: Taming Low-Rank Experts for Efficient All-in-One Image Restoration](https://arxiv.org/pdf/2410.15385) | N+H+R | arXiv 2024 | [Code](https://github.com/shallowdream204/LoRA-IR) |
-| MiOIR | [Towards Effective Multiple-in-One Image Restoration: A Sequential and Prompt Learning Strategy](https://arxiv.org/abs/2401.03379) | N+H+R+B+L+SR+J | arXiv 2024 | [Code](https://github.com/Xiangtaokong/MiOIR) |
-| UIR-LoRA | [UIR-LoRA: Achieving Universal Image Restoration through Multiple Low-Rank Adaptation](https://arxiv.org/pdf/2409.20197) | >10 types | arXiv 2024 | — |
 | AdaIR (frequency) | [AdaIR: Adaptive All-in-One Image Restoration via Frequency Mining and Modulation](https://arxiv.org/abs/2403.14614) | N+H+R / N+H+R+B+L | ICLR 2025 | [Code](https://github.com/c-yn/AdaIR) |
 | Cat-AIR | [Cat-AIR: Content and Task-Aware All-in-One Image Restoration](https://arxiv.org/pdf/2503.17915) | N+H+R / N+H+R+B+L | CVPR 2025 | — |
 | Defusion | [Visual-Instructed Degradation Diffusion for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2025/html/Luo_Visual-Instructed_Degradation_Diffusion_for_All-in-One_Image_Restoration_CVPR_2025_paper.html) | — | CVPR 2025 | [Project](https://github.com/luowyang/Defusion) |
@@ -103,20 +101,40 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 | VLU-Net | [Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks](https://arxiv.org/pdf/2503.16930) | N+H+R / N+H+R+B+L | CVPR 2025 | [Code](https://github.com/xianggkl/VLU-Net) |
 | AdaptIR (frequency) | [Efficient All-in-One Image Restoration With Adaptive Frequency Enhancement](https://doi.org/10.1109/TIP.2026.3715328) | — | TIP 2026 | [Project](https://github.com/c-yn/AdaptIR) |
 | BaryIR | [Learning Continuous Wasserstein Barycenter Space for Generalized All-in-One Image Restoration](https://doi.org/10.1109/TPAMI.2026.3669121) | — | TPAMI 2026 | [Code](https://github.com/xl-tang3/BaryIR) |
+| Beyond Uniform Restoration | [Beyond Uniform Restoration: Empowering All-in-One Restoration with Pixel-Level Multimodal Guidance](https://arxiv.org/abs/2608.09482) | — | ACM MM 2026 | — |
 | CDIR | [CDIR: LoRA-Inspired Attention for Efficient Composite Degradation Image Restoration](https://doi.org/10.1109/TIP.2026.3682023) | — | TIP 2026 | — |
+| ClearAIR | [ClearAIR: A Human-Visual-Perception-Inspired All-in-One Image Restoration](https://arxiv.org/abs/2601.02763) | — | AAAI 2026 | [Code](https://github.com/House-yuyu/ClearAIR) |
+| ClusIR | [Towards Cluster-Guided All-in-One Image Restoration](https://arxiv.org/abs/2512.10948) | — | ACM MM 2026 | — |
 | CPLIR | [Beyond Degradation Redundancy: Contrastive Prompt Learning for All-in-One Image Restoration](https://doi.org/10.1109/TPAMI.2025.3642852) | — | TPAMI 2026 | [Code](https://github.com/Aitical/CPLIR) |
+| CURE | [CURE: Controllable Unified Image Restoration for Complex Degradations](https://arxiv.org/abs/2607.03044) | Mixed | ICPR 2026 | [Code](https://github.com/bo-oseng/CURE) |
 | CWP-Net | [All-in-One Image Restoration via Causal-Deconfounding Wavelet-Disentangled Prompt Network](https://doi.org/10.1109/TIP.2026.3675478) | — | TIP 2026 | — |
+| DATPRL-IR | [Learning Domain-Aware Task Prompt Representations for Multi-Domain All-in-One Image Restoration](https://arxiv.org/abs/2603.01725) | Multi-domain | ICLR 2026 | [Code](https://github.com/GuangluDong0728/DATPRL-IR) |
 | DCTTA | [Degradation-Consistent Test-Time Adaptation for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2026/html/Tang_Degradation-Consistent_Test-Time_Adaptation_for_All-in-One_Image_Restoration_CVPR_2026_paper.html) | — | CVPR 2026 | [Code](https://github.com/tonia86/DCTTA) |
+| DRNet | [DRNet: All-in-One Image Restoration via Prior-Guided Dynamic Reparameterization](https://arxiv.org/abs/2605.08627) | N+H+R+B+L | TMM 2026 | [Code](https://github.com/AVC2-UESTC/DRNet-AiO) |
 | Expert Weaving | [Expert Weaving: Marrying Masked Auto-Regressive and Diffusion Models for Unified Image Restoration](https://eccv.ecva.net/virtual/2026/poster/3361) | — | ECCV 2026 | [Project](https://github.com/xin1u/MoSE_PAGE) |
 | Focal Modulation | [Focal Modulation for Image Restoration](https://doi.org/10.1007/s11263-025-02589-y) | — | IJCV 2026 | — |
+| FoundIR-v2 | [FoundIR-v2: Optimizing Pre-Training Data Mixtures for Image Restoration Foundation Model](https://arxiv.org/abs/2512.09282) | — | CVPR 2026 | [Code](https://github.com/cschenxiang/FoundIR-v2) |
+| QuReC | [QuReC: All-in-One Image Restoration with Query-Specific Guidance and Local-Global Response Calibration](https://arxiv.org/abs/2607.15097) | — | ACM MM 2026 | [Code](https://github.com/zhoushen1/QuReC) |
 | RAR | [Restore, Assess, Repeat: A Unified Framework for Iterative Image Restoration](https://arxiv.org/abs/2603.26385) | — | CVPR 2026 | [Code](https://github.com/SamsungLabs/RAR) |
+| Retrieve-to-Restore | [Retrieve-to-Restore: Efficient All-in-One Image Restoration with a Retrieval-Based Degradation Bank](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Retrieve-to-Restore_Efficient_All-in-One_Image_Restoration_with_a_Retrieval-Based_Degradation_Bank_CVPR_2026_paper.pdf) | — | CVPR 2026 | [Code](https://github.com/cscxwang/R2R) |
 | SLAIR | [SLAIR: Structured Latent Flow Matching for All-in-One Image Restoration](https://link.springer.com/chapter/10.1007/978-3-032-37517-9_3) | — | ECCV 2026 | [Code](https://github.com/Fightforql/SLAIR) |
 | SLER-IR | [SLER-IR: Spherical Layer-wise Expert Routing for All-in-One Image Restoration](https://arxiv.org/abs/2603.05940) | — | ECCV 2026 | [Project](https://github.com/PSR666/SLER-IR) |
 | StarIR | [StarIR: Convolutional Image Restoration With Spatial-Frequency Fusion](https://doi.org/10.1109/TPAMI.2026.3672465) | — | TPAMI 2026 | [Code](https://github.com/c-yn/StarIR) |
+| UDBM | [Unifying Heterogeneous Degradations: Uncertainty-Aware Diffusion Bridge Model for All-in-One Image Restoration](https://arxiv.org/abs/2601.21592) | — | ICML 2026 | — |
 | UniCoRN | [UNICORN: Latent Diffusion-based Unified Controllable Image Restoration Network across Multiple Degradations](https://openaccess.thecvf.com/content/WACV2026/html/Mandal_UniCoRN_Latent_Diffusion-based_Unified_Controllable_Image_Restoration_Network_across_Multiple_WACV_2026_paper.html) | — | WACV 2026 | — |
+| UniLDiff | [UniLDiff: Unlocking the Power of Diffusion Priors for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2026/html/Cheng_UniLDiff_Unlocking_the_Power_of_Diffusion_Priors_for_All-in-One_Image_CVPR_2026_paper.html) | — | CVPR 2026 | — |
 | UniRestorer | [UniRestorer: Universal Image Restoration via Adaptively Estimating Image Degradation at Proper Granularity](https://proceedings.iclr.cc/paper_files/paper/2026/hash/04fb0ea2010694af12735724a601a3b4-Abstract-Conference.html) | — | ICLR 2026 | [Code](https://github.com/mrluin/UniRestorer) |
 | VCMAIR | [Virtual Consistency Model for All-in-One Image Restoration](https://doi.org/10.1109/TIP.2026.3710487) | — | TIP 2026 | — |
 | VIVNet | [Visual-in-Visual: A Unified and Efficient Baseline for Image Restoration](https://doi.org/10.1109/TPAMI.2026.3669720) | — | TPAMI 2026 | [Code](https://github.com/c-yn/VIVNet) |
+| DACG-IR | [Degradation-Aware Adaptive Context Gating for Unified Image Restoration](https://arxiv.org/abs/2605.01236) | Multi-task | arXiv 2026 | [Code](https://github.com/HlHomes/DACG-IR-code) |
+| DFC | [Degradation Frequency Curve: An Explicit Frequency-Quantified Representation for All-in-One Image Restoration](https://arxiv.org/abs/2605.17506) | — | arXiv 2026 | — |
+| DPC-Net | [DPC-Net: Dual-Prior Collaborative Network for All-in-One Image Restoration](https://arxiv.org/abs/2608.20141) | — | arXiv 2026 | — |
+| Dual-Ambiguity | [What to Remove, What to Preserve: Dual-Ambiguity Rectification for All-in-One Image Restoration](https://arxiv.org/abs/2607.28526) | — | arXiv 2026 | — |
+| M2IR | [M2IR: Proactive All-in-One Image Restoration via Mamba-style Modulation and Mixture-of-Experts](https://arxiv.org/abs/2603.14816) | Multi-task | arXiv 2026 | [Project](https://github.com/Im34v/M2IR) |
+| MiM-DiT | [MiM-DiT: MoE in MoE with Diffusion Transformers for All-in-One Image Restoration](https://arxiv.org/abs/2603.02710) | Multi-task | arXiv 2026 | [Project](https://github.com/kkkls/MIM-DiT) |
+| MoFE-MLLM | [Leveraging Multimodal Large Language Models for All-in-One Image Restoration via a Mixture of Frequency Experts](https://arxiv.org/abs/2605.11444) | — | arXiv 2026 | — |
+| SpikeRestormer | [SpikeRestormer: Towards Energy-Efficient All-in-One Image Restoration via Unified Event Reasoning](https://arxiv.org/abs/2608.02290) | — | arXiv 2026 | — |
+| UnSCAR | [UnSCAR: Universal, Scalable, Controllable, and Adaptable Image Restoration](https://arxiv.org/abs/2603.07406) | — | arXiv 2026 | — |
 
 ## Adverse Weather Removal
 
@@ -134,7 +152,6 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 | WeatherDiffusion | [Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models](https://doi.org/10.1109/TPAMI.2023.3238179) | R+RD+H+S | TPAMI 2023 | [Code](https://github.com/IGITUGraz/WeatherDiffusion) |
 | WeatherStream | [WeatherStream: Light Transport Automation of Single Image Deweathering](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_WeatherStream_Light_Transport_Automation_of_Single_Image_Deweathering_CVPR_2023_paper.pdf) | R+F+S | CVPR 2023 | [Code](https://github.com/UCLA-VMG/WeatherStream) |
 | WGWS-Net | [Learning Weather-General and Weather-Specific Features for Image Restoration Under Multiple Adverse Weather Conditions](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Learning_Weather-General_and_Weather-Specific_Features_for_Image_Restoration_Under_Multiple_CVPR_2023_paper.pdf) | R+RD+H/R+S+H | CVPR 2023 | [Code](https://github.com/zhuyr97/WGWS-Net) |
-| WM-MoE | [WM-MoE: Weather-aware Multi-scale Mixture-of-Experts for Blind Adverse Weather Removal](https://arxiv.org/abs/2303.13739v2) | — | arXiv 2023 | — |
 | AllWeather-Net | [AllWeather-Net: Unified Image Enhancement for Autonomous Driving Under Adverse Weather and Low-Light Conditions](https://doi.org/10.1007/978-3-031-78113-1_11) | R+RD+H+S | ICPR 2024 | — |
 | CL_all-in-one | [Continual All-in-One Adverse Weather Removal with Knowledge Replay on a Unified Network Structure](https://ieeexplore.ieee.org/document/10473168) | H+R+S | TMM 2024 | [Code](https://github.com/xiaojihh/CL_all-in-one) |
 | CLIP-SRD | [Exploring the Application of Large-scale Pre-trained Models on Adverse Weather Removal](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10453462) | — | TIP 2024 | — |
@@ -149,13 +166,21 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 | SDRNet | [SDRNet: Saliency-Guided Dynamic Restoration Network for Rain and Haze Removal in Nighttime Images](https://ieeexplore.ieee.org/abstract/document/10447635) | R+H | ICASSP 2024 | — |
 | T3-DiffWeather | [Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint](https://arxiv.org/abs/2409.15739) | R+RD+H+S | ECCV 2024 | [Code](https://github.com/Ephemeral182/ECCV24_T3-DiffWeather) |
 | WResVLM | [Towards Real-World Adverse Weather Image Restoration: Enhancing Clearness and Semantics with Vision-Language Models](https://arxiv.org/abs/2409.02101v1) | R+RD+H+S | ECCV 2024 | [Code](https://github.com/jiaqixuac/WResVLM) |
-| D4IR | [Data-free Distillation with Degradation-prompt Diffusion for Multi-weather Image Restoration](https://arxiv.org/abs/2409.03455) | R+H+S | arXiv 2024 | — |
 | AWRaCLe | [AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning](https://ojs.aaai.org/index.php/AAAI/article/view/32716) | R+H+S | AAAI 2025 | [Code](https://github.com/sudraj2002/AWRaCLe) |
 | CyclicPrompt | [Prompt to Restore, Restore to Prompt: Cyclic Prompting for Universal Adverse Weather Removal](https://doi.org/10.1109/TIP.2025.3627860) | — | TIP 2025 | [Code](https://github.com/RongxinL/CyclicPrompt) |
 | MOERL | [MOERL: When Mixture-of-Experts Meet Reinforcement Learning for Adverse Weather Image Restoration](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_MOERL_When_Mixture-of-Experts_Meet_Reinforcement_Learning_for_Adverse_Weather_Image_ICCV_2025_paper.html) | Multi-weather | ICCV 2025 | — |
 | ReviveDiff | [ReviveDiff: A Universal Diffusion Model for Restoring Images in Adverse Weather Conditions](https://doi.org/10.1109/TIP.2025.3587578) | R+H+L+UIE | TIP 2025 | — |
 | WNE-Net | [All-in-one Weather-degraded Image Restoration via Adaptive Degradation-aware Self-prompting Model](https://doi.org/10.1109/TMM.2025.3535316) | — | TMM 2025 | — |
 | All-in-One Transformer | [All-in-One Transformer for Image Restoration Under Adverse Weather Degradations](https://doi.org/10.1109/TPAMI.2026.3658598) | Multi-weather | TPAMI 2026 | — |
+| DCMPC-Net | [Degradation-Aware Prompt Learning with Cross-Modal Compensation for Adverse Weather Removal](https://arxiv.org/abs/2608.06939) | — | TIP 2026 | [Code](https://github.com/fanamber831/DCMPC-Net) |
+| DELNet | [DELNet: Continuous All-in-One Weather Removal via Dynamic Expert Library](https://arxiv.org/abs/2601.22573) | — | ICASSP 2026 | — |
+| Pixel-Superpixel SSM | [Pixel Ignores, Superpixel Sees: Adverse Weather Image Restoration via Semantic-Center SSM](https://arxiv.org/abs/2608.01760) | — | ECCV 2026 | — |
+| DDTNet | [DDTNet: Degradation Disentanglement and Transfer Network for Test-Time All-in-One De-weathering Adaptation](https://arxiv.org/abs/2606.16298) | — | arXiv 2026 | — |
+| FReSH-IR | [Efficient All-in-One Weather Restoration using Spectral Harmonization](https://arxiv.org/abs/2609.02839) | — | arXiv 2026 | — |
+| Learning from Failure | [Learning from Failure: Leveraging Unreliable Predictions in Semi-Supervised Real-World Adverse Weather Removal](https://arxiv.org/abs/2610.02051) | — | arXiv 2026 | — |
+| PVRF | [PVRF: All-in-one Adverse Weather Removal via Prior-modulated and Velocity-constrained Rectified Flow](https://arxiv.org/abs/2605.14045) | Multi-weather | arXiv 2026 | [Project](https://github.com/dongw22/PVRF) |
+| Uncertainty-Gated | [Uncertainty-Guided Adverse Weather Restoration via Gated Transformer Network](https://arxiv.org/abs/2609.02434) | — | arXiv 2026 | — |
+| Weather-Content Decoupling | [Breaking Weather-Content Coupling: Type-Severity Guided Progressive Disentanglement for All-in-One Infrared Restoration](https://arxiv.org/abs/2609.27317) | — | arXiv 2026 | — |
 
 ## Vision-Language and Instruction-Guided Restoration
 
@@ -175,13 +200,31 @@ A quick thematic index to papers already listed in the main restoration or adver
 | IDD-AW | [IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather](https://iddaw.github.io/static/pdfs/IDDAW_WACV24_final.pdf) | Segmentation | WACV 2024 | [Code](https://github.com/Furqan7007/IDDAW_kit) |
 | PASS | [Parsing All Adverse Scenes: Severity-Aware Semantic Segmentation with Mask-Enhanced Cross-Domain Consistency](https://ojs.aaai.org/index.php/AAAI/article/view/29251) | Segmentation | AAAI 2024 | — |
 | ROD-Weather | [Robust Object Detection in Challenging Weather Conditions](https://openaccess.thecvf.com/content/WACV2024/papers/Gupta_Robust_Object_Detection_in_Challenging_Weather_Conditions_WACV_2024_paper.pdf) | Detection | WACV 2024 | [Code](https://github.com/hgupta01/Weather_Effect_Generator) |
-| ControlUDA | [ControlUDA: Controllable Diffusion-assisted Unsupervised Domain Adaptation for Cross-Weather Semantic Segmentation](https://arxiv.org/abs/2402.06446) | Segmentation | arXiv 2024 | — |
+
+### Underwater Image Restoration
+
+| Method | Paper | Tasks | Venue | Code |
+| :--- | :--- | :---: | :---: | :---: |
+| UniUIR | [Considering Underwater Image Restoration as an All-in-One Learner](https://ieeexplore.ieee.org/document/11202372) | Underwater | TIP 2025 | — |
 
 ### Medical Image Restoration
 
 | Method | Paper | Tasks | Venue | Code |
 | :--- | :--- | :---: | :---: | :---: |
 | AMIR | [All-In-One Medical Image Restoration via Task-Adaptive Routing](https://arxiv.org/html/2405.19769v1) | Medical image | MICCAI 2024 | [Code](https://github.com/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing) |
+| Beyond Static-World | [Beyond the Static-World: Lifelong Learning for All-in-One Medical Image Restoration](https://openaccess.thecvf.com/content/CVPR2026/html/Shan_Beyond_the_Static-World_Lifelong_Learning_for_All-in-One_Medical_Image_Restoration_CVPR_2026_paper.html) | — | CVPR 2026 | — |
+| UniH3 | [UniH³: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration](https://arxiv.org/abs/2609.11156) | — | ECCV 2026 | [Code](https://github.com/Yaziwel/UniH3) |
+| MARR | [MARR: Decoupling Policy, Execution, and Calibration for All-in-One Medical Image Restoration](https://arxiv.org/abs/2609.06645) | — | arXiv 2026 | — |
+| VLDUN | [Vision-Language Controlled Deep Unfolding for Joint Medical Image Restoration and Segmentation](https://arxiv.org/abs/2601.23103) | Medical | arXiv 2026 | [Project](https://github.com/cipi666/VLDUN) |
+
+### Remote Sensing and Hyperspectral Restoration
+
+| Method | Paper | Tasks | Venue | Code |
+| :--- | :--- | :---: | :---: | :---: |
+| DAMP | [Degradation-Aware Metric Prompting for Hyperspectral Image Restoration](https://arxiv.org/abs/2512.20251) | Hyperspectral | ICML 2026 | [Code](https://github.com/MiliLab/DAMP) |
+| EORestore-Agent | [EORestore-Agent: Fidelity-Guided Agentic Restoration of Remote Sensing Images with Composite Degradations](https://arxiv.org/abs/2610.06196) | — | arXiv 2026 | — |
+| HSI-VAR | [HSI-VAR: Rethinking Hyperspectral Restoration through Spatial-Spectral Visual Autoregression](https://arxiv.org/abs/2602.00749) | Hyperspectral | arXiv 2026 | [Project](https://github.com/xianggkl/HSI-VAR) |
+| LLaRS | [A Unified Foundation Model for All-in-One Multi-Modal Remote Sensing Image Restoration and Fusion with Language Prompting](https://arxiv.org/abs/2604.05629) | Remote sensing | arXiv 2026 | [Code](https://github.com/yc-cui/LLaRS) |
 
 ### Document Image Restoration
 
@@ -201,6 +244,18 @@ A quick thematic index to papers already listed in the main restoration or adver
 | :--- | :--- | :---: | :---: | :---: |
 | PromptGIP | [Unifying Image Processing as Visual Prompting Question Answering](https://proceedings.mlr.press/v235/liu24k.html) | Visual prompting | ICML 2024 | [Code](https://github.com/lyh-18/PromptGIP) |
 
+### Agentic Image Restoration
+
+| Method | Paper | Tasks | Venue | Code |
+| :--- | :--- | :---: | :---: | :---: |
+| TIR-Agent | [TIR-Agent: Training an Explorative and Efficient Agent for Image Restoration](https://arxiv.org/abs/2603.27742) | — | ECCV 2026 | — |
+| Causal-AgentIR | [Causal-AgentIR: Self-Evolving Causal Memory for Adaptive Image Restoration Agents](https://arxiv.org/abs/2607.21125) | — | arXiv 2026 | — |
+| CoTIR | [Universal Image Restoration via Internalized Chain-of-Thought Reasoning](https://arxiv.org/abs/2606.17557) | — | arXiv 2026 | [Code](https://github.com/gy65896/CoTIR) |
+| DiTTo | [DiTTo: Scalable Order-aware All-in-One Image Restoration Agent](https://arxiv.org/abs/2605.30915) | — | arXiv 2026 | — |
+| HarnessIR | [HarnessIR: Harnessing Multimodal Foundation Models for Universal Real-World Image Restoration](https://arxiv.org/abs/2610.10133) | — | arXiv 2026 | [Code](https://github.com/PolyU-VCLab/HarnessIR) |
+| OPERA | [OPERA: An Agent for Image Restoration with End-to-End Joint Planning-Execution Optimization](https://arxiv.org/abs/2605.22104) | — | arXiv 2026 | [Code](https://github.com/xsyshuishui/Opera) |
+| RIRF | [RIRF: Reasoning Image Restoration Framework](https://arxiv.org/abs/2604.09511) | — | arXiv 2026 | — |
+
 ### Video Restoration
 
 | Method | Paper | Tasks | Venue | Code |
@@ -209,12 +264,15 @@ A quick thematic index to papers already listed in the main restoration or adver
 | DiffTTA | [Genuine Knowledge from Practice: Diffusion Test-Time Adaptation for Video Adverse Weather Removal](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Genuine_Knowledge_from_Practice_Diffusion_Test-Time_Adaptation_for_Video_Adverse_CVPR_2024_paper.pdf) | Video deweathering | CVPR 2024 | [Project](https://github.com/scott-yjyang/DiffTTA) |
 | SD4VS | [Leveraging Synthetic Data to Learn Video Stabilization Under Adverse Conditions](https://openaccess.thecvf.com/content/WACV2024/papers/Kerim_Leveraging_Synthetic_Data_To_Learn_Video_Stabilization_Under_Adverse_Conditions_WACV_2024_paper.pdf) | Video stabilization | WACV 2024 | [Project](https://github.com/A-Kerim/SyntheticData4VideoStabilization_WACV_2024) |
 | FaverNet | [FaverNet: All-in-One Video Restoration via Frequency-Discriminative Conditioning](https://doi.org/10.1007/s11263-026-02977-y) | Video restoration | IJCV 2026 | [Code](https://github.com/XLearning-SCU/2026-IJCV-FaverNet) |
+| MoCRA | [MoCRA: Mixture of Compositional Rank-1 Atoms for 4K All-in-One Video Restoration](https://arxiv.org/abs/2608.01829) | — | arXiv 2026 | — |
+| ORCANet | [All-in-One Video Restoration under Smoothly Evolving Unknown Weather Degradations](https://arxiv.org/abs/2601.00533) | — | arXiv 2026 | [Code](https://github.com/Friskknight/ORCANet-SEUD) |
 
-### Degradation Forgetting
+### Continual Image Restoration
 
 | Method | Paper | Tasks | Venue | Code |
 | :--- | :--- | :---: | :---: | :---: |
-| OD | [Accurate Forgetting for All-in-One Image Restoration Model](https://arxiv.org/abs/2409.00685) | Degradation forgetting | arXiv 2024 | — |
+| RwF (domain-incremental) | [Restoring Without Forgetting: Continual Learning Across Image Degradations](https://arxiv.org/abs/2608.23799) | — | arXiv 2026 | — |
+| RwF (filter-level) | [Restoring without Forgetting: Filter-Level Continual Image Restoration via Parameter-Space Integrated Gradients](https://arxiv.org/abs/2609.38591) | — | arXiv 2026 | — |
 
 ## Benchmarks and Metrics
 
