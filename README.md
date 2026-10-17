@@ -35,8 +35,6 @@ Papers are grouped by topic and sorted chronologically by verified publication y
   - [Medical Image Restoration](#medical-image-restoration)
   - [Remote Sensing and Hyperspectral Restoration](#remote-sensing-and-hyperspectral-restoration)
   - [Document Image Restoration](#document-image-restoration)
-  - [Parameter Adaptation](#parameter-adaptation)
-  - [Visual Prompting and Related Tasks](#visual-prompting-and-related-tasks)
   - [Agentic Image Restoration](#agentic-image-restoration)
   - [Video Restoration](#video-restoration)
   - [Continual Image Restoration](#continual-image-restoration)
@@ -66,6 +64,8 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 | IDR | [Ingredient-oriented Multi-Degradation Learning for Image Restoration](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Ingredient-Oriented_Multi-Degradation_Learning_for_Image_Restoration_CVPR_2023_paper.pdf) | N+H+R+B+L | CVPR 2023 | [Code](https://github.com/Jinghaoleven/IDR-Ingredients-oriented-Degradation-Reformulation) |
 | PromptIR | [PromptIR: Prompting for All-in-One Blind Image Restoration](https://papers.nips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html) | N+H+R | NeurIPS 2023 | [Code](https://github.com/va1shn9v/PromptIR) |
 | ProRes | [ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration](https://arxiv.org/abs/2306.13653) | RN+R+B+L | arXiv 2023 | [Code](https://github.com/leonmakise/prores) |
+| AdaptIR | [AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models](https://arxiv.org/abs/2312.08881) | Parameter adaptation | NeurIPS 2024 | [Code](https://github.com/csguoh/AdaptIR) |
+| PromptGIP | [Unifying Image Processing as Visual Prompting Question Answering](https://proceedings.mlr.press/v235/liu24k.html) | Visual prompting | ICML 2024 | [Code](https://github.com/lyh-18/PromptGIP) |
 | AutoDIR | [AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion](https://doi.org/10.1007/978-3-031-73661-2_19) | N+H+R+B+L+RD+SR | ECCV 2024 | [Code](https://github.com/jiangyitong/AutoDIR) |
 | BIR-D | [Taming Generative Diffusion Prior for Universal Blind Image Restoration](https://proceedings.neurips.cc/paper_files/paper/2024/hash/25869dbf7682272357bc2cbbf860e1c8-Abstract-Conference.html) | >9 types | NeurIPS 2024 | [Code](https://github.com/Tusiwei/BIR-D) |
 | ColorRA | [Contribution-based Low-Rank Adaptation with Pre-training Model for Real Image Restoration](https://arxiv.org/abs/2408.01099) | N+H+R+RD+B | ECCV 2024 | [Project](https://github.com/janeyeon/colora) |
@@ -201,7 +201,7 @@ A quick thematic index to papers already listed in the main restoration or adver
 
 | Method | Paper | Tasks | Venue | Code |
 | :--- | :--- | :---: | :---: | :---: |
-| UniUIR | [Considering Underwater Image Restoration as an All-in-One Learner](https://ieeexplore.ieee.org/document/11202372) | Underwater | TIP 2025 | — |
+| UniUIR | [Considering Underwater Image Restoration as an All-in-One Learner](https://ieeexplore.ieee.org/document/11202372) | Underwater | TIP 2025 | [Code](https://github.com/House-yuyu/UniUIR) |
 
 ### Medical Image Restoration
 
@@ -228,17 +228,7 @@ A quick thematic index to papers already listed in the main restoration or adver
 | :--- | :--- | :---: | :---: | :---: |
 | DocRes | [DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_DocRes_A_Generalist_Model_Toward_Unifying_Document_Image_Restoration_Tasks_CVPR_2024_paper.html) | Document image | CVPR 2024 | [Code](https://github.com/ZZZHANG-jx/DocRes) |
 
-### Parameter Adaptation
 
-| Method | Paper | Tasks | Venue | Code |
-| :--- | :--- | :---: | :---: | :---: |
-| AdaptIR | [AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models](https://arxiv.org/abs/2312.08881) | Parameter adaptation | NeurIPS 2024 | [Code](https://github.com/csguoh/AdaptIR) |
-
-### Visual Prompting and Related Tasks
-
-| Method | Paper | Tasks | Venue | Code |
-| :--- | :--- | :---: | :---: | :---: |
-| PromptGIP | [Unifying Image Processing as Visual Prompting Question Answering](https://proceedings.mlr.press/v235/liu24k.html) | Visual prompting | ICML 2024 | [Code](https://github.com/lyh-18/PromptGIP) |
 
 ### Agentic Image Restoration
 
