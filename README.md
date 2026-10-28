@@ -16,7 +16,7 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 
 ## 🔥 Recent Updates
 
-- **2026-10-28:** Added 10 Nature Portfolio papers on medical, microscopy and cultural-heritage restoration, plus UDAIR in Research; verified code and clarified task-specific adaptation requirements.
+- **2026-10-28:** Added 10 Nature Portfolio papers on medical, microscopy and cultural-heritage restoration, plus UDAIR in Research.
 - **2026-10-26:** Added 2026 TPAMI/TIP/IJCV, ICLR/CVPR/AAAI/NeurIPS, and agentic-restoration papers; updated confirmed publication venues, verified available code, and added LoViF challenge reports.
 - **2026-10-15:** Standardized paper tables, removed duplicate entries, and reviewed code links. Repository-only pages are labeled **Project**, not **Code**.
 - **2026-07:** [ClusIR](https://arxiv.org/abs/2512.10948): Towards Cluster-Guided All-in-One Image Restoration was accepted by **ACM MM 2026**.
