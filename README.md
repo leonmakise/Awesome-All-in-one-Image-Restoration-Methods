@@ -4,7 +4,7 @@
   <img src="./figures/logo.jpg" alt="Awesome All-in-One Image Restoration" width="680">
 </p>
 
-<p align="center"><strong>Last updated: October 26, 2026</strong></p>
+<p align="center"><strong>Last updated: October 28, 2026</strong></p>
 
 ## About
 
@@ -16,6 +16,7 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 
 ## 🔥 Recent Updates
 
+- **2026-10-28:** Added 10 Nature Portfolio papers on medical, microscopy and cultural-heritage restoration, plus UDAIR in Research; verified code and clarified task-specific adaptation requirements.
 - **2026-10-26:** Added 2026 TPAMI/TIP/IJCV, ICLR/CVPR/AAAI/NeurIPS, and agentic-restoration papers; updated confirmed publication venues, verified available code, and added LoViF challenge reports.
 - **2026-10-15:** Standardized paper tables, removed duplicate entries, and reviewed code links. Repository-only pages are labeled **Project**, not **Code**.
 - **2026-07:** [ClusIR](https://arxiv.org/abs/2512.10948): Towards Cluster-Guided All-in-One Image Restoration was accepted by **ACM MM 2026**.
@@ -34,8 +35,10 @@ Papers are grouped by topic and sorted chronologically by verified publication y
   - [Downstream Vision under Adverse Weather](#downstream-vision-under-adverse-weather)
   - [Underwater Image Restoration](#underwater-image-restoration)
   - [Medical Image Restoration](#medical-image-restoration)
+  - [Microscopy and Bioimage Restoration](#microscopy-and-bioimage-restoration)
   - [Remote Sensing and Hyperspectral Restoration](#remote-sensing-and-hyperspectral-restoration)
   - [Document Image Restoration](#document-image-restoration)
+  - [Cultural Heritage Image Restoration](#cultural-heritage-image-restoration)
   - [Agentic Image Restoration](#agentic-image-restoration)
   - [Video Restoration](#video-restoration)
   - [Continual Image Restoration](#continual-image-restoration)
@@ -124,6 +127,7 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 | SLER-IR | [SLER-IR: Spherical Layer-wise Expert Routing for All-in-One Image Restoration](https://arxiv.org/abs/2603.05940) | — | ECCV 2026 | [Project](https://github.com/PSR666/SLER-IR) |
 | StarIR | [StarIR: Convolutional Image Restoration With Spatial-Frequency Fusion](https://doi.org/10.1109/TPAMI.2026.3672465) | — | TPAMI 2026 | [Code](https://github.com/c-yn/StarIR) |
 | SWFormer | [Image Restoration via Multi-Domain Learning](https://doi.org/10.1109/TPAMI.2026.3710409) | 10 types | TPAMI 2026 | [Project](https://github.com/deng-ai-lab/SWFormer) |
+| UDAIR | [From Controlled Scenarios to the Real World: Cross-Domain Degradation Pattern Matching for All-in-One Image Restoration](https://doi.org/10.34133/research.1191) | Denoising + dehazing + deraining + low-light enhancement + underwater enhancement | Research 2026 | [Code](https://github.com/JunyuFan/UDAIR) |
 | UDBM | [Unifying Heterogeneous Degradations: Uncertainty-Aware Diffusion Bridge Model for All-in-One Image Restoration](https://arxiv.org/abs/2601.21592) | — | ICML 2026 | — |
 | UniCoRN | [UNICORN: Latent Diffusion-based Unified Controllable Image Restoration Network across Multiple Degradations](https://openaccess.thecvf.com/content/WACV2026/html/Mandal_UniCoRN_Latent_Diffusion-based_Unified_Controllable_Image_Restoration_Network_across_Multiple_WACV_2026_paper.html) | — | WACV 2026 | — |
 | UniLDiff | [UniLDiff: Unlocking the Power of Diffusion Priors for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2026/html/Cheng_UniLDiff_Unlocking_the_Power_of_Diffusion_Priors_for_All-in-One_Image_CVPR_2026_paper.html) | — | CVPR 2026 | — |
@@ -218,10 +222,27 @@ A quick thematic index to papers already listed in the main restoration or adver
 | Method | Paper | Tasks | Venue | Code |
 | :--- | :--- | :---: | :---: | :---: |
 | AMIR | [All-In-One Medical Image Restoration via Task-Adaptive Routing](https://arxiv.org/html/2405.19769v1) | Medical image | MICCAI 2024 | [Code](https://github.com/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing) |
+| BME-X | [A foundation model for enhancing magnetic resonance images and downstream segmentation, registration and diagnostic tasks](https://www.nature.com/articles/s41551-024-01283-7) | MRI motion correction + SR + denoising + harmonization; age-/contrast-specific checkpoints | Nature Biomedical Engineering 2025 (online 2024) | [Code](https://github.com/DBC-Lab/Brain_MRI_Enhancement) |
+| UniMIE | [A diffusion model for universal medical image enhancement](https://www.nature.com/articles/s43856-025-00998-1) | Illumination/intensity enhancement across 13 medical imaging modalities (training-free) | Communications Medicine 2025 | [Code](https://github.com/Feynben/UniMIE) |
+| AMIFound | [An all-in-one foundation model for multimodal medical image restoration and enhancement](https://www.nature.com/articles/s42256-026-01310-z) | 7 medical modalities; 7 degradation patterns (shared weights) | Nature Machine Intelligence 2026 | [Code](https://github.com/caoluyang0830/All-in-One-Medical-Image-Restoration) |
 | Beyond Static-World | [Beyond the Static-World: Lifelong Learning for All-in-One Medical Image Restoration](https://openaccess.thecvf.com/content/CVPR2026/html/Shan_Beyond_the_Static-World_Lifelong_Learning_for_All-in-One_Medical_Image_Restoration_CVPR_2026_paper.html) | — | CVPR 2026 | — |
+| HorusEye | [HorusEye: a self-supervised foundation model for generalizable X-ray tomography restoration](https://www.nature.com/articles/s43588-026-00973-3) | X-ray tomography denoising; additional restoration tasks via decoder fine-tuning | Nature Computational Science 2026 | [Code](https://github.com/Arturia-Pendragon-Iris/HorusEye_XRT_Restoration) |
+| TAMP | [Imaging foundation model for universal enhancement of non-ideal measurement CT](https://www.nature.com/articles/s41467-026-73943-y) | Low-dose + sparse-view + limited-angle CT enhancement (optional LoRA adaptation) | Nature Communications 2026 | [Code](https://github.com/YutingHe-list/TAMP) |
 | UniH3 | [UniH³: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration](https://arxiv.org/abs/2609.11156) | — | ECCV 2026 | [Code](https://github.com/Yaziwel/UniH3) |
 | MARR | [MARR: Decoupling Policy, Execution, and Calibration for All-in-One Medical Image Restoration](https://arxiv.org/abs/2609.06645) | — | arXiv 2026 | — |
 | VLDUN | [Vision-Language Controlled Deep Unfolding for Joint Medical Image Restoration and Segmentation](https://arxiv.org/abs/2601.23103) | Medical | arXiv 2026 | [Project](https://github.com/cipi666/VLDUN) |
+
+> **Scope:** UniMIE provides cross-modality illumination/intensity enhancement. BME-X uses age- and contrast-specific checkpoints. HorusEye's additional SR, slice-thickness reconstruction, metal artifact removal and motion correction tasks require decoder fine-tuning. TAMP supports direct multi-setting CT enhancement; TAMP-S is its optionally adapted variant.
+
+### Microscopy and Bioimage Restoration
+
+| Method | Paper | Tasks | Venue | Code |
+| :--- | :--- | :---: | :---: | :---: |
+| UniFMIR | [Pretraining a foundation model for generalizable fluorescence microscopy-based image restoration](https://www.nature.com/articles/s41592-024-02244-3) | SR + 3D denoising + isotropic reconstruction + surface projection + volumetric reconstruction; task-specific adaptation | Nature Methods 2024 | [Code](https://github.com/cxm12/UNiFMIR) |
+| Cellpose3 | [Cellpose3: one-click image restoration for improved cellular segmentation](https://www.nature.com/articles/s41592-025-02595-5) | Denoising + deblurring + upsampling (segmentation-oriented one-click model) | Nature Methods 2025 | [Code](https://github.com/MouseLand/cellpose) |
+| FluoResFM | [A foundation model for multi-task cross-distribution restoration of fluorescence microscopy images](https://www.nature.com/articles/s41467-026-70307-4) | Denoising + deconvolution + 2× SR (text-guided) | Nature Communications 2026 | [Code](https://github.com/qiqi-lu/fluoresfm) |
+
+> **Scope:** UniFMIR combines a shared pretrained backbone with task-specific heads/tails and task/dataset fine-tuning. Cellpose3's one-click model jointly handles multiple degradation types and is optimized for downstream segmentation. FluoResFM's unified tasks are denoising, deconvolution and 2× SR; its additional 3D, projection, isotropic reconstruction and other SR-scale tasks use fine-tuning.
 
 ### Remote Sensing and Hyperspectral Restoration
 
@@ -239,6 +260,13 @@ A quick thematic index to papers already listed in the main restoration or adver
 | DocRes | [DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_DocRes_A_Generalist_Model_Toward_Unifying_Document_Image_Restoration_Tasks_CVPR_2024_paper.html) | Document image | CVPR 2024 | [Code](https://github.com/ZZZHANG-jx/DocRes) |
 
 
+
+### Cultural Heritage Image Restoration
+
+| Method | Paper | Tasks | Venue | Code |
+| :--- | :--- | :---: | :---: | :---: |
+| PGRDiff | [All-in-one mural restoration with prompt-guided residual diffusion](https://www.nature.com/articles/s40494-025-02232-6) | 10 mural degradation types (text-guided) | npj Heritage Science 2025 | [Code](https://github.com/CZY-Code/PGRDiff) |
+| URDiff | [Learning mural restoration from degraded data via unsupervised low-rank residual diffusion](https://www.nature.com/articles/s40494-026-02640-2) | 10 mural degradation types (unsupervised) | npj Heritage Science 2026 | [Code](https://github.com/CZY-Code/PGRDiff/tree/main/URDiff) |
 
 ### Agentic Image Restoration
 
