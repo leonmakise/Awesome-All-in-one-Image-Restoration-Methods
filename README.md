@@ -16,7 +16,6 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 
 ## 🔥 Recent Updates
 
-- **2026-10-29:** Audited 58 pre-2025 papers plus BME-X (online 2024) against live Google Scholar counts; removed 6 papers with ≤20 citations. [Audit and deletion list](docs/google-scholar-audit-2026-10-29.md).
 - **2026-10-28:** Added 10 Nature Portfolio papers on medical, microscopy and cultural-heritage restoration, plus UDAIR in Research.
 - **2026-10-26:** Added 2026 TPAMI/TIP/IJCV, ICLR/CVPR/AAAI/NeurIPS, and agentic-restoration papers; updated confirmed publication venues, verified available code, and added LoViF challenge reports.
 - **2026-10-15:** Standardized paper tables, removed duplicate entries, and reviewed code links. Repository-only pages are labeled **Project**, not **Code**.
