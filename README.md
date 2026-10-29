@@ -1,4 +1,3 @@
-# Awesome All-in-One Image Restoration Methods
 
 <p align="center">
   <img src="./figures/logo.jpg" alt="Awesome All-in-One Image Restoration" width="680">
