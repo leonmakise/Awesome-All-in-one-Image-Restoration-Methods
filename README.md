@@ -1,30 +1,91 @@
+<a id="top"></a>
 
 <p align="center">
-  <img src="./figures/logo.jpg" alt="Awesome All-in-One Image Restoration" width="680">
+  <img src="figures/restoration-banner.svg" width="100%" alt="Awesome All-in-One Image Restoration — many degradations, a shared restoration goal.">
 </p>
 
-<p align="center"><strong>Last updated: October 29, 2026</strong></p>
+<p align="center">
+  <a href="#explore"><img src="https://img.shields.io/badge/papers-161-blue?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="Paper count"></a>
+  <a href="#explore"><img src="https://img.shields.io/badge/topics-12-teal?style=flat-square&amp;labelColor=182337&amp;color=a8cfff" alt="Research topic count"></a>
+  <a href="#benchmarks-and-metrics"><img src="https://img.shields.io/badge/datasets-7-orange?style=flat-square&amp;labelColor=182337&amp;color=9bc9bd" alt="Dataset count"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-orange?style=flat-square&amp;labelColor=182337&amp;color=e6d7b8" alt="Contributions welcome"></a>
+  <a href="https://github.com/leonmakise/Awesome-All-in-one-Image-Restoration-Methods/stargazers"><img src="https://img.shields.io/github/stars/leonmakise/Awesome-All-in-one-Image-Restoration-Methods?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="GitHub stars"></a>
+</p>
 
-## About
+<p align="center">
+  <strong>A research guide to restoring images across degradations, tasks and domains.</strong><br>
+  Discover unified models, language-guided methods and restoration agents,<br>
+  alongside applications in medicine, microscopy, remote sensing and beyond.
+</p>
 
-A curated collection of research papers, public implementations, and benchmarks for **all-in-one image restoration**, adverse-weather removal, and related low-level vision tasks.
+<p align="center">
+  <a href="#explore"><strong>Explore the collection</strong></a> &nbsp; · &nbsp;
+  <a href="#start-here">Reading routes</a> &nbsp; · &nbsp;
+  <a href="#benchmarks-and-metrics">Evaluate</a> &nbsp; · &nbsp;
+  <a href="#recent-updates">What's new</a> &nbsp; · &nbsp;
+  <a href="CONTRIBUTING.md">Contribute</a>
+</p>
 
-Papers are grouped by topic and sorted chronologically by verified publication year (or preprint year when not yet confirmed as published). Each paper appears **once** in the main tables; related themes are linked through a compact topic index.
+<a id="about"></a>
 
+Compare **methods, supported tasks, publication venues and available implementations** in a consistent format. Papers appear once in the main tables, ordered by verified publication year or preprint year; the language-guided index connects related themes.
 
+## Explore
 
-## 🔥 Recent Updates
+Choose a method family, an application domain or an evaluation resource.
 
-- **2026-10-28:** Added 10 Nature Portfolio papers on medical, microscopy and cultural-heritage restoration, plus UDAIR in Research.
-- **2026-10-26:** Added 2026 TPAMI/TIP/IJCV, ICLR/CVPR/AAAI/NeurIPS, and agentic-restoration papers; updated confirmed publication venues, verified available code, and added LoViF challenge reports.
-- **2026-10-15:** Standardized paper tables, removed duplicate entries, and reviewed code links. Repository-only pages are labeled **Project**, not **Code**.
-- **2026-07:** [ClusIR](https://arxiv.org/abs/2512.10948): Towards Cluster-Guided All-in-One Image Restoration was accepted by **ACM MM 2026**.
-- **2026-03-14:** [ClearAIR](https://ojs.aaai.org/index.php/AAAI/article/view/38284): A Human-Visual-Perception-Inspired All-in-One Image Restoration was published at **AAAI 2026**.
-- **2025-10-14:** [UniUIR](https://ieeexplore.ieee.org/document/11202372): Considering Underwater Image Restoration as an All-in-One Learner was published in **IEEE TIP 2025**.
-- **2025-04-27:** [Perceive-IR](https://arxiv.org/abs/2408.15994): Learning to Perceive Degradation Better for All-in-One Image Restoration was accepted by **IEEE TIP 2025**.
-- **2024-09-29:** Code and models for [ProRes](https://github.com/leonmakise/ProRes): Exploring Degradation-aware Visual Prompt for Universal Image Restoration were released.
+<!-- NAVIGATION_START -->
 
-## Contents
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top"><a href="#all-in-one-image-restoration"><strong>All-in-One Restoration</strong></a><br><sub>78 papers · Unified models, degradation representations and adaptive experts.</sub></td>
+    <td width="50%" valign="top"><a href="#adverse-weather-removal"><strong>Adverse Weather</strong></a><br><sub>34 papers · Rain, haze, snow and mixed weather degradations.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="#agentic-image-restoration"><strong>Agentic Restoration</strong></a><br><sub>11 papers · Planning, tool use, reasoning and restoration feedback.</sub></td>
+    <td width="50%" valign="top"><a href="#medical-image-restoration"><strong>Medical Imaging</strong></a><br><sub>10 papers · Restoration and enhancement across medical modalities.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="#remote-sensing-and-hyperspectral-restoration"><strong>Remote Sensing &amp; Hyperspectral</strong></a><br><sub>4 papers · Satellite imagery, spectral information and multimodal restoration.</sub></td>
+    <td width="50%" valign="top"><a href="#microscopy-and-bioimage-restoration"><strong>Microscopy &amp; Bioimaging</strong></a><br><sub>3 papers · Fluorescence images, cellular detail and scientific measurements.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="#underwater-image-restoration"><strong>Underwater Imaging</strong></a><br><sub>1 paper · Color, visibility and degradation diversity underwater.</sub></td>
+    <td width="50%" valign="top"><a href="#document-image-restoration"><strong>Document Restoration</strong></a><br><sub>1 paper · Generalist restoration for document images.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="#video-restoration"><strong>Video Restoration</strong></a><br><sub>6 papers · Temporal information and changing weather in videos.</sub></td>
+    <td width="50%" valign="top"><a href="#continual-image-restoration"><strong>Continual &amp; Open-World</strong></a><br><sub>3 papers · New degradations, adaptation and remembering prior tasks.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="#cultural-heritage-image-restoration"><strong>Cultural Heritage</strong></a><br><sub>2 papers · Mural restoration under multiple degradation types.</sub></td>
+    <td width="50%" valign="top"><a href="#downstream-vision-under-adverse-weather"><strong>Downstream Vision</strong></a><br><sub>5 papers · Recognition and segmentation in adverse conditions.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="#vision-language-and-instruction-guided-restoration"><strong>Language &amp; Instructions</strong></a><br><sub>A thematic index to language priors, user guidance and agentic methods.</sub></td>
+    <td width="50%" valign="top"><a href="#benchmarks-and-metrics"><strong>Benchmarks &amp; Metrics</strong></a><br><sub>2 reports · 7 datasets · 5 metrics.</sub></td>
+  </tr>
+</table>
+
+<!-- NAVIGATION_END -->
+
+## Start here
+
+Four suggested reading routes through the collection:
+
+| Your goal | Suggested route |
+| --- | --- |
+| **Understand unified restoration** | [AirNet](https://pengxi.me/wp-content/uploads/2022/03/All-In-One-Image-Restoration-for-Unknown-Corruption.pdf) → [PromptIR](https://papers.nips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html) → [Perceive-IR](https://arxiv.org/abs/2408.15994) |
+| **Connect language to restoration** | [DACLIP-UIR](https://arxiv.org/abs/2310.01018) → [InstructIR](https://arxiv.org/abs/2401.16468) → [UniProcessor](https://arxiv.org/abs/2407.20928) |
+| **Explore generative priors** | [AutoDIR](https://doi.org/10.1007/978-3-031-73661-2_19) → [DiffUIR](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Selective_Hourglass_Mapping_for_Universal_Image_Restoration_Based_on_Diffusion_CVPR_2024_paper.html) → [RestoreVAR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e58fa6a7b431e634e0fd125e225ad10c-Abstract-Conference.html) |
+| **Study planning and feedback** | [RAR](https://arxiv.org/abs/2603.26385) → [OPERA](https://arxiv.org/abs/2605.22104) → [Agentic restoration](#agentic-image-restoration) |
+
+For a field-level overview, start with the [related survey](#related-surveys). For experiments, jump to [datasets](#multi-weather-datasets), [challenge reports](#challenge--benchmark-reports) or [common metrics](#common-metrics).
+
+<a id="contents"></a>
+
+<details>
+<summary><strong>Full contents · all sections</strong></summary>
 
 - [Task Abbreviations](#task-abbreviations)
 - [All-in-One Image Restoration](#all-in-one-image-restoration)
@@ -46,7 +107,12 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 - [Related Surveys](#related-surveys)
 - [Contributing](#contributing)
 
+</details>
+
 ## Task Abbreviations
+
+<details>
+<summary><strong>Decode task codes and resource labels</strong></summary>
 
 | Code | Meaning | Code | Meaning | Code | Meaning |
 | :---: | :--- | :---: | :--- | :---: | :--- |
@@ -57,7 +123,13 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 
 > **Note:** `+` combines tasks, while `/` separates benchmark settings. Some papers use additional task-specific abbreviations; refer to the original paper when needed. `—` indicates that the original list did not specify the information. In the Code column, **Code** links to released implementations and **Project** to informational pages.
 
+</details>
+
+---
+
 ## All-in-One Image Restoration
+
+Unified restoration methods, from degradation representations and visual prompts to experts and generative priors.
 
 | Method | Paper | Tasks | Venue | Code |
 | :--- | :--- | :---: | :---: | :---: |
@@ -140,7 +212,11 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 | UnSCAR | [UnSCAR: Universal, Scalable, Controllable, and Adaptable Image Restoration](https://arxiv.org/abs/2603.07406) | — | arXiv 2026 | — |
 | WaFIR | [WaFIR: Wavelet-Fourier Mixture-of-Experts with Subband-Adaptive Routing for Blind All-in-One Image Restoration](https://arxiv.org/abs/2610.29108) | N+H+R | arXiv 2026 | — |
 
+<sub><a href="#explore">↑ Back to collections</a></sub>
+
 ## Adverse Weather Removal
+
+Models for rain, haze, snow, raindrops and mixed weather. Check each paper for its precise training and evaluation settings.
 
 | Method | Paper | Tasks | Venue | Code |
 | :--- | :--- | :---: | :---: | :---: |
@@ -179,6 +255,8 @@ Papers are grouped by topic and sorted chronologically by verified publication y
 | Uncertainty-Gated | [Uncertainty-Guided Adverse Weather Restoration via Gated Transformer Network](https://arxiv.org/abs/2609.02434) | — | arXiv 2026 | — |
 | Weather-Content Decoupling | [Breaking Weather-Content Coupling: Type-Severity Guided Progressive Disentanglement for All-in-One Infrared Restoration](https://arxiv.org/abs/2609.27317) | — | arXiv 2026 | — |
 
+<sub><a href="#explore">↑ Back to collections</a></sub>
+
 ## Vision-Language and Instruction-Guided Restoration
 
 A quick thematic index to papers already listed in the main restoration or adverse-weather tables, rather than a second copy of those tables.
@@ -188,6 +266,8 @@ A quick thematic index to papers already listed in the main restoration or adver
 - **Agentic planning and verification:** [FAPE-IR](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_FAPE-IR_Frequency-Aware_Planning_and_Execution_Framework_for_All-in-One_Image_Restoration_CVPR_2026_paper.html) · [Hybrid Agents](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Hybrid_Agents_for_Image_Restoration_CVPR_2026_paper.html) · [PreActIR](https://arxiv.org/abs/2610.20384) · [SkillIR](https://arxiv.org/abs/2609.21468)
 
 ## Other Applications
+
+Restoration across scientific imaging, specialist domains, video and downstream vision. Task-specific adaptation and modality limitations are noted where available.
 
 ### Downstream Vision under Adverse Weather
 
@@ -199,11 +279,15 @@ A quick thematic index to papers already listed in the main restoration or adver
 | PASS | [Parsing All Adverse Scenes: Severity-Aware Semantic Segmentation with Mask-Enhanced Cross-Domain Consistency](https://ojs.aaai.org/index.php/AAAI/article/view/29251) | Segmentation | AAAI 2024 | — |
 | ROD-Weather | [Robust Object Detection in Challenging Weather Conditions](https://openaccess.thecvf.com/content/WACV2024/papers/Gupta_Robust_Object_Detection_in_Challenging_Weather_Conditions_WACV_2024_paper.pdf) | Detection | WACV 2024 | [Code](https://github.com/hgupta01/Weather_Effect_Generator) |
 
+<sub><a href="#explore">↑ Back to collections</a></sub>
+
 ### Underwater Image Restoration
 
 | Method | Paper | Tasks | Venue | Code |
 | :--- | :--- | :---: | :---: | :---: |
 | UniUIR | [Considering Underwater Image Restoration as an All-in-One Learner](https://ieeexplore.ieee.org/document/11202372) | Underwater | TIP 2025 | [Code](https://github.com/House-yuyu/UniUIR) |
+
+<sub><a href="#explore">↑ Back to collections</a></sub>
 
 ### Medical Image Restoration
 
@@ -222,6 +306,8 @@ A quick thematic index to papers already listed in the main restoration or adver
 
 > **Scope:** UniMIE provides cross-modality illumination/intensity enhancement. BME-X uses age- and contrast-specific checkpoints. HorusEye's additional SR, slice-thickness reconstruction, metal artifact removal and motion correction tasks require decoder fine-tuning. TAMP supports direct multi-setting CT enhancement; TAMP-S is its optionally adapted variant.
 
+<sub><a href="#explore">↑ Back to collections</a></sub>
+
 ### Microscopy and Bioimage Restoration
 
 | Method | Paper | Tasks | Venue | Code |
@@ -232,6 +318,8 @@ A quick thematic index to papers already listed in the main restoration or adver
 
 > **Scope:** UniFMIR combines a shared pretrained backbone with task-specific heads/tails and task/dataset fine-tuning. Cellpose3's one-click model jointly handles multiple degradation types and is optimized for downstream segmentation. FluoResFM's unified tasks are denoising, deconvolution and 2× SR; its additional 3D, projection, isotropic reconstruction and other SR-scale tasks use fine-tuning.
 
+<sub><a href="#explore">↑ Back to collections</a></sub>
+
 ### Remote Sensing and Hyperspectral Restoration
 
 | Method | Paper | Tasks | Venue | Code |
@@ -241,13 +329,15 @@ A quick thematic index to papers already listed in the main restoration or adver
 | HSI-VAR | [HSI-VAR: Rethinking Hyperspectral Restoration through Spatial-Spectral Visual Autoregression](https://arxiv.org/abs/2602.00749) | Hyperspectral | arXiv 2026 | [Project](https://github.com/xianggkl/HSI-VAR) |
 | LLaRS | [A Unified Foundation Model for All-in-One Multi-Modal Remote Sensing Image Restoration and Fusion with Language Prompting](https://arxiv.org/abs/2604.05629) | Remote sensing | arXiv 2026 | [Code](https://github.com/yc-cui/LLaRS) |
 
+<sub><a href="#explore">↑ Back to collections</a></sub>
+
 ### Document Image Restoration
 
 | Method | Paper | Tasks | Venue | Code |
 | :--- | :--- | :---: | :---: | :---: |
 | DocRes | [DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_DocRes_A_Generalist_Model_Toward_Unifying_Document_Image_Restoration_Tasks_CVPR_2024_paper.html) | Document image | CVPR 2024 | [Code](https://github.com/ZZZHANG-jx/DocRes) |
 
-
+<sub><a href="#explore">↑ Back to collections</a></sub>
 
 ### Cultural Heritage Image Restoration
 
@@ -255,6 +345,8 @@ A quick thematic index to papers already listed in the main restoration or adver
 | :--- | :--- | :---: | :---: | :---: |
 | PGRDiff | [All-in-one mural restoration with prompt-guided residual diffusion](https://www.nature.com/articles/s40494-025-02232-6) | 10 mural degradation types (text-guided) | npj Heritage Science 2025 | [Code](https://github.com/CZY-Code/PGRDiff) |
 | URDiff | [Learning mural restoration from degraded data via unsupervised low-rank residual diffusion](https://www.nature.com/articles/s40494-026-02640-2) | 10 mural degradation types (unsupervised) | npj Heritage Science 2026 | [Code](https://github.com/CZY-Code/PGRDiff/tree/main/URDiff) |
+
+<sub><a href="#explore">↑ Back to collections</a></sub>
 
 ### Agentic Image Restoration
 
@@ -272,6 +364,8 @@ A quick thematic index to papers already listed in the main restoration or adver
 | RIRF | [RIRF: Reasoning Image Restoration Framework](https://arxiv.org/abs/2604.09511) | — | arXiv 2026 | — |
 | SkillIR | [SkillIR: Evolving Scene-Aware Skills for Agentic Image Restoration](https://arxiv.org/abs/2609.21468) | Agentic IR | arXiv 2026 | — |
 
+<sub><a href="#explore">↑ Back to collections</a></sub>
+
 ### Video Restoration
 
 | Method | Paper | Tasks | Venue | Code |
@@ -283,6 +377,8 @@ A quick thematic index to papers already listed in the main restoration or adver
 | MoCRA | [MoCRA: Mixture of Compositional Rank-1 Atoms for 4K All-in-One Video Restoration](https://arxiv.org/abs/2608.01829) | — | arXiv 2026 | — |
 | ORCANet | [All-in-One Video Restoration under Smoothly Evolving Unknown Weather Degradations](https://arxiv.org/abs/2601.00533) | — | arXiv 2026 | [Code](https://github.com/Friskknight/ORCANet-SEUD) |
 
+<sub><a href="#explore">↑ Back to collections</a></sub>
+
 ### Continual Image Restoration
 
 | Method | Paper | Tasks | Venue | Code |
@@ -290,6 +386,8 @@ A quick thematic index to papers already listed in the main restoration or adver
 | DUDA | [Discovering Unseen Degradations to Adapt Open-World Image Restoration](https://github.com/bo-oseng/DUDA) | Open-world IR | NeurIPS 2026 | [Code](https://github.com/bo-oseng/DUDA) |
 | RwF (domain-incremental) | [Restoring Without Forgetting: Continual Learning Across Image Degradations](https://arxiv.org/abs/2608.23799) | Continual IR | BMVC 2026 | [Code](https://github.com/AlifAshrafee/Restoring-Without-Forgetting) |
 | RwF (filter-level) | [Restoring without Forgetting: Filter-Level Continual Image Restoration via Parameter-Space Integrated Gradients](https://arxiv.org/abs/2609.38591) | — | arXiv 2026 | — |
+
+<sub><a href="#explore">↑ Back to collections</a></sub>
 
 ## Benchmarks and Metrics
 
@@ -299,6 +397,8 @@ A quick thematic index to papers already listed in the main restoration or adver
 | :--- | :--- | :---: | :---: | :---: |
 | LoViF 2026 (CVPR) | [LoViF 2026 Challenge on Real-World All-in-One Image Restoration: Methods and Results](https://openaccess.thecvf.com/content/CVPR2026W/LoViF/html/Chen_LoViF_2026_Challenge_on_Real-World_All-in-One_Image_Restoration_Methods_and_CVPRW_2026_paper.html) | Real-world AiO IR | CVPR Workshops 2026 | — |
 | LoViF 2026 (ECCV) | [The Second LoViF 2026 Challenge on Real-World All-in-One Image Restoration: Methods and Results](https://arxiv.org/abs/2607.21118) | Real-world AiO IR | ECCV Workshops 2026 | [Project](https://lovif-eccv2026-workshop.github.io/) |
+
+<sub><a href="#explore">↑ Back to collections</a></sub>
 
 ### Multi-Weather Datasets
 
@@ -333,9 +433,36 @@ A quick thematic index to papers already listed in the main restoration or adver
 
 - **A Survey on All-in-One Image Restoration: Taxonomy, Evaluation and Future Trends** — TPAMI 2025. [Paper](https://doi.org/10.1109/TPAMI.2025.3598132) · [Companion reading list](https://github.com/Harbinzzy/All-in-One-Image-Restoration-Survey)
 
+<a id="-recent-updates"></a>
+
+## Recent Updates
+
+- **2026-11-03:** Refreshed the guide with an original vector cover, topic navigation, reading routes and an expanded contribution guide. Bibliography, metric definitions and screening records are unchanged.
+
+<details>
+<summary><strong>Earlier literature and project updates</strong> · catalog last updated October 29, 2026</summary>
+
+- **2026-10-28:** Added 10 Nature Portfolio papers on medical, microscopy and cultural-heritage restoration, plus UDAIR in Research.
+- **2026-10-26:** Added 2026 TPAMI/TIP/IJCV, ICLR/CVPR/AAAI/NeurIPS, and agentic-restoration papers; updated confirmed publication venues, verified available code, and added LoViF challenge reports.
+- **2026-10-15:** Standardized paper tables, removed duplicate entries, and reviewed code links. Repository-only pages are labeled **Project**, not **Code**.
+- **2026-07:** [ClusIR](https://arxiv.org/abs/2512.10948): Towards Cluster-Guided All-in-One Image Restoration was accepted by **ACM MM 2026**.
+- **2026-03-14:** [ClearAIR](https://ojs.aaai.org/index.php/AAAI/article/view/38284): A Human-Visual-Perception-Inspired All-in-One Image Restoration was published at **AAAI 2026**.
+- **2025-10-14:** [UniUIR](https://ieeexplore.ieee.org/document/11202372): Considering Underwater Image Restoration as an All-in-One Learner was published in **IEEE TIP 2025**.
+- **2025-04-27:** [Perceive-IR](https://arxiv.org/abs/2408.15994): Learning to Perceive Degradation Better for All-in-One Image Restoration was accepted by **IEEE TIP 2025**.
+- **2024-09-29:** Code and models for [ProRes](https://github.com/leonmakise/ProRes): Exploring Degradation-aware Visual Prompt for Universal Image Restoration were released.
+
+</details>
+
 ## Contributing
 
-Suggestions for newly published papers, corrected publication information, or official code releases are welcome via GitHub issues. You may also contact **jiaqima@whu.edu.cn** or **zhangx0802@whu.edu.cn**.
+Found a useful paper, a new implementation or a broken link? [Suggest an addition or correction](https://github.com/leonmakise/Awesome-All-in-one-Image-Restoration-Methods/issues/new), or follow the [contribution guide](CONTRIBUTING.md) to submit a pull request.
 
-Please include the paper title, official paper link, publication venue/year, and (when available) a verified implementation URL.
+Please include the paper title, official paper link, publication venue/year and a verified implementation URL when available. You can also contact **jiaqima@whu.edu.cn** or **zhangx0802@whu.edu.cn**.
 
+---
+
+<p align="center">
+  <strong>Keep your restoration reading list within reach.</strong><br>
+  If this collection helps your research, a star makes it easier to find again.<br><br>
+  <a href="#top">Back to top</a> · <a href="CONTRIBUTING.md">Help improve the collection</a>
+</p>
