@@ -29,7 +29,8 @@ TOPICS = [
     ("Downstream Vision under Adverse Weather", "Downstream Vision", "Recognition and segmentation in adverse conditions."),
 ]
 REPORTS = "Challenge & Benchmark Reports"
-DATASETS = ("Multi-Weather Datasets", "General Restoration Datasets")
+DATASETS = ("Multi-Weather Datasets", "General Restoration Datasets",
+            "Remote Sensing Datasets", "Medical Imaging Datasets")
 PAPER_HEADER = ["Method", "Paper", "Venue", "Code"]
 
 

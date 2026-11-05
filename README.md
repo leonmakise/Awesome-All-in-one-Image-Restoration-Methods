@@ -7,7 +7,7 @@
 <p align="center">
   <a href="#explore"><img src="https://img.shields.io/badge/papers-153-blue?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="Paper count"></a>
   <a href="#explore"><img src="https://img.shields.io/badge/topics-12-teal?style=flat-square&amp;labelColor=182337&amp;color=a8cfff" alt="Research topic count"></a>
-  <a href="#benchmarks-and-metrics"><img src="https://img.shields.io/badge/datasets-7-orange?style=flat-square&amp;labelColor=182337&amp;color=9bc9bd" alt="Dataset count"></a>
+  <a href="#benchmarks-and-metrics"><img src="https://img.shields.io/badge/datasets-19-orange?style=flat-square&amp;labelColor=182337&amp;color=9bc9bd" alt="Dataset count"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-orange?style=flat-square&amp;labelColor=182337&amp;color=e6d7b8" alt="Contributions welcome"></a>
   <a href="https://github.com/leonmakise/Awesome-All-in-one-Image-Restoration-Methods/stargazers"><img src="https://img.shields.io/github/stars/leonmakise/Awesome-All-in-one-Image-Restoration-Methods?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="GitHub stars"></a>
 </p>
@@ -63,7 +63,7 @@ Choose a method family, an application domain or an evaluation resource.
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="#vision-language-and-instruction-guided-restoration"><strong>Language &amp; Instructions</strong></a><br><sub>A thematic index to language priors, user guidance and agentic methods.</sub></td>
-    <td width="50%" valign="top"><a href="#benchmarks-and-metrics"><strong>Benchmarks &amp; Metrics</strong></a><br><sub>2 reports · 7 datasets · 5 metrics.</sub></td>
+    <td width="50%" valign="top"><a href="#benchmarks-and-metrics"><strong>Benchmarks &amp; Metrics</strong></a><br><sub>2 reports · 19 datasets · 5 metrics.</sub></td>
   </tr>
 </table>
 
@@ -394,6 +394,31 @@ Restoration across scientific imaging, specialist domains, video and downstream 
 | [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K) | Training,Testing | — | 2017 |
 | [Flickr2K](https://www.kaggle.com/datasets/daehoyang/flickr2k) | Training | — | 2017 |
 
+| [SIDD](https://abdokamel.github.io/sidd/) | Real smartphone noise with estimated clean targets | [Dataset](https://abdokamel.github.io/sidd/) | 2018 |
+| [CDD-11](https://arxiv.org/abs/2407.04621) | Synthetic single and composite weather degradations | [Dataset](https://huggingface.co/datasets/gy65896/CDD-11) | ECCV 2024 |
+| [FoundIR](https://openaccess.thecvf.com/content/ICCV2025/html/Li_FoundIR_Unleashing_Million-scale_Training_Data_to_Advance_Foundation_Models_for_ICCV_2025_paper.html) | Large-scale multi-degradation restoration; training set requires application | [Project](https://github.com/House-Leo/FoundIR#book-dataset) | ICCV 2025 |
+
+### Remote Sensing Datasets
+
+Single-degradation cloud removal and dehazing benchmarks are included alongside all-in-one datasets.
+
+| Dataset | Usage | Download | Year |
+| :--- | :--- | :---: | :---: |
+| [SEN12MS-CR](https://patricktum.github.io/cloud_removal/sen12mscr/) | Sentinel-1 SAR and Sentinel-2 optical; single-time cloud removal | [Dataset](https://patricktum.github.io/cloud_removal/sen12mscr/) | 2020 |
+| [SEN12MS-CR-TS](https://ieeexplore.ieee.org/document/9691348/) | Sentinel-1/2 time series; multimodal cloud removal | [Dataset](https://patricktum.github.io/cloud_removal/sen12mscrts/) | 2022 |
+| [AllClear](https://proceedings.neurips.cc/paper_files/paper/2024/hash/60095e1d7ebb292dbba93c4d8f7b2463-Abstract-Datasets_and_Benchmarks_Track.html) | Sentinel-1/2 and Landsat time series; cloud removal; test set available | [Dataset](https://allclear.cs.cornell.edu/) | NeurIPS 2024 |
+| [HyperDehazing](https://doi.org/10.1016/j.isprsjprs.2024.09.034) | Hyperspectral dehazing; synthetic pairs and real hazy images | [Dataset](https://github.com/Hang-Fu/HyperDehazing#datasets) | ISPRS 2024 |
+| [MDRS-Landsat](https://github.com/colacomo/Ada4DIR) | Landsat; four degradation types for all-in-one restoration | [Dataset](https://github.com/colacomo/Ada4DIR#-dataset) | 2025 |
+| [RRSHID](https://github.com/AeroVILab-AHU/RRSHID) | Real-world paired remote sensing dehazing | [Dataset](https://github.com/AeroVILab-AHU/RRSHID) | 2025 |
+| [MDVD-108K](https://arxiv.org/abs/2607.27898) | UAV imagery; single and compound degradations, plus real images | [Dataset](https://huggingface.co/datasets/zzaiyan/MDVD-108K) | 2026 |
+
+### Medical Imaging Datasets
+
+| Dataset | Usage | Download | Year |
+| :--- | :--- | :---: | :---: |
+| [fastMRI](https://fastmri.med.nyu.edu/) | Raw knee and brain MRI data for accelerated reconstruction; application required | [Apply](https://fastmri.med.nyu.edu/) | 2018 |
+| [SurgClean](https://github.com/PJLallen/Surgical-Image-Restoration) | Endoscopic desmoking, defogging and desplashing; adjacent clean frames are unaligned; application required | [Apply](https://docs.google.com/forms/d/e/1FAIpQLSfexg3fqqGzi2pGl7wxQXRVe1AWSksvMyExN-ELQBi8tg_qDw/viewform) | CVPR 2026 |
+
 ### Common Metrics
 
 | Metric | Full Name | Better | Typical Use |
@@ -414,6 +439,7 @@ Restoration across scientific imaging, specialist domains, video and downstream 
 
 ## Recent Updates
 
+- **2026-11-05:** Expanded the dataset collection with remote sensing, medical imaging and multi-degradation restoration benchmarks.
 - **2026-11-03:** Refreshed the guide with an original vector cover, topic navigation, reading routes and an expanded contribution guide. Bibliography, metric definitions and screening records are unchanged.
 
 <details>
