@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="#explore"><img src="https://img.shields.io/badge/papers-161-blue?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="Paper count"></a>
+  <a href="#explore"><img src="https://img.shields.io/badge/papers-153-blue?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="Paper count"></a>
   <a href="#explore"><img src="https://img.shields.io/badge/topics-12-teal?style=flat-square&amp;labelColor=182337&amp;color=a8cfff" alt="Research topic count"></a>
   <a href="#benchmarks-and-metrics"><img src="https://img.shields.io/badge/datasets-7-orange?style=flat-square&amp;labelColor=182337&amp;color=9bc9bd" alt="Dataset count"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-orange?style=flat-square&amp;labelColor=182337&amp;color=e6d7b8" alt="Contributions welcome"></a>
@@ -38,8 +38,8 @@ Choose a method family, an application domain or an evaluation resource.
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top"><a href="#all-in-one-image-restoration"><strong>All-in-One Restoration</strong></a><br><sub>78 papers · Unified models, degradation representations and adaptive experts.</sub></td>
-    <td width="50%" valign="top"><a href="#adverse-weather-removal"><strong>Adverse Weather</strong></a><br><sub>34 papers · Rain, haze, snow and mixed weather degradations.</sub></td>
+    <td width="50%" valign="top"><a href="#all-in-one-image-restoration"><strong>All-in-One Restoration</strong></a><br><sub>75 papers · Unified models, degradation representations and adaptive experts.</sub></td>
+    <td width="50%" valign="top"><a href="#adverse-weather-removal"><strong>Adverse Weather</strong></a><br><sub>32 papers · Rain, haze, snow and mixed weather degradations.</sub></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="#agentic-image-restoration"><strong>Agentic Restoration</strong></a><br><sub>11 papers · Planning, tool use, reasoning and restoration feedback.</sub></td>
@@ -59,7 +59,7 @@ Choose a method family, an application domain or an evaluation resource.
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="#cultural-heritage-image-restoration"><strong>Cultural Heritage</strong></a><br><sub>2 papers · Mural restoration under multiple degradation types.</sub></td>
-    <td width="50%" valign="top"><a href="#downstream-vision-under-adverse-weather"><strong>Downstream Vision</strong></a><br><sub>5 papers · Recognition and segmentation in adverse conditions.</sub></td>
+    <td width="50%" valign="top"><a href="#downstream-vision-under-adverse-weather"><strong>Downstream Vision</strong></a><br><sub>2 papers · Recognition and segmentation in adverse conditions.</sub></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="#vision-language-and-instruction-guided-restoration"><strong>Language &amp; Instructions</strong></a><br><sub>A thematic index to language priors, user guidance and agentic methods.</sub></td>
@@ -139,11 +139,9 @@ Unified restoration methods, from degradation representations and visual prompts
 | IDR | [Ingredient-oriented Multi-Degradation Learning for Image Restoration](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Ingredient-Oriented_Multi-Degradation_Learning_for_Image_Restoration_CVPR_2023_paper.pdf) | N+H+R+B+L | CVPR 2023 | [Code](https://github.com/Jinghaoleven/IDR-Ingredients-oriented-Degradation-Reformulation) |
 | PromptIR | [PromptIR: Prompting for All-in-One Blind Image Restoration](https://papers.nips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html) | N+H+R | NeurIPS 2023 | [Code](https://github.com/va1shn9v/PromptIR) |
 | ProRes | [ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration](https://arxiv.org/abs/2306.13653) | RN+R+B+L | arXiv 2023 | [Code](https://github.com/leonmakise/prores) |
-| AdaptIR | [AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models](https://arxiv.org/abs/2312.08881) | Parameter adaptation | NeurIPS 2024 | [Code](https://github.com/csguoh/AdaptIR) |
 | AutoDIR | [AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion](https://doi.org/10.1007/978-3-031-73661-2_19) | N+H+R+B+L+RD+SR | ECCV 2024 | [Code](https://github.com/jiangyitong/AutoDIR) |
 | DACLIP-UIR | [Controlling Vision-Language Models for Universal Image Restoration](https://arxiv.org/abs/2310.01018) | Multi-task | ICLR 2024 | [Code](https://github.com/Algolzw/daclip-uir) |
 | DiffUIR | [Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Selective_Hourglass_Mapping_for_Universal_Image_Restoration_Based_on_Diffusion_CVPR_2024_paper.html) | H+R+B+L+S | CVPR 2024 | [Code](https://github.com/iSEE-Laboratory/DiffUIR) |
-| GRIDS | [GRIDS: Grouped Multiple-Degradation Restoration with Image Degradation Similarity](https://arxiv.org/abs/2407.12273) | 11 types | ECCV 2024 | — |
 | InstructIR | [InstructIR: High-Quality Image Restoration Following Human Instructions](https://arxiv.org/abs/2401.16468) | N+H+R / N+H+R+B+L+(SR+E) | ECCV 2024 | [Code](https://github.com/mv-lab/InstructIR) |
 | MPerceiver | [Multimodal Prompt Perceiver: Empower Adaptiveness Generalizability and Fidelity for All-in-One Image Restoration](https://openaccess.thecvf.com/content/CVPR2024/html/Ai_Multimodal_Prompt_Perceiver_Empower_Adaptiveness_Generalizability_and_Fidelity_for_All-in-One_CVPR_2024_paper.html) | 10 types (incl. mixed) | CVPR 2024 | [Code](https://github.com/hhb072/MPerceiver-Code) |
 | NDR-Restore | [Neural Degradation Representation Learning for All-In-One Image Restoration](https://arxiv.org/abs/2310.12848) | N+H+R | TIP 2024 | [Code](https://github.com/mdyao/NDR-Restore) |
@@ -238,7 +236,6 @@ Models for rain, haze, snow, raindrops and mixed weather. Check each paper for i
 | MWFormer | [MWFormer: Multi-Weather Image Restoration Using Degradation-Aware Transformers](https://doi.org/10.1109/TIP.2024.3501855) | R+RD+H+S | TIP 2024 | [Code](https://github.com/taco-group/MWFormer) |
 | OneRestore | [OneRestore: A Universal Restoration Framework for Composite Degradation](https://arxiv.org/abs/2407.04621) | R+H+S+L | ECCV 2024 | [Code](https://github.com/gy65896/OneRestore) |
 | T3-DiffWeather | [Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint](https://arxiv.org/abs/2409.15739) | R+RD+H+S | ECCV 2024 | [Code](https://github.com/Ephemeral182/ECCV24_T3-DiffWeather) |
-| WResVLM | [Towards Real-World Adverse Weather Image Restoration: Enhancing Clearness and Semantics with Vision-Language Models](https://arxiv.org/abs/2409.02101v1) | R+RD+H+S | ECCV 2024 | [Code](https://github.com/jiaqixuac/WResVLM) |
 | AWRaCLe | [AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning](https://ojs.aaai.org/index.php/AAAI/article/view/32716) | R+H+S | AAAI 2025 | [Code](https://github.com/sudraj2002/AWRaCLe) |
 | CyclicPrompt | [Prompt to Restore, Restore to Prompt: Cyclic Prompting for Universal Adverse Weather Removal](https://doi.org/10.1109/TIP.2025.3627860) | — | TIP 2025 | [Code](https://github.com/RongxinL/CyclicPrompt) |
 | MOERL | [MOERL: When Mixture-of-Experts Meet Reinforcement Learning for Adverse Weather Image Restoration](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_MOERL_When_Mixture-of-Experts_Meet_Reinforcement_Learning_for_Adverse_Weather_Image_ICCV_2025_paper.html) | Multi-weather | ICCV 2025 | — |
@@ -260,7 +257,7 @@ Models for rain, haze, snow, raindrops and mixed weather. Check each paper for i
 A quick thematic index to papers already listed in the main restoration or adverse-weather tables, rather than a second copy of those tables.
 
 - **Instruction and text guidance:** [InstructIR](https://arxiv.org/abs/2401.16468) · [InstructRestore](https://papers.neurips.cc/paper_files/paper/2025/hash/3fb97beb678a1c46bf25f40b3a8c6f98-Abstract-Conference.html) · [UniProcessor](https://arxiv.org/abs/2407.20928)
-- **Vision-language priors and optimization:** [DACLIP-UIR](https://arxiv.org/abs/2310.01018) · [LM4LV](https://arxiv.org/abs/2405.15734) · [VLU-Net](https://arxiv.org/abs/2503.16930) · [WResVLM](https://arxiv.org/abs/2409.02101) · [LDR](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Language-driven_All-in-one_Adverse_Weather_Removal_CVPR_2024_paper.pdf)
+- **Vision-language priors and optimization:** [DACLIP-UIR](https://arxiv.org/abs/2310.01018) · [LM4LV](https://arxiv.org/abs/2405.15734) · [VLU-Net](https://arxiv.org/abs/2503.16930) · [LDR](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Language-driven_All-in-one_Adverse_Weather_Removal_CVPR_2024_paper.pdf)
 - **Agentic planning and verification:** [FAPE-IR](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_FAPE-IR_Frequency-Aware_Planning_and_Execution_Framework_for_All-in-One_Image_Restoration_CVPR_2026_paper.html) · [Hybrid Agents](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Hybrid_Agents_for_Image_Restoration_CVPR_2026_paper.html) · [PreActIR](https://arxiv.org/abs/2610.20384) · [SkillIR](https://arxiv.org/abs/2609.21468)
 
 ## Other Applications
@@ -271,10 +268,7 @@ Restoration across scientific imaging, specialist domains, video and downstream 
 
 | Method | Paper | Tasks | Venue | Code |
 | :--- | :--- | :---: | :---: | :---: |
-| WAS | [Semantic Segmentation under Adverse Conditions: A Weather and Nighttime-aware Synthetic Data-based Approach](https://arxiv.org/abs/2210.05626) | Segmentation | BMVC 2022 | [Code](https://github.com/lsmcolab/Semantic-Segmentation-under-Adverse-Conditions) |
-| DKR | [Semantic Segmentation in Multiple Adverse Weather Conditions with Domain Knowledge Retention](https://arxiv.org/abs/2401.07459) | Segmentation | AAAI 2024 | — |
 | IDD-AW | [IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather](https://iddaw.github.io/static/pdfs/IDDAW_WACV24_final.pdf) | Segmentation | WACV 2024 | [Code](https://github.com/Furqan7007/IDDAW_kit) |
-| PASS | [Parsing All Adverse Scenes: Severity-Aware Semantic Segmentation with Mask-Enhanced Cross-Domain Consistency](https://ojs.aaai.org/index.php/AAAI/article/view/29251) | Segmentation | AAAI 2024 | — |
 | ROD-Weather | [Robust Object Detection in Challenging Weather Conditions](https://openaccess.thecvf.com/content/WACV2024/papers/Gupta_Robust_Object_Detection_in_Challenging_Weather_Conditions_WACV_2024_paper.pdf) | Detection | WACV 2024 | [Code](https://github.com/hgupta01/Weather_Effect_Generator) |
 
 <sub><a href="#explore">↑ Back to collections</a></sub>
