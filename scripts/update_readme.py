@@ -30,7 +30,7 @@ TOPICS = [
 ]
 REPORTS = "Challenge & Benchmark Reports"
 DATASETS = ("Multi-Weather Datasets", "General Restoration Datasets")
-PAPER_HEADER = ["Method", "Paper", "Tasks", "Venue", "Code"]
+PAPER_HEADER = ["Method", "Paper", "Venue", "Code"]
 
 
 def anchor(heading):
@@ -81,8 +81,8 @@ def catalog_stats(content):
             raise ValueError(f"Add new paper category to TOPICS before generating: {heading}")
         count = 0
         for row in rows[1:]:
-            if len(row) != 5:
-                raise ValueError(f"Expected five paper columns in {heading}")
+            if len(row) != 4:
+                raise ValueError(f"Expected four paper columns in {heading}")
             link = re.fullmatch(r"\[[^\]]+\]\((https?://[^)]+)\)", row[1])
             if not link or not urlsplit(link[1]).netloc:
                 raise ValueError(f"Missing paper link: {row[0]}")

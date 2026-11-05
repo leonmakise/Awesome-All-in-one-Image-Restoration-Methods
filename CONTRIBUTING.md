@@ -12,15 +12,15 @@ You can also contact **jiaqima@whu.edu.cn** or **zhangx0802@whu.edu.cn**.
 
 [`README.md`](README.md) remains the source of truth. Edit the relevant table directly and keep each paper in one primary category. Link to it from the thematic index when it spans multiple topics.
 
-Use the existing five-column format:
+Use the existing four-column format:
 
-| Method | Paper | Tasks | Venue | Code |
-| :--- | :--- | :---: | :---: | :---: |
-| Short name | Official paper link | Supported tasks | Verified venue and year | Code, Project or — |
+| Method | Paper | Venue | Code |
+| :--- | :--- | :---: | :---: |
+| Short name | Official paper link | Verified venue and year | Code, Project or — |
 
 - Preserve chronological ordering by verified publication year, or preprint year when publication is not confirmed.
 - Use **Code** for released implementations and **Project** for informational or repository-only pages. Do not add a separate code-status column.
-- Use `—` for unspecified information. Do not infer a task setting or publication venue from a repository name.
+- Use `—` for unspecified information. Do not infer a publication venue from a repository name.
 - Keep cross-domain limitations clear: shared weights, separate checkpoints, task-specific adaptation and downstream objectives should be distinguished when relevant.
 - Follow the existing selection and screening decisions. Historical citation checks are documented in [`docs/google-scholar-audit-2026-10-29.md`](docs/google-scholar-audit-2026-10-29.md); that dated audit is not a live citation count.
 
