@@ -426,6 +426,7 @@ Single-degradation cloud removal and dehazing benchmarks are included alongside 
 | PSNR | Peak Signal-to-Noise Ratio | ↑ | Full-reference pixel fidelity |
 | SSIM | Structural Similarity Index | ↑ | Full-reference structural similarity |
 | LPIPS | Learned Perceptual Image Patch Similarity | ↓ | Full-reference perceptual difference |
+| JLD | Jacobian Lens Distance | ↓ | Full-reference perceptual distance (differentiable) |
 | NIQE | Natural Image Quality Evaluator | ↓ | No-reference perceptual quality |
 | FID | Fréchet Inception Distance | ↓ | Distribution-level perceptual quality |
 
