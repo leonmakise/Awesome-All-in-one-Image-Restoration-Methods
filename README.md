@@ -26,6 +26,8 @@
   <a href="CONTRIBUTING.md">Contribute</a>
 </p>
 
+> **Selected work from the maintainers' research group:** **Unified restoration** — [Perceive-IR](https://arxiv.org/abs/2408.15994), [ClearAIR](https://arxiv.org/abs/2601.02763), [ClusIR](https://arxiv.org/abs/2512.10948), [ProRes](https://arxiv.org/abs/2306.13653); **Underwater restoration** — [UniUIR](https://ieeexplore.ieee.org/document/11202372); **Agentic restoration** — [PreActIR](https://arxiv.org/abs/2610.20384).
+
 <a id="about"></a>
 
 Compare **methods, publication venues and available implementations** in a consistent format. Papers appear once in the main tables, ordered by verified publication year or preprint year; the language-guided index connects related themes.
