@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="#explore"><img src="https://img.shields.io/badge/papers-153-blue?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="Paper count"></a>
+  <a href="#explore"><img src="https://img.shields.io/badge/papers-151-blue?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="Paper count"></a>
   <a href="#explore"><img src="https://img.shields.io/badge/topics-12-teal?style=flat-square&amp;labelColor=182337&amp;color=a8cfff" alt="Research topic count"></a>
   <a href="#benchmarks-and-metrics"><img src="https://img.shields.io/badge/datasets-19-orange?style=flat-square&amp;labelColor=182337&amp;color=9bc9bd" alt="Dataset count"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-orange?style=flat-square&amp;labelColor=182337&amp;color=e6d7b8" alt="Contributions welcome"></a>
@@ -40,8 +40,8 @@ Choose a method family, an application domain or an evaluation resource.
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top"><a href="#all-in-one-image-restoration"><strong>All-in-One Restoration</strong></a><br><sub>75 papers · Unified models, degradation representations and adaptive experts.</sub></td>
-    <td width="50%" valign="top"><a href="#adverse-weather-removal"><strong>Adverse Weather</strong></a><br><sub>32 papers · Rain, haze, snow and mixed weather degradations.</sub></td>
+    <td width="50%" valign="top"><a href="#all-in-one-image-restoration"><strong>All-in-One Restoration</strong></a><br><sub>74 papers · Unified models, degradation representations and adaptive experts.</sub></td>
+    <td width="50%" valign="top"><a href="#adverse-weather-removal"><strong>Adverse Weather</strong></a><br><sub>31 papers · Rain, haze, snow and mixed weather degradations.</sub></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="#agentic-image-restoration"><strong>Agentic Restoration</strong></a><br><sub>11 papers · Planning, tool use, reasoning and restoration feedback.</sub></td>
