@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="#explore"><img src="https://img.shields.io/badge/papers-151-blue?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="Paper count"></a>
+  <a href="#explore"><img src="https://img.shields.io/badge/papers-153-blue?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="Paper count"></a>
   <a href="#explore"><img src="https://img.shields.io/badge/topics-12-teal?style=flat-square&amp;labelColor=182337&amp;color=a8cfff" alt="Research topic count"></a>
   <a href="#benchmarks-and-metrics"><img src="https://img.shields.io/badge/datasets-19-orange?style=flat-square&amp;labelColor=182337&amp;color=9bc9bd" alt="Dataset count"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-orange?style=flat-square&amp;labelColor=182337&amp;color=e6d7b8" alt="Contributions welcome"></a>
@@ -52,7 +52,7 @@ Choose a method family, an application domain or an evaluation resource.
     <td width="50%" valign="top"><a href="#microscopy-and-bioimage-restoration"><strong>Microscopy &amp; Bioimaging</strong></a><br><sub>3 papers · Fluorescence images, cellular detail and scientific measurements.</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="#underwater-image-restoration"><strong>Underwater Imaging</strong></a><br><sub>1 paper · Color, visibility and degradation diversity underwater.</sub></td>
+    <td width="50%" valign="top"><a href="#underwater-image-restoration"><strong>Underwater Imaging</strong></a><br><sub>3 papers · Color, visibility and degradation diversity underwater.</sub></td>
     <td width="50%" valign="top"><a href="#document-image-restoration"><strong>Document Restoration</strong></a><br><sub>1 paper · Generalist restoration for document images.</sub></td>
   </tr>
   <tr>
@@ -262,6 +262,8 @@ Restoration across scientific imaging, specialist domains, video and downstream 
 
 | Method | Paper | Venue | Code |
 | :--- | :--- | :---: | :---: |
+| DGCL-UIE | [DGCL-UIE: Degradation-guided collaborative learning for all-in-one underwater image enhancement](https://doi.org/10.1016/j.optlastec.2026.115038) | Optics & Laser Technology 2026 | — |
+| DIE2UIE | [Underwater image enhancement via degradation information extraction and guidance](https://doi.org/10.1016/j.patcog.2026.113121) | Pattern Recognition 2026 | [Code](https://github.com/Wang-FuKuan/DIE2UIE) |
 | UniUIR | [Considering Underwater Image Restoration as an All-in-One Learner](https://ieeexplore.ieee.org/document/11202372) | TIP 2025 | [Code](https://github.com/House-yuyu/UniUIR) |
 
 <sub><a href="#explore">↑ Back to collections</a></sub>
@@ -439,6 +441,7 @@ Single-degradation cloud removal and dehazing benchmarks are included alongside 
 
 ## Recent Updates
 
+- **2026-11-09:** Added [DGCL-UIE](https://doi.org/10.1016/j.optlastec.2026.115038) and [DIE2UIE](https://doi.org/10.1016/j.patcog.2026.113121) to the underwater multi-degradation restoration collection.
 - **2026-11-05:** Expanded the dataset collection with remote sensing, medical imaging and multi-degradation restoration benchmarks.
 - **2026-11-03:** Refreshed the guide with an original vector cover, topic navigation, reading routes and an expanded contribution guide. Bibliography, metric definitions and screening records are unchanged.
 
