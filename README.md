@@ -19,6 +19,7 @@
 <p align="center">
   <a href="#explore"><strong>Explore the collection</strong></a> &nbsp; · &nbsp;
   <a href="#start-here">Reading routes</a> &nbsp; · &nbsp;
+  <a href="#research-groups-in-china">Research groups</a> &nbsp; · &nbsp;
   <a href="#benchmarks-and-metrics">Evaluate</a> &nbsp; · &nbsp;
   <a href="#recent-updates">What's new</a> &nbsp; · &nbsp;
   <a href="CONTRIBUTING.md">Contribute</a>
@@ -100,6 +101,7 @@ Need an overview or evaluation resources? See [surveys](#related-surveys), [data
 - [Benchmarks and Metrics](#benchmarks-and-metrics)
   - [Challenge & Benchmark Reports](#challenge--benchmark-reports)
 - [Related Surveys](#related-surveys)
+- [Research Groups in China](#research-groups-in-china)
 - [Contributing](#contributing)
 
 </details>
@@ -428,10 +430,23 @@ Single-degradation cloud removal and dehazing benchmarks are included alongside 
 
 - **A Survey on All-in-One Image Restoration: Taxonomy, Evaluation and Future Trends** — TPAMI 2025. [Paper](https://doi.org/10.1109/TPAMI.2025.3598132) · [Companion reading list](https://github.com/Harbinzzy/All-in-One-Image-Restoration-Survey)
 
+## Research Groups in China
+
+Selected examples, not a ranking.
+
+| Group | Research focus | Representative work |
+| :--- | :--- | :--- |
+| [SIGMA Lab](https://github.com/WHU-Sigma) · Wuhan University | Degradation perception and adaptive restoration | [Perceive-IR](https://arxiv.org/abs/2408.15994) · [ClearAIR](https://ojs.aaai.org/index.php/AAAI/article/view/38284) |
+| [AIIA Lab](https://aiialabhit.github.io/team/) · Harbin Institute of Technology | Task-aware learning and surveys | [Debiased AiOIR](https://ojs.aaai.org/index.php/AAAI/article/view/32905) · [AiOIR Survey](https://doi.org/10.1109/TPAMI.2025.3598132) |
+| [XLearning Lab](https://xlearning-lab.com/) · Sichuan University | Blind and open-set restoration | [AirNet](https://openaccess.thecvf.com/content/CVPR2022/html/Li_All-in-One_Image_Restoration_for_Unknown_Corruption_CVPR_2022_paper.html) |
+| [Institute of Software, CAS](https://iscas.cas.cn/xwdt/kyjz/202607/t20260715_8248923.html) | Causal debiasing and wavelet prompts | [CWP-Net](https://ieeexplore.ieee.org/document/11455599) |
+| [Yinghuan Shi's group](https://cs.nju.edu.cn/shiyh/pub.html) · Nanjing University | Multimodal medical restoration | [AMIFound](https://www.nature.com/articles/s42256-026-01310-z) |
+
 <a id="-recent-updates"></a>
 
 ## Recent Updates
 
+- **2026-11-10:** Added a concise guide to selected China-based research groups in unified restoration.
 - **2026-11-09:** Added [DGCL-UIE](https://doi.org/10.1016/j.optlastec.2026.115038) and [DIE2UIE](https://doi.org/10.1016/j.patcog.2026.113121) to the underwater multi-degradation restoration collection.
 - **2026-11-05:** Expanded the dataset collection with remote sensing, medical imaging and multi-degradation restoration benchmarks.
 - **2026-11-03:** Refreshed the guide with an original vector cover, topic navigation, reading routes and an expanded contribution guide. Bibliography, metric definitions and screening records are unchanged.
