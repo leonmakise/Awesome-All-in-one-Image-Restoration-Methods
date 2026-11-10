@@ -8,14 +8,12 @@
   <a href="#explore"><img src="https://img.shields.io/badge/papers-153-blue?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="Paper count"></a>
   <a href="#explore"><img src="https://img.shields.io/badge/topics-12-teal?style=flat-square&amp;labelColor=182337&amp;color=a8cfff" alt="Research topic count"></a>
   <a href="#benchmarks-and-metrics"><img src="https://img.shields.io/badge/datasets-19-orange?style=flat-square&amp;labelColor=182337&amp;color=9bc9bd" alt="Dataset count"></a>
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-orange?style=flat-square&amp;labelColor=182337&amp;color=e6d7b8" alt="Contributions welcome"></a>
   <a href="https://github.com/leonmakise/Awesome-All-in-one-Image-Restoration-Methods/stargazers"><img src="https://img.shields.io/github/stars/leonmakise/Awesome-All-in-one-Image-Restoration-Methods?style=flat-square&amp;labelColor=182337&amp;color=ffbe98" alt="GitHub stars"></a>
 </p>
 
 <p align="center">
-  <strong>A research guide to restoring images across degradations, tasks and domains.</strong><br>
-  Discover unified models, language-guided methods and restoration agents,<br>
-  alongside applications in medicine, microscopy, remote sensing and beyond.
+  <strong>A curated guide to unified image restoration across degradations and domains.</strong><br>
+  Methods · Vision-language models · Agents · Datasets · Metrics
 </p>
 
 <p align="center">
@@ -26,46 +24,44 @@
   <a href="CONTRIBUTING.md">Contribute</a>
 </p>
 
-> **Selected work from the maintainers' research group:** **Unified restoration** — [Perceive-IR](https://arxiv.org/abs/2408.15994), [ClearAIR](https://arxiv.org/abs/2601.02763), [ClusIR](https://arxiv.org/abs/2512.10948), [ProRes](https://arxiv.org/abs/2306.13653); **Underwater restoration** — [UniUIR](https://ieeexplore.ieee.org/document/11202372); **Agentic restoration** — [PreActIR](https://arxiv.org/abs/2610.20384).
+> ⭐ **From the maintainers:** **Unified** — [Perceive-IR](https://arxiv.org/abs/2408.15994) · [ClearAIR](https://arxiv.org/abs/2601.02763) · [ClusIR](https://arxiv.org/abs/2512.10948) · [ProRes](https://arxiv.org/abs/2306.13653) | **Underwater** — [UniUIR](https://ieeexplore.ieee.org/document/11202372) | **Agentic** — [PreActIR](https://arxiv.org/abs/2610.20384)
 
 <a id="about"></a>
 
-Compare **methods, publication venues and available implementations** in a consistent format. Papers appear once in the main tables, ordered by verified publication year or preprint year; the language-guided index connects related themes.
+Browse papers by topic and publication year. Each paper appears once; **Code** links to released implementations, while **Project** links to informational pages.
 
 ## Explore
-
-Choose a method family, an application domain or an evaluation resource.
 
 <!-- NAVIGATION_START -->
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top"><a href="#all-in-one-image-restoration"><strong>All-in-One Restoration</strong></a><br><sub>74 papers · Unified models, degradation representations and adaptive experts.</sub></td>
-    <td width="50%" valign="top"><a href="#adverse-weather-removal"><strong>Adverse Weather</strong></a><br><sub>31 papers · Rain, haze, snow and mixed weather degradations.</sub></td>
+    <td width="50%" valign="top"><a href="#all-in-one-image-restoration"><strong>🧩 All-in-One Restoration</strong></a><br><sub>74 papers · Unified models and experts</sub></td>
+    <td width="50%" valign="top"><a href="#adverse-weather-removal"><strong>🌦️ Adverse Weather</strong></a><br><sub>31 papers · Rain · haze · snow</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="#agentic-image-restoration"><strong>Agentic Restoration</strong></a><br><sub>11 papers · Planning, tool use, reasoning and restoration feedback.</sub></td>
-    <td width="50%" valign="top"><a href="#medical-image-restoration"><strong>Medical Imaging</strong></a><br><sub>10 papers · Restoration and enhancement across medical modalities.</sub></td>
+    <td width="50%" valign="top"><a href="#agentic-image-restoration"><strong>🤖 Agentic Restoration</strong></a><br><sub>11 papers · Planning · tools · feedback</sub></td>
+    <td width="50%" valign="top"><a href="#medical-image-restoration"><strong>🩺 Medical Imaging</strong></a><br><sub>10 papers · Medical image enhancement</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="#remote-sensing-and-hyperspectral-restoration"><strong>Remote Sensing &amp; Hyperspectral</strong></a><br><sub>4 papers · Satellite imagery, spectral information and multimodal restoration.</sub></td>
-    <td width="50%" valign="top"><a href="#microscopy-and-bioimage-restoration"><strong>Microscopy &amp; Bioimaging</strong></a><br><sub>3 papers · Fluorescence images, cellular detail and scientific measurements.</sub></td>
+    <td width="50%" valign="top"><a href="#remote-sensing-and-hyperspectral-restoration"><strong>🛰️ Remote Sensing &amp; Hyperspectral</strong></a><br><sub>4 papers · Satellite · spectral imagery</sub></td>
+    <td width="50%" valign="top"><a href="#microscopy-and-bioimage-restoration"><strong>🔬 Microscopy &amp; Bioimaging</strong></a><br><sub>3 papers · Cells · fluorescence</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="#underwater-image-restoration"><strong>Underwater Imaging</strong></a><br><sub>3 papers · Color, visibility and degradation diversity underwater.</sub></td>
-    <td width="50%" valign="top"><a href="#document-image-restoration"><strong>Document Restoration</strong></a><br><sub>1 paper · Generalist restoration for document images.</sub></td>
+    <td width="50%" valign="top"><a href="#underwater-image-restoration"><strong>🌊 Underwater Imaging</strong></a><br><sub>3 papers · Color · visibility</sub></td>
+    <td width="50%" valign="top"><a href="#document-image-restoration"><strong>📄 Document Restoration</strong></a><br><sub>1 paper · Document enhancement</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="#video-restoration"><strong>Video Restoration</strong></a><br><sub>6 papers · Temporal information and changing weather in videos.</sub></td>
-    <td width="50%" valign="top"><a href="#continual-image-restoration"><strong>Continual &amp; Open-World</strong></a><br><sub>3 papers · New degradations, adaptation and remembering prior tasks.</sub></td>
+    <td width="50%" valign="top"><a href="#video-restoration"><strong>🎞️ Video Restoration</strong></a><br><sub>6 papers · Temporal restoration</sub></td>
+    <td width="50%" valign="top"><a href="#continual-image-restoration"><strong>🔄 Continual &amp; Open-World</strong></a><br><sub>3 papers · Adaptation · retention</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="#cultural-heritage-image-restoration"><strong>Cultural Heritage</strong></a><br><sub>2 papers · Mural restoration under multiple degradation types.</sub></td>
-    <td width="50%" valign="top"><a href="#downstream-vision-under-adverse-weather"><strong>Downstream Vision</strong></a><br><sub>2 papers · Recognition and segmentation in adverse conditions.</sub></td>
+    <td width="50%" valign="top"><a href="#cultural-heritage-image-restoration"><strong>🎨 Cultural Heritage</strong></a><br><sub>2 papers · Art · murals</sub></td>
+    <td width="50%" valign="top"><a href="#downstream-vision-under-adverse-weather"><strong>🎯 Downstream Vision</strong></a><br><sub>2 papers · Detection · segmentation</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="#vision-language-and-instruction-guided-restoration"><strong>Language &amp; Instructions</strong></a><br><sub>A thematic index to language priors, user guidance and agentic methods.</sub></td>
-    <td width="50%" valign="top"><a href="#benchmarks-and-metrics"><strong>Benchmarks &amp; Metrics</strong></a><br><sub>2 reports · 19 datasets · 5 metrics.</sub></td>
+    <td width="50%" valign="top"><a href="#vision-language-and-instruction-guided-restoration"><strong>💬 Language &amp; Instructions</strong></a><br><sub>Text guidance · vision-language priors</sub></td>
+    <td width="50%" valign="top"><a href="#benchmarks-and-metrics"><strong>📊 Benchmarks &amp; Metrics</strong></a><br><sub>2 reports · 19 datasets · 5 metrics</sub></td>
   </tr>
 </table>
 
@@ -73,21 +69,19 @@ Choose a method family, an application domain or an evaluation resource.
 
 ## Start here
 
-Four suggested reading routes through the collection:
-
 | Your goal | Suggested route |
 | --- | --- |
-| **Understand unified restoration** | [AirNet](https://pengxi.me/wp-content/uploads/2022/03/All-In-One-Image-Restoration-for-Unknown-Corruption.pdf) → [PromptIR](https://papers.nips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html) → [Perceive-IR](https://arxiv.org/abs/2408.15994) |
-| **Connect language to restoration** | [DACLIP-UIR](https://arxiv.org/abs/2310.01018) → [InstructIR](https://arxiv.org/abs/2401.16468) → [UniProcessor](https://arxiv.org/abs/2407.20928) |
-| **Explore generative priors** | [AutoDIR](https://doi.org/10.1007/978-3-031-73661-2_19) → [DiffUIR](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Selective_Hourglass_Mapping_for_Universal_Image_Restoration_Based_on_Diffusion_CVPR_2024_paper.html) → [RestoreVAR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e58fa6a7b431e634e0fd125e225ad10c-Abstract-Conference.html) |
-| **Study planning and feedback** | [RAR](https://arxiv.org/abs/2603.26385) → [OPERA](https://arxiv.org/abs/2605.22104) → [Agentic restoration](#agentic-image-restoration) |
+| 🧩 **Unified models** | [AirNet](https://pengxi.me/wp-content/uploads/2022/03/All-In-One-Image-Restoration-for-Unknown-Corruption.pdf) → [PromptIR](https://papers.nips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html) → [Perceive-IR](https://arxiv.org/abs/2408.15994) |
+| 💬 **Language guidance** | [DACLIP-UIR](https://arxiv.org/abs/2310.01018) → [InstructIR](https://arxiv.org/abs/2401.16468) → [UniProcessor](https://arxiv.org/abs/2407.20928) |
+| ✨ **Generative priors** | [AutoDIR](https://doi.org/10.1007/978-3-031-73661-2_19) → [DiffUIR](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Selective_Hourglass_Mapping_for_Universal_Image_Restoration_Based_on_Diffusion_CVPR_2024_paper.html) → [RestoreVAR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/e58fa6a7b431e634e0fd125e225ad10c-Abstract-Conference.html) |
+| 🤖 **Planning & feedback** | [RAR](https://arxiv.org/abs/2603.26385) → [OPERA](https://arxiv.org/abs/2605.22104) → [Agentic restoration](#agentic-image-restoration) |
 
-For a field-level overview, start with the [related survey](#related-surveys). For experiments, jump to [datasets](#multi-weather-datasets), [challenge reports](#challenge--benchmark-reports) or [common metrics](#common-metrics).
+Need an overview or evaluation resources? See [surveys](#related-surveys), [datasets](#benchmarks-and-metrics), [challenge reports](#challenge--benchmark-reports) and [metrics](#common-metrics).
 
 <a id="contents"></a>
 
 <details>
-<summary><strong>Full contents · all sections</strong></summary>
+<summary><strong>All sections &amp; datasets</strong></summary>
 
 - [All-in-One Image Restoration](#all-in-one-image-restoration)
 - [Adverse Weather Removal](#adverse-weather-removal)
@@ -109,8 +103,6 @@ For a field-level overview, start with the [related survey](#related-surveys). F
 - [Contributing](#contributing)
 
 </details>
-
-> **Links:** **Code** points to released implementations; **Project** points to informational pages.
 
 ---
 
@@ -239,7 +231,7 @@ Models for rain, haze, snow, raindrops and mixed weather. Check each paper for i
 
 ## Vision-Language and Instruction-Guided Restoration
 
-A quick thematic index to papers already listed in the main restoration or adverse-weather tables, rather than a second copy of those tables.
+A thematic index of papers listed above (no duplicate entries).
 
 - **Instruction and text guidance:** [InstructIR](https://arxiv.org/abs/2401.16468) · [InstructRestore](https://papers.neurips.cc/paper_files/paper/2025/hash/3fb97beb678a1c46bf25f40b3a8c6f98-Abstract-Conference.html) · [UniProcessor](https://arxiv.org/abs/2407.20928)
 - **Vision-language priors and optimization:** [DACLIP-UIR](https://arxiv.org/abs/2310.01018) · [LM4LV](https://arxiv.org/abs/2405.15734) · [VLU-Net](https://arxiv.org/abs/2503.16930) · [LDR](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Language-driven_All-in-one_Adverse_Weather_Removal_CVPR_2024_paper.pdf)
@@ -247,7 +239,7 @@ A quick thematic index to papers already listed in the main restoration or adver
 
 ## Other Applications
 
-Restoration across scientific imaging, specialist domains, video and downstream vision. Task-specific adaptation and modality limitations are noted where available.
+Domain-specific restoration methods, benchmarks and applications.
 
 ### Downstream Vision under Adverse Weather
 
@@ -468,7 +460,6 @@ Please include the paper title, official paper link, publication venue/year and 
 ---
 
 <p align="center">
-  <strong>Keep your restoration reading list within reach.</strong><br>
-  If this collection helps your research, a star makes it easier to find again.<br><br>
-  <a href="#top">Back to top</a> · <a href="CONTRIBUTING.md">Help improve the collection</a>
+  ⭐ <strong>Found this useful? Star the repository to keep it handy.</strong><br>
+  <a href="#top">Back to top</a> · <a href="CONTRIBUTING.md">Contribute</a>
 </p>
