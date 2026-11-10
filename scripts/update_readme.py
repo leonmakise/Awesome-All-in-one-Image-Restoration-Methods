@@ -15,18 +15,18 @@ ROOT = Path(__file__).resolve().parent.parent
 START = "<!-- NAVIGATION_START -->"
 END = "<!-- NAVIGATION_END -->"
 TOPICS = [
-    ("All-in-One Image Restoration", "All-in-One Restoration", "Unified models, degradation representations and adaptive experts."),
-    ("Adverse Weather Removal", "Adverse Weather", "Rain, haze, snow and mixed weather degradations."),
-    ("Agentic Image Restoration", "Agentic Restoration", "Planning, tool use, reasoning and restoration feedback."),
-    ("Medical Image Restoration", "Medical Imaging", "Restoration and enhancement across medical modalities."),
-    ("Remote Sensing and Hyperspectral Restoration", "Remote Sensing & Hyperspectral", "Satellite imagery, spectral information and multimodal restoration."),
-    ("Microscopy and Bioimage Restoration", "Microscopy & Bioimaging", "Fluorescence images, cellular detail and scientific measurements."),
-    ("Underwater Image Restoration", "Underwater Imaging", "Color, visibility and degradation diversity underwater."),
-    ("Document Image Restoration", "Document Restoration", "Generalist restoration for document images."),
-    ("Video Restoration", "Video Restoration", "Temporal information and changing weather in videos."),
-    ("Continual Image Restoration", "Continual & Open-World", "New degradations, adaptation and remembering prior tasks."),
-    ("Cultural Heritage Image Restoration", "Cultural Heritage", "Mural restoration under multiple degradation types."),
-    ("Downstream Vision under Adverse Weather", "Downstream Vision", "Recognition and segmentation in adverse conditions."),
+    ("All-in-One Image Restoration", "🧩 All-in-One Restoration", "Unified models and experts"),
+    ("Adverse Weather Removal", "🌦️ Adverse Weather", "Rain · haze · snow"),
+    ("Agentic Image Restoration", "🤖 Agentic Restoration", "Planning · tools · feedback"),
+    ("Medical Image Restoration", "🩺 Medical Imaging", "Medical image enhancement"),
+    ("Remote Sensing and Hyperspectral Restoration", "🛰️ Remote Sensing & Hyperspectral", "Satellite · spectral imagery"),
+    ("Microscopy and Bioimage Restoration", "🔬 Microscopy & Bioimaging", "Cells · fluorescence"),
+    ("Underwater Image Restoration", "🌊 Underwater Imaging", "Color · visibility"),
+    ("Document Image Restoration", "📄 Document Restoration", "Document enhancement"),
+    ("Video Restoration", "🎞️ Video Restoration", "Temporal restoration"),
+    ("Continual Image Restoration", "🔄 Continual & Open-World", "Adaptation · retention"),
+    ("Cultural Heritage Image Restoration", "🎨 Cultural Heritage", "Art · murals"),
+    ("Downstream Vision under Adverse Weather", "🎯 Downstream Vision", "Detection · segmentation"),
 ]
 REPORTS = "Challenge & Benchmark Reports"
 DATASETS = ("Multi-Weather Datasets", "General Restoration Datasets",
@@ -117,10 +117,10 @@ def navigation(stats):
             cards.append(f'<a href="#{anchor(heading)}"><strong>{escape(label)}</strong></a>'
                          f'<br><sub>{quantity} · {escape(description)}</sub>')
     cards.extend([
-        '<a href="#vision-language-and-instruction-guided-restoration"><strong>Language &amp; Instructions</strong></a>'
-        '<br><sub>A thematic index to language priors, user guidance and agentic methods.</sub>',
-        '<a href="#benchmarks-and-metrics"><strong>Benchmarks &amp; Metrics</strong></a>'
-        f'<br><sub>{stats["counts"][REPORTS]} reports · {stats["datasets"]} datasets · {stats["metrics"]} metrics.</sub>',
+        '<a href="#vision-language-and-instruction-guided-restoration"><strong>💬 Language &amp; Instructions</strong></a>'
+        '<br><sub>Text guidance · vision-language priors</sub>',
+        '<a href="#benchmarks-and-metrics"><strong>📊 Benchmarks &amp; Metrics</strong></a>'
+        f'<br><sub>{stats["counts"][REPORTS]} reports · {stats["datasets"]} datasets · {stats["metrics"]} metrics</sub>',
     ])
     lines = [START, "", '<table width="100%">']
     for index in range(0, len(cards), 2):
