@@ -387,7 +387,6 @@ Domain-specific restoration methods, benchmarks and applications.
 | :--- | :--- | :---: | :---: |
 | [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K) | Training,Testing | — | 2017 |
 | [Flickr2K](https://www.kaggle.com/datasets/daehoyang/flickr2k) | Training | — | 2017 |
-
 | [SIDD](https://abdokamel.github.io/sidd/) | Real smartphone noise with estimated clean targets | [Dataset](https://abdokamel.github.io/sidd/) | 2018 |
 | [CDD-11](https://arxiv.org/abs/2407.04621) | Synthetic single and composite weather degradations | [Dataset](https://huggingface.co/datasets/gy65896/CDD-11) | ECCV 2024 |
 | [FoundIR](https://openaccess.thecvf.com/content/ICCV2025/html/Li_FoundIR_Unleashing_Million-scale_Training_Data_to_Advance_Foundation_Models_for_ICCV_2025_paper.html) | Large-scale multi-degradation restoration; training set requires application | [Project](https://github.com/House-Leo/FoundIR#book-dataset) | ICCV 2025 |
