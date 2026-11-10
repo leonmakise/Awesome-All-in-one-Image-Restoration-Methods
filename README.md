@@ -432,7 +432,7 @@ Single-degradation cloud removal and dehazing benchmarks are included alongside 
 
 ## Research Groups in China
 
-Selected examples, not a ranking.
+20 selected China-based labs and author teams; not a ranking. Joint works may appear under more than one group.
 
 | Group | Research focus | Representative work |
 | :--- | :--- | :--- |
@@ -441,12 +441,27 @@ Selected examples, not a ranking.
 | [XLearning Lab](https://xlearning-lab.com/) · Sichuan University | Blind and open-set restoration | [AirNet](https://openaccess.thecvf.com/content/CVPR2022/html/Li_All-in-One_Image_Restoration_for_Unknown_Corruption_CVPR_2022_paper.html) |
 | [Institute of Software, CAS](https://iscas.cas.cn/xwdt/kyjz/202607/t20260715_8248923.html) | Causal debiasing and wavelet prompts | [CWP-Net](https://ieeexplore.ieee.org/document/11455599) |
 | [Yinghuan Shi's group](https://cs.nju.edu.cn/shiyh/pub.html) · Nanjing University | Multimodal medical restoration | [AMIFound](https://www.nature.com/articles/s42256-026-01310-z) |
+| [iSEE Lab](https://github.com/iSEE-Laboratory) · Sun Yat-sen University | Diffusion-based unified restoration | [DiffUIR](https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Selective_Hourglass_Mapping_for_Universal_Image_Restoration_Based_on_Diffusion_CVPR_2024_paper.html) |
+| [Huaibo Huang's group](https://ia.cas.cn/rcdw/qch/202404/t20240422_7129890.html) · Institute of Automation, CAS | Multimodal prompts · generative priors | [MPerceiver](https://openaccess.thecvf.com/content/CVPR2024/html/Ai_Multimodal_Prompt_Perceiver_Empower_Adaptiveness_Generalizability_and_Fidelity_for_All-in-One_CVPR_2024_paper.html) |
+| [XPixel Group](https://xpixel.group/) · Shenzhen Institutes of Advanced Technology, CAS | Visual prompting · general processing | [PromptGIP](https://proceedings.mlr.press/v235/liu24k.html) |
+| [IntMe Group](https://github.com/IntMeGroup) · Shanghai Jiao Tong University | Text-guided unified processing | [UniProcessor](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08399.pdf) |
+| [Chao Ren's group](https://chaoren88.github.io/) · Sichuan University | Feature perturbation · expert routing | [DFPIR](https://openaccess.thecvf.com/content/CVPR2025/html/Tian_Degradation-Aware_Feature_Perturbation_for_All-in-One_Image_Restoration_CVPR_2025_paper.html) |
+| [Yongzhen Wang's team](https://www.ahut.edu.cn/info/1226/27620.htm) · Anhui University of Technology | Mamba-CNN expert fusion | [M2Restore](https://doi.org/10.1109/TIP.2025.3638662) |
+| [Zhong Ji's group](https://faculty.tju.edu.cn/zhongJi/en/index.htm) · Tianjin University | Frequency-aware planning | [FAPE-IR](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_FAPE-IR_Frequency-Aware_Planning_and_Execution_Framework_for_All-in-One_Image_Restoration_CVPR_2026_paper.html) |
+| [VILLA Lab](https://villa.jianzhang.tech/) · Peking University | Visual reconstruction · restoration | [DiffUIR](https://isee-laboratory.github.io/DiffUIR/) |
+| [Jinshan Pan's group](https://jspan.github.io/) · Nanjing University of Science and Technology | Restoration foundation models | [FoundIR](https://openaccess.thecvf.com/content/ICCV2025/html/Li_FoundIR_Unleashing_Million-scale_Training_Data_to_Advance_Foundation_Models_for_ICCV_2025_paper.html) |
+| [PAMI Center](https://pami.xmu.edu.cn/) · Xiamen University | Diffusion priors · adaptation | [UniLDiff](https://openaccess.thecvf.com/content/CVPR2026/html/Cheng_UniLDiff_Unlocking_the_Power_of_Diffusion_Priors_for_All-in-One_Image_CVPR_2026_paper.html) |
+| [Kai Zhang's group](https://cszn.github.io/) · Nanjing University | Retrieval-based degradation priors | [Retrieve-to-Restore](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Retrieve-to-Restore_Efficient_All-in-One_Image_Restoration_with_a_Retrieval-Based_Degradation_Bank_CVPR_2026_paper.html) |
+| [Feng Zhao's group](https://auto.ustc.edu.cn/2021/0510/c25976a484874/page.htm) · University of Science and Technology of China | Ingredient-oriented degradation learning | [IDR](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Ingredient-Oriented_Multi-Degradation_Learning_for_Image_Restoration_CVPR_2023_paper.html) |
+| [AMIRNet team](https://github.com/Justones/AMIRNet) · Northwestern Polytechnical University | Hierarchical degradation representations | [AMIRNet](https://doi.org/10.1145/3581783.3611825) |
+| [Wei He's group](https://jszy.whu.edu.cn/hewei5/en/more/1425103/jsjjgd/index.htm) · Wuhan University | Universal hyperspectral restoration | [MP-HSIR](https://openaccess.thecvf.com/content/ICCV2025/html/Wu_MP-HSIR_A_Multi-Prompt_Framework_for_Universal_Hyperspectral_Image_Restoration_ICCV_2025_paper.html) |
+| [OpenGVLab](https://github.com/OpenGVLab) · Shanghai AI Laboratory | Vision-language guided restoration | [AutoDIR](https://doi.org/10.1007/978-3-031-73661-2_19) |
 
 <a id="-recent-updates"></a>
 
 ## Recent Updates
 
-- **2026-11-10:** Added a concise guide to selected China-based research groups in unified restoration.
+- **2026-11-10:** Expanded the China-based research groups directory to 20 selected teams, with research focus and representative work.
 - **2026-11-09:** Added [DGCL-UIE](https://doi.org/10.1016/j.optlastec.2026.115038) and [DIE2UIE](https://doi.org/10.1016/j.patcog.2026.113121) to the underwater multi-degradation restoration collection.
 - **2026-11-05:** Expanded the dataset collection with remote sensing, medical imaging and multi-degradation restoration benchmarks.
 - **2026-11-03:** Refreshed the guide with an original vector cover, topic navigation, reading routes and an expanded contribution guide. Bibliography, metric definitions and screening records are unchanged.
